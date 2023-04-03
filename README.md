@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# ELAS POR ELAS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`EIXO 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
