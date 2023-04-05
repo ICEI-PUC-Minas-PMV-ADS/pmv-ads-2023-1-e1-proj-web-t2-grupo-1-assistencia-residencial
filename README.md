@@ -6,7 +6,8 @@
 
 `EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Na sociedade atual, temos como problema a segurança diante da solicitação de serviços residenciais majoritariamente exercidos pelo sexo masculino, o que causa desconforto e medo em muitas mulheres.Como solução para esse problema, buscamos criar uma plataforma que facilite a comunicação entre profissionais e clientes do sexo feminino focada em serviços residenciais.
+
 
 ## Integrantes
 
