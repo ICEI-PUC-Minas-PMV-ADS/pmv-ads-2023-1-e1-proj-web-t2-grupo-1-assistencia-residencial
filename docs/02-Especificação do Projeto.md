@@ -42,44 +42,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| O site deve permitir o cadastro e manutenção de dados de prestador (nome, e-mail, senha, região que atende, certificações, adicionar fotos)| ALTA | 
+|RF-002| O site deve permitir o cadastro e manutenção de dados de usuário (nome, senha, e-mail)  | ALTA |
+|RF-003| O site deve permitir a inserção de feedbacks dos usuários para as prestadoras de serviço | MÉDIA | 
+|RF-004|O site deve realizar o acesso das prestadoras de serviço aos seus feedbacks| MÉDIA |
+|RF-005|O site deve permitir pesquisas utilizando filtro para encontrar prestadores de serviço específicos| ALTA | 
+|RF-006|O site deve permitir login de usuários (cliente, prestador) cadastrados no sistema | ALTA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | ALTA |
+|RF-003| Permitir que o usuário cadastre tarefas | MÉDIA | 
+|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-005| Permitir que o usuário cadastre tarefas | ALTA | 
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | ALTA |
+|RF-003| Permitir que o usuário cadastre tarefas | MÉDIA | 
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
