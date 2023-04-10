@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
+|------|-------------------------|----|
 |RF-001|O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages)| ALTA | 
 |RF-002|O site deverá ser responsivo permitindo a adaptação do layout de acordo com o tamanho da tela do dispositivo utilizado. | ALTA |
 |RF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
@@ -63,8 +63,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Restrições
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|
+|ID    | Descrição do Requisito  |
+|------|-------------------------|
 |RF-001|O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023.| 
 |RF-002|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend|
 |RF-003|A equipe não pode subcontratar o desenvolvimento do trabalho. |
