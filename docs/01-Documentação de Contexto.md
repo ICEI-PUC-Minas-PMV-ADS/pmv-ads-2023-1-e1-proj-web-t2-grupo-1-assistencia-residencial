@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+De acordo com a Pesquisa Nacional por Amostra de Domicílios (2019) o Brasil possui cerca de 63 milhões de residências, deste total estima-se que 80% necessitem de manutenção pelo menos uma vez ao ano. Ainda que a procura por esses serviços seja alta, há dificuldade em encontrar profissionais capacitados e confiáveis para a execução de serviços de reparo, limpeza e manutenção. Para mulheres, a situação se torna ainda mais complexa pela insegurança causada em muitas ao se encontrar sozinha em sua residência com um homem desconhecido.
+
+Muito desse medo é refletido em casos de assédio e violência sexual sofridos pelo sexo feminino. A quarta edição da pesquisa Visível e Invisível: a Vitimização de Mulheres no Brasil, realizada pelo Fórum Brasileiro de Segurança Pública, levantou dados de que cerca de 18,6 milhões de mulheres brasileiras foram vitimadas em 2022. 
+
+Diante da situação de vulnerabilidade da mulher até mesmo dentro de sua própria casa, torna-se necessário uma plataforma centralizada de serviços exclusiva ao público feminino, tanto para quem contrata quanto para a prestadora.
+
 
 ## Problema
 
