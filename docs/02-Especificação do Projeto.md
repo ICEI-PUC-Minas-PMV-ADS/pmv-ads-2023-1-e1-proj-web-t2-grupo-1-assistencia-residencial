@@ -4,19 +4,26 @@ O embasamento da escolha do problema exposto se deu por meio de pesquisa de dado
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Maísa Romagnolli tem 26 anos, é estudante ede enfermagem e busca por serviços de reparos domésticos que sejam atendidos de forma ágil e exclusivamente por mulheres, levando em conta a insegurança de contratar um homem desconhecido para ir até sua casa.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Motivações
+●	Falta de tempo
+●	Preferência por profissional do sexo feminino
+       
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Frustrações:
+●	Insegurança
+●	Homens em domínio na área
+
+Janaína Alves tem 34  anos e trabalha como autônoma. Busca promover a divulgação do próprio trabalho em novas plataformas além das já utilizadas como Instagram e grupos de Facebook, a fim de captar novos clientes. Atualmente tem dificuldade em se promover como prestadora de serviços do sexo feminino, já que o mercado é majoritariamente composto por homens.
+
+Motivações
+●	Divulgação do seu próprio trabalho e de outras prestadoras desses serviços
+●	Ter um canal centralizado exclusivo para mulheres
+
+Frustrações
+●	Falta de um canal que conecte mulheres que necessitam e prestam serviços de manutenção em residência
+
 
 ## Histórias de Usuários
 
