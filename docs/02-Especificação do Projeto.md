@@ -33,7 +33,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Contratar profissionais exclusivamente do sexo feminino         | Não me sinto segura em ficar sozinha com um homem desconhecido para realizar esse serviço.              |
 |Usuário do sistema  |Um canal de comunicação para encontrar facilmente profissionais qualificadas e confiáveis que prestam serviços de manutenção domiciliar.  |Necessito de uma profissional para montar um móvel. Tenho uma rotina cheia e não tenho expertise nesse tipo de serviço              |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Administrador       | Procuro uma plataforma que dê a possibilidade de que as clientes enviem feedback referente ao trabalho realizado. | Aumentar minha visibilidade como profissional para que seja mais fácil ser contratada. Noção de melhorias no serviço para melhor experiência do cliente. |
+|Administrador       |Divulgar meu trabalho e de outras profissionais que executam pequenos reparos de manutenção domiciliar, exclusivamente para mulheres.| Área ocupada por homens em sua maioria, um canal voltado somente para o público feminino trás mais segurança para todas nós. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
