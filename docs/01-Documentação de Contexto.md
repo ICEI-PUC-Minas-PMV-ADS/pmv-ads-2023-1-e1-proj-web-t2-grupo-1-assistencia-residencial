@@ -6,40 +6,26 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 
 Perante o exposto, temos como problema a segurança diante da solicitação de serviços residenciais majoritariamente exercidos pelo sexo masculino, o que causa desconforto e medo em muitas mulheres.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O que buscamos com esse projeto é criar uma plataforma que facilite a comunicação entre profissionais qualificadas e potenciais clientes, ambos do sexo feminino, que necessitem de serviços residenciais diversos com confiança e segurança.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, temos:
+●	Listar serviços de reparo e manutenção de baixa e média complexidade para residências;
+●	Minimizar a preocupação na escolha de um serviço e suprir a alta demanda de clientes em busca de um atendimento mais seguro para mulheres;
+●	Fornecer um canal exclusivo para o público feminino que busca profissionais de diversas áreas e também permitir que essas divulguem e encontrem novos clientes
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A necessidade por serviços residenciais é comum na vida das pessoas e muitas vezes pode ser difícil encontrar profissionais qualificados e confiáveis, especialmente para mulheres que buscam ser atendidas por outras mulheres. Durante a pandemia de COVID-19, 5 em cada 10 brasileiros (51,1%) relataram ter visto uma mulher sofrer algum tipo de violência no seu bairro ou comunidade. A mesma pesquisa indicou que 73,5% da população brasileira acredita que a violência contra as mulheres cresceu durante a pandemia, assim como a precarização das condições de vida no último ano é maior entre as mulheres que sofreram violência. A residência segue como o espaço de maior risco para as mulheres e 48,8% das vítimas relataram que a violência mais grave vivenciada no último ano ocorreu dentro de casa. Outro dado relevante durante a pandemia é endossado pela Associação Brasileira de Franchising (ABF), representante das mais de 2.600 marcas de franquias do País, que indicou na Pesquisa de Desempenho do setor de Franquias no primeiro trimestre de 2021 que o segmento de Casa e Construção avançou 36,5% beneficiado por fatores como a maior demanda por reparos, manutenções e reformas, com a permanência das famílias em casa e o aumento do trabalho em home office e aulas a distância.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com base nessa necessidade e com o objetivo de minimizar casos de assédio e importunação sexual, buscamos desenvolver uma plataforma que conecta mulheres oferecendo segurança e confiança, além de facilitar a procura e contratação de profissionais diversos.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Mulheres acima dos 18 anos, que trabalham fora, têm uma rotina agitada, possuem pouco tempo ou falta  de conhecimento/habilidade para a realização de manutenções  domésticas, e que buscam por profissionais femininas qualificadas para fazê-lo. 
+Prestadoras de serviços domésticos que buscam atender exclusivamente outras mulheres.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
