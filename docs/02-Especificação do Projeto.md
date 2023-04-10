@@ -16,8 +16,7 @@ Janaína Alves tem 34  anos e trabalha como autônoma. Busca promover a divulga�
 
 |Motivações| Frustrações|
 |--------------------|------------------------------------|
-|Divulgação do seu próprio trabalho e de outras prestadoras desses serviços|Falta de um canal que conecte mulheres que 
-necessitam e prestam serviços de manutenção em residência|
+|Divulgação do seu próprio trabalho e de outras prestadoras desses serviços|Falta de um canal que conecte mulheres que necessitam e prestam serviços de manutenção em residência|
 |Ter um canal centralizado exclusivo para mulheres| Homens em domínio na área |  
 
 
