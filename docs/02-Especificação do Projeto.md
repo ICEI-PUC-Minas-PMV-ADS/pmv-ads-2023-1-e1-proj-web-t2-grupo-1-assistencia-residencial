@@ -14,12 +14,12 @@ Maísa Romagnolli tem 26 anos, é estudante ede enfermagem e busca por serviços
 
 Janaína Alves tem 34  anos e trabalha como autônoma. Busca promover a divulgação do próprio trabalho em novas plataformas além das já utilizadas como Instagram e grupos de Facebook, a fim de captar novos clientes. Atualmente tem dificuldade em se promover como prestadora de serviços do sexo feminino, já que o mercado é majoritariamente composto por homens.
 
-Motivações
-●	Divulgação do seu próprio trabalho e de outras prestadoras desses serviços
-●	Ter um canal centralizado exclusivo para mulheres
+|Motivações| Frustrações|
+|--------------------|------------------------------------|
+|Divulgação do seu próprio trabalho e de outras prestadoras desses serviços|Falta de um canal que conecte mulheres que necessitam e prestam serviços de manutenção em residência|
+|Ter um canal centralizado exclusivo para mulheres| Homens em domínio na área |  
 
-Frustrações
-●	Falta de um canal que conecte mulheres que necessitam e prestam serviços de manutenção em residência
+
 
 
 ## Histórias de Usuários
