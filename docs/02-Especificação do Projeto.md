@@ -6,14 +6,11 @@ O embasamento da escolha do problema exposto se deu por meio de pesquisa de dado
 
 Maísa Romagnolli tem 26 anos, é estudante ede enfermagem e busca por serviços de reparos domésticos que sejam atendidos de forma ágil e exclusivamente por mulheres, levando em conta a insegurança de contratar um homem desconhecido para ir até sua casa.
 
-Motivações
-●	Falta de tempo
-●	Preferência por profissional do sexo feminino
-       
+|Motivações| Frustrações|
+|--------------------|------------------------------------|
+|Falta de tempo  | Insegurança|
+|Preferência por profissional do sexo feminino | Homens em domínio na área |  
 
-Frustrações:
-●	Insegurança
-●	Homens em domínio na área
 
 Janaína Alves tem 34  anos e trabalha como autônoma. Busca promover a divulgação do próprio trabalho em novas plataformas além das já utilizadas como Instagram e grupos de Facebook, a fim de captar novos clientes. Atualmente tem dificuldade em se promover como prestadora de serviços do sexo feminino, já que o mercado é majoritariamente composto por homens.
 
