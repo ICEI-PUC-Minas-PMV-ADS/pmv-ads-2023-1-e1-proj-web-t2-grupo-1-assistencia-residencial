@@ -54,18 +54,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | ALTA |
-|RF-003| Permitir que o usuário cadastre tarefas | MÉDIA | 
-|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-005| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-001|O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages)| ALTA | 
+|RF-002|O site deverá ser responsivo permitindo a adaptação do layout de acordo com o tamanho da tela do dispositivo utilizado. | ALTA |
+|RF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
+|RF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)| MÉDIA |
+|RF-005|O site deve incluir informações sobre a política de privacidade e termos de serviço, garantindo a proteção dos dados dos usuários e fornecendo as informações necessárias para utilização do serviço.| ALTA | 
 
 
 ## Restrições
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | ALTA |
-|RF-003| Permitir que o usuário cadastre tarefas | MÉDIA | 
+|------|-----------------------------------------|
+|RF-001|O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2023.| 
+|RF-002|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend|
+|RF-003|A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
