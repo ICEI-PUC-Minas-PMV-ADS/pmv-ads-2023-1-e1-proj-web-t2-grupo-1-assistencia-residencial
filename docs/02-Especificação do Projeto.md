@@ -4,7 +4,7 @@ O embasamento da escolha do problema exposto se deu por meio de pesquisa de dado
 
 ## Personas
 
-Maísa Romagnolli tem 26 anos, é estudante ede enfermagem e busca por serviços de reparos domésticos que sejam atendidos de forma ágil e exclusivamente por mulheres, levando em conta a insegurança de contratar um homem desconhecido para ir até sua casa.
+Maísa Romagnolli tem 26 anos, é estudante de enfermagem e busca por serviços de reparos domésticos que sejam atendidos de forma ágil e exclusivamente por mulheres, levando em conta a insegurança de contratar um homem desconhecido para ir até sua casa.
 
 |Motivações| Frustrações|
 |--------------------|------------------------------------|
