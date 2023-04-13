@@ -43,7 +43,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID       | Descrição do Requisito  | Prioridade |
 |---------|-----------------------------------------|----|
 | RF-001  |O site deve permitir o cadastro e manutenção de dados de prestador (nome, e-mail, senha, região que atende, certificações, adicionar fotos)| ALTA | 
-| RF-002  |O site deve permitir o cadastro e manutenção de dados de usuário (nome, senha, e-mail)  | ALTA |
+| RF-002  |O site deve permitir o cadastro e manutenção de dados de cliente (nome, senha, e-mail)  | ALTA |
 | RF-003  |O site deve permitir a inserção de feedbacks dos usuários para as prestadoras de serviço | MÉDIA | 
 | RF-004  |O site deve realizar o acesso das prestadoras de serviço aos seus feedbacks| MÉDIA |
 | RF-005  |O site deve permitir pesquisas utilizando filtro para encontrar prestadores de serviço específicos| ALTA | 
