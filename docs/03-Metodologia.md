@@ -7,7 +7,7 @@
 
 A estrutura de gestão do projeto conta com a utilização do kanban para gerenciamento dos fluxos de trabalho permitindo maior controle das tarefas, o que potencializa, assim, a produtividade e otimiza os processos com uma execução direcionada. 
 
-Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.
+Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.</justify>
 
 ## Controle de Versão
 
