@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.
+<justify>A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.
 
 A estrutura de gestão do projeto conta com a utilização do kanban para gerenciamento dos fluxos de trabalho permitindo maior controle das tarefas, o que potencializa, assim, a produtividade e otimiza os processos com uma execução direcionada. 
 
