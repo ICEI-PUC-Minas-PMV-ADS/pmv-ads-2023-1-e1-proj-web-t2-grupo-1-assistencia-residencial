@@ -84,6 +84,9 @@ revisões necessárias, ele está agendado e pronto para a ação.
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
 disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/340 e é apresentado, no estado atual, na Figura 1.
 
+![This is an image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/blob/main/kanban.png)
+Figura 1 - Tela do Kanban utilizada pelo grupo
+
 
 
 
