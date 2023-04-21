@@ -3,11 +3,24 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-<justify>A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.
+A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.
 
 A estrutura de gestão do projeto conta com a utilização do kanban para gerenciamento dos fluxos de trabalho permitindo maior controle das tarefas, o que potencializa, assim, a produtividade e otimiza os processos com uma execução direcionada. 
 
-Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.</justify>
+Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.
+
+
+##Relação de Ambiente de Trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos
+ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+
+|Ambiente| Plataforma| Links de Acesso|
+|------------------------------------|--------------------|------------------------------------|
+|Repositório de Código Fonte  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial |
+|Documentos do Projeto | Google Drive | Documentos do Projeto |
+|Projeto de Interface e Wireframes | Figma | https://www.figma.com/file/80rKS8BCQbxiEVAOnJQxZ8/Elas-por-Elas?node-id=202-1769&t=dI4Fiz3Rs6W5k1W3-0 |
+|Gerenciamento do Projeto | GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/340 |
 
 ## Controle de Versão
 
@@ -43,12 +56,36 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do
+processo de desenvolvimento.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira:
+- Scrum Master: Lorrayne Cristine Lopes Pereira
+- Product Owner: Lucas Faria Verri
+- Equipe de Desenvolvimento
+     - Maria Gabriella Anastácia Gonçalves
+     - Matheus Almeida Da Rocha
+     - Sandro Savio Maciel
+- Equipe de Design
+     - Vitor Costa Oliveira Silva
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project estruturado com as seguintes listas:
+
+- **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog.
+Todas as atividades identificadas no decorrer do projeto também devem ser
+incorporadas a esta lista.
+- **To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos
+trabalhando.
+- **In Progress:** Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+- **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de
+qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou
+revisões necessárias, ele está agendado e pronto para a ação.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
+disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/340 e é apresentado, no estado atual, na Figura 1.
+
+
+
 
 ### Processo
 
