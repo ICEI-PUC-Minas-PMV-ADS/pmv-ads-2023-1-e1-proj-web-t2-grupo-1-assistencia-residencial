@@ -3,11 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.
+<p align="justify">A metodologia do projeto ocorreu por meio das seguintes ferramentas: github, metodologias agéis/scrum e kanban. Para o ambiente de repositório de código foi utilizado o github que nos possibilita acompanhar o avanço do desenvolvimento de aplicações e visualizar as versões do projeto.</p>
 
-A estrutura de gestão do projeto conta com a utilização do kanban para gerenciamento dos fluxos de trabalho permitindo maior controle das tarefas, o que potencializa, assim, a produtividade e otimiza os processos com uma execução direcionada. 
+<p align="justify">A estrutura de gestão do projeto conta com a utilização do kanban para gerenciamento dos fluxos de trabalho permitindo maior controle das tarefas, o que potencializa, assim, a produtividade e otimiza os processos com uma execução direcionada.</p> 
 
-Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.
+<p align="justify">Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.</p>
 
 
 ## Relação de Ambiente de Trabalho
