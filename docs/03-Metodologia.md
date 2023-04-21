@@ -10,7 +10,7 @@ A estrutura de gestão do projeto conta com a utilização do kanban para gerenc
 Para o gerenciamento do projeto em geral a equipe utiliza metodologias ágeis, com o método scrum selecionado para esse desenvolvimento. O scrum possibilita a estruturação e gestão do trabalho por meio de valores, princípios e práticas tais como transparência, inspeção e adaptação. Também conta com a divisão da equipe para melhor direcionamento do projeto, maximizando a produtividade e eficiência para alcançar o melhor resultado final.
 
 
-##Relação de Ambiente de Trabalho
+## Relação de Ambiente de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos
 ambientes com seu respectivo propósito é apresentada na tabela que se segue.
