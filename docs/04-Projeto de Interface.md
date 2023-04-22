@@ -21,15 +21,9 @@ O fluxograma apresentado na figura 2 mostra o Fluxo de Usuário (User Flow) atra
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+De acordo com o fluxo de usuário apresentado no item anterior, as telas do sistema serão discriminadas nos itens a seguir. Essas telas possuem uma estrutura comum, ilustrada na Figura 4, composta por três grandes blocos:
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- **Cabeçalho**: Local onde está inserido elementos que expressam a personalidade do projeto como a logomarca e botão ‘’sobre nós’’. Foram incluídos também a opção de login e cadastre-se.
+- **Conteúdo**: Contempla o conteúdo da tela específica acessada no momento.
+- **Rodapé**: Apresenta elementos importantes do site como formas de contato, informações institucionais e descrição dos tipos de serviços oferecidos. 
+
