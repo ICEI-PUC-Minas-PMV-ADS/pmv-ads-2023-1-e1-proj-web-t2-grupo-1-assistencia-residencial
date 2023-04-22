@@ -3,18 +3,20 @@
 
 Para a modelagem da interface do sistema alguns critérios como navegabilidade, responsividade e acessibilidade foram fundamentais. A paleta de cores foi selecionada pensando no público alvo do projeto, oferecendo um ambiente de navegação agradável, interativo e intuitivo para as usuárias, além de respeitar a relação de contraste entre o texto e o plano de fundo, trazendo legibilidade para o site.
 
-## User Flow
 
-[Fluxo de usuário - Cliente](img/Fluxo de usuário - Cliente.PNG)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
 O fluxograma apresentado na figura 2 mostra o Fluxo de Usuário (User Flow) através das funcionalidades principais do sistema na percepção de usuário cliente. Já a figura 3 exibe o fluxo do usuário prestador de serviços. Para visualizar o wireframe interativo, acesse o [Ambiente Figma do Projeto.](https://www.figma.com/proto/80rKS8BCQbxiEVAOnJQxZ8/Elas-por-Elas?node-id=82-842&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=82%3A842)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+## Fluxo de usuário - Cliente
+
+![Fluxo de usuário - Cliente](https://user-images.githubusercontent.com/106458859/233751608-33471b48-1c12-4743-91e8-629806ecb1bc.png)
+
+## Fluxo de usuário - Prestador
+
+![Fluxo de usuário - Prestador](https://user-images.githubusercontent.com/106458859/233751755-bc1def61-4ac9-4b39-875f-4ab50936161b.png)
+
+
 
 
 ## Wireframes
