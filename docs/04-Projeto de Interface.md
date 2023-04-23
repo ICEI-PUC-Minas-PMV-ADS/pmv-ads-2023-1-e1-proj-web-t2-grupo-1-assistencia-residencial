@@ -69,7 +69,7 @@ O fluxograma apresentado na figura 2 mostra o Fluxo de Usuário (User Flow) atra
 <br />
 
 <figure align="center">
- <img src="https://user-images.githubusercontent.com/65717646/233811324-4a940948-671d-46ec-817f-1a6b4219d213.png" alt="Trulli" style="width:100%">
+ <img src="https://user-images.githubusercontent.com/65717646/233870936-3a72dcc9-5647-43c0-9d8b-7cebe2bce2eb.png" alt="Trulli" style="width:100%">
  <p align="center">Figura 7 - Tela de Cadastro da Usuária Profissional</p>
 </figure>
 
@@ -94,7 +94,7 @@ O fluxograma apresentado na figura 2 mostra o Fluxo de Usuário (User Flow) atra
 <p align ="justify">Já para as clientes, o cadastro permite o acesso aos perfis das prestadoras, onde é possível entrar em contato diretamente com uma profissional e deixar comentários ou feedbacks que posteriormente são exibidos no perfil da profissional em questão com a média das avaliações sobre o serviço prestado.</p>
 
 <figure align="center">
- <img src="https://user-images.githubusercontent.com/65717646/233811329-7bb1b339-5e2f-4760-a2d1-c8eebaa629f4.png" alt="Trulli" style="width:100%">
+ <img src="https://user-images.githubusercontent.com/65717646/233871002-28fbe4ed-c20e-401f-af24-5155e90d914e.png" alt="Trulli" style="width:100%">
  <p align="center">Figura 9 - Tela de Perfil Editável do Usuário Cliente</p>
 </figure>
 
