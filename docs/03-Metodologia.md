@@ -17,7 +17,7 @@
 |Ambiente| Plataforma| Links de Acesso|
 |:------------------------------------:|:--------------------:|:------------------------------------:|
 |Repositório de Código Fonte  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial |
-|Documentos do Projeto | Google Drive | Documentos do Projeto |
+|Documentos do Projeto | Google Drive | https://docs.google.com/document/d/1O0fErCAAqWX3p9TjpMcvyZPHltIQns8a/edit?usp=sharing&ouid=101328500657200051902&rtpof=true&sd=true |
 |Projeto de Interface e Wireframes | Figma | https://www.figma.com/file/80rKS8BCQbxiEVAOnJQxZ8/Elas-por-Elas?node-id=202-1769&t=dI4Fiz3Rs6W5k1W3-0 |
 |Gerenciamento do Projeto | GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/340 |
 
