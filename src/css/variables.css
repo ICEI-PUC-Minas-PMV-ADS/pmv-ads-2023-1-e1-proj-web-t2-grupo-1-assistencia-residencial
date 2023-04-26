@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* colors */
+
+:root {
+  --color-p1: #f8d7e5;
+  --color-p2: #f4b5c4;
+  --color-p3: #e68a9a;
+  --color-p4: #e16f83;
+  --color-p5: #d1586d;
+  --color-p6: #bb2a49;
+  --color-p7: #9d1c3f;
+  --color-p8: #8b1031;
+  --color-p9: #6d0a2a;
+  --color-p10: #4f0a23;
+}
+
+/* fonts */
+
+:root {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
