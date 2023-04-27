@@ -1,0 +1,75 @@
+@import url("./main.css");
+
+.menu-superior {
+  box-sizing: border-box;
+  margin-top: 60px;
+  max-width: 875px;
+  display: flex;
+  padding: 5px;
+  height: 70px;
+  gap: 65px;
+}
+
+.menu-superior li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--color-p6);
+}
+
+.menu-superior li img {
+  width: 40px;
+}
+
+.main-container {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 60px;
+}
+
+.container-pesquisa {
+  width: 100%;
+  height: 470px;
+  max-width: 1000px;
+
+  gap: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-top: 1px solid var(--color-p4);
+  border-bottom: 1px solid var(--color-p4);
+}
+
+.container-pesquisa .box {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-pesquisa .box input {
+  height: 60px;
+  width: 100%;
+  width: 759px;
+}
+
+.container-pesquisa button {
+  width: 100%;
+  font-size: 32px;
+  max-width: 560px;
+  cursor: pointer;
+  border: none;
+  padding: 14px 0;
+  border-radius: 5px;
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+  background-color: var(--color-p5);
+}

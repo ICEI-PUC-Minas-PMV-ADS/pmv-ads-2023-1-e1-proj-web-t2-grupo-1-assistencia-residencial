@@ -11,9 +11,8 @@
   --color-p6: #bb2a49;
   --color-p7: #9d1c3f;
   --color-p8: #8b1031;
-  --color-p9: #7C0827;
+  --color-p9: #7c0827;
   --color-p10: #6a001d;
-
   --color-black: #000000;
   --color-white: #ffffff;
 }
@@ -58,18 +57,17 @@
   color: var(--color-p10);
 }
 
-.cor-preto{
+.cor-preto {
   color: var(--color-black);
 }
 
-.cor-branco{
+.cor-branco {
   color: #ffffff;
 }
+
 /* fonts */
 
 :root {
   --font-montserrat: "Montserrat", sans-serif;
   --font-open-sans: "Open Sans", sans-serif;
 }
-
-
