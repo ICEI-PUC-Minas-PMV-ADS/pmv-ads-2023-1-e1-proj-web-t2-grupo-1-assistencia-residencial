@@ -1,12 +1,25 @@
 @import url("./main.css");
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 30px;
+}
+
 .menu-superior {
   box-sizing: border-box;
   margin-top: 60px;
   max-width: 875px;
+  width: 100%;
+  overflow: auto;
   display: flex;
   padding: 5px;
-  height: 70px;
   gap: 65px;
 }
 
@@ -15,29 +28,25 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
   gap: 5px;
+
+  color: var(--color-p6);
   font-size: 12px;
   cursor: pointer;
-  color: var(--color-p6);
 }
 
 .menu-superior li img {
   width: 40px;
 }
 
-.main-container {
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  gap: 60px;
-}
+/* container pesquisa */
 
 .container-pesquisa {
   width: 100%;
   height: 470px;
   max-width: 1000px;
+  padding: 0 20px;
+  box-sizing: border-box;
 
   gap: 48px;
   display: flex;
@@ -49,19 +58,47 @@
   border-bottom: 1px solid var(--color-p4);
 }
 
+.container-pesquisa span {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--color-p10);
+  font-family: var(--font-monterrat);
+}
+
 .container-pesquisa .box {
   gap: 5px;
+  width: 100%;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .container-pesquisa .box input {
   height: 60px;
   width: 100%;
-  width: 759px;
+  max-width: 759px;
+  padding-left: 60px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-p4);
 }
 
-.container-pesquisa button {
+.container-pesquisa .box input:focus {
+  outline: none;
+}
+
+.container-pesquisa .box input:first-child {
+  background: url("../img/icons/Pesquisa/icon-search.svg") no-repeat scroll 7px
+    7px;
+}
+
+.container-pesquisa .box input:last-child {
+  background: url("../img/icons/Pesquisa/icon-localizacao.svg") no-repeat scroll
+    7px 7px;
+}
+
+.botao-padrao {
   width: 100%;
   font-size: 32px;
   max-width: 560px;
@@ -72,4 +109,89 @@
   color: var(--color-white);
   font-family: var(--font-open-sans);
   background-color: var(--color-p5);
+}
+
+/* container pesquisa */
+
+/* sobre */
+.sobre {
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre-titulo {
+  font-size: 48px;
+  color: var(--color-p8);
+  font-family: var(--font-monterrat);
+}
+
+.sobre-descricao {
+  font-size: 24px;
+  color: var(--color-p6);
+  font-family: var(--font-open-sans);
+}
+
+.sobre > .sobre-motivacoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre-motivacoes .box {
+  width: 100%;
+  max-width: 330px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre-motivacoes .box img {
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.sobre-motivacoes .box .motivo-titulo {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: var(--color-p8);
+}
+
+.sobre-motivacoes .box .motivo-descricao {
+  font-size: 18px;
+  color: var(--color-p6);
+}
+
+/* sobre */
+
+/* depoimentos */
+
+.depoimentos {
+  margin-top: 90px;
+  position: relative;
+  height: 570px;
+  display: flex;
+  background-color: var(--color-p10);
+}
+
+.depoimentos-textos {
+  max-width: 753px;
+  width: 100%;
+}
+
+.depoimentos-foto-profissional {
+  width: 100%;
+  height: 570px;
+  max-width: 421px;
+}
+
+.depoimentos-foto-profissional img {
+  width: 100%;
+  max-height: 662px;
+  margin-top: -91px;
 }
