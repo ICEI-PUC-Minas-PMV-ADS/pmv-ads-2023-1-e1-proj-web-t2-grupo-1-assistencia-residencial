@@ -51,7 +51,6 @@
 }
 
 .dados-pessoais span{
-    grid-row: 4;
     font-size: 48px;
     color: var(--color-white);
     font-weight: semibold;
@@ -82,7 +81,7 @@
     color: var(--color-black);
 }
 
-.botao-whats {
+.botao-whats a {
     display: flex;
     align-items: center;
     padding: 5px 15px;
