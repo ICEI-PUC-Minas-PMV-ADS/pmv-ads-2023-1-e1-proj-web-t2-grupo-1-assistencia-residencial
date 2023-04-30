@@ -2,7 +2,11 @@
 @import url("./header.css");
 @import url("./signin.css");
 @import url("./resets.css");
+@import url("./profissional-interno.css");
+@import url("./footer.css");
 
+@import url("./home/css");
+@import url("./login.css");
 .container {
   box-sizing: border-box;
   max-width: 1080px;
