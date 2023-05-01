@@ -380,81 +380,69 @@
 
 /* footer */
 
-.footer {
+footer {
   width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
-  color: var(--color-white);
-  font-family: var(--font-open-sans);
+  background-color: black;
   background-color: var(--color-p10);
+  font-family: var(--font-open-sans);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1080px;
+  color: var(--color-white);
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.footer img {
+.footer__logo {
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.footer__icon {
   width: 20px;
   height: 20px;
 }
 
-.footer-logo {
-  text-align: center;
-  padding: 20px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.footer-servicos {
+.footer__services,
+.footer__about,
+.footer__contact {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
 }
 
-.footer-servicos ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-institucional {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-}
-
-.footer-institucional ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-contato {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-}
-
-.footer-contato__lista-contatos {
+.footer__services > ul,
+.footer__about > ul,
+.footer__contact > ul {
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
 
-.footer-contato__lista-contatos li {
+.footer__contact-info {
   gap: 10px;
   display: flex;
   align-items: center;
 }
 
-.footer-contato__icones-contato ul {
+.footer__contact-social > ul {
   display: flex;
   gap: 10px;
 }
 
-.footer-endereco {
+.footer__address {
   width: 100%;
   grid-column-start: 1;
   grid-column-end: 5;
@@ -471,22 +459,22 @@
     grid-template-rows: repeat(4, auto);
   }
 
-  .footer-logo {
+  .footer__logo {
     grid-row-start: 1;
     grid-row-end: auto;
   }
 
-  .footer-servicos {
+  .footer__services {
     grid-row-start: 2;
     grid-row-end: auto;
   }
 
-  .footer-institucional {
+  .footer__about {
     grid-row-start: 3;
     grid-row-end: auto;
   }
 
-  .footer-contato {
+  .footer__contact {
     grid-row-start: 4;
     grid-row-end: auto;
   }
