@@ -1,5 +1,6 @@
 @import url("./main.css");
 @import url("./signin.css");
+@import url("./not-found.css");
 
 .main-container {
   display: flex;
