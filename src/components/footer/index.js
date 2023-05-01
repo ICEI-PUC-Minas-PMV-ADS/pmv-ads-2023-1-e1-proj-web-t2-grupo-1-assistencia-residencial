@@ -199,7 +199,7 @@ class Footer extends HTMLElement {
 
     const shadowRoot = this.attachShadow({ mode: "closed" });
 
-    shadowRoot.innerHTML = `<style media="screen">${css}</style>`;
+    shadowRoot.innerHTML += `<style media="screen">${css}</style>`;
     shadowRoot.appendChild(this.#templateElement.content);
   }
 }
