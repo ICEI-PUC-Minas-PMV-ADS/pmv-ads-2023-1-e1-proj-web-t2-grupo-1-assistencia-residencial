@@ -1,27 +1,26 @@
-#form-signin {  
+#form-signin {
+  width: 900px;
+  height: 1220px;
+  margin: 50px auto;
 
-    width: 900px;
-    height: 1220px;
-    margin: 50px auto;
-  
-    border: 1px solid #D1586D;
-    border-radius: 5px;
-    padding: 50px;
+  border: 1px solid #d1586d;
+  border-radius: 5px;
+  padding: 50px;
 }
 
 .form-signin-img {
-    width: 350px;
-    height: 350px;
-    margin: 60px auto;
+  width: 350px;
+  height: 350px;
+  margin: 60px auto;
 }
 
 .form-signin-img img {
   width: 100%;
 }
 
-input[type='radio'] {
-    accent-color: #BB2A49;
-    vertical-align: middle;
+input[type="radio"] {
+  accent-color: #bb2a49;
+  vertical-align: middle;
 }
 
 /* display flex: transforma um elemento numa caixa flexivel.  
@@ -33,69 +32,67 @@ fieldset é tipo uma div, mas usado pelo significado semântico. Significa uma c
 usada dentro de formulários */
 
 form {
-  width: 100%
+  width: 100%;
 }
 
 #form-tipo-usuario {
-    display: flex;
-    border: none;
-    gap: 50px;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 39px;
+  display: flex;
+  border: none;
+  gap: 50px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 39px;
 }
 
 #form-tipo-usuario label {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #form-tipo-usuario label input {
-    margin-right: 20px;
+  margin-right: 20px;
 }
-
 
 #dados {
-    display:flex;
-    flex-direction: column;
-    gap: 50px;
-    border: none;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border: none;
+  width: 100%;
 }
-
 
 #dados-pessoais {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-  color: #6A001D;
+  color: #6a001d;
   padding: 0;
 }
 
 .form-section {
   display: flex;
   justify-content: space-between;
- }
+}
 
 .form-section div {
   width: 100%;
   max-width: 370px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
 input {
   box-sizing: border-box;
-  border: 1px solid #E68A9A;
+  border: 1px solid #e68a9a;
   border-radius: 5px;
   height: 46px;
   color: var(--color-p2);
   padding: 0 15px;
-  }
+}
 
 input:focus {
   outline: none;
@@ -106,14 +103,14 @@ input::placeholder {
 }
 
 .form-section-email {
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
 .form-section-email input {
   box-sizing: content-box;
-  border: 1px solid #E68A9A;
+  border: 1px solid #e68a9a;
   border-radius: 5px;
 }
 
@@ -121,6 +118,43 @@ input::placeholder {
   width: 100%;
   max-width: 850px;
   font-family: var(--font-open-sans);
+}
+
+.form-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-categories div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 850px;
+}
+fieldset {
+  border: none;
+}
+
+.topico {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.titulo-categorias {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 .form-submit {
@@ -133,7 +167,7 @@ button {
   height: 71px;
   border: none;
 
-  background: #D1586D;
+  background: #d1586d;
   border-radius: 5px;
   color: white;
   text-align: center;
@@ -146,7 +180,7 @@ button {
 .form-another {
   margin-top: -40px;
   text-align: center;
-  color: var(--color-p6); 
+  color: var(--color-p6);
 }
 
 .ext-signin-img ul {
