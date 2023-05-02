@@ -135,14 +135,16 @@ class Footer extends HTMLElement {
       <ul class="footer__contact-list">
         <li class="footer__contact-info">
           <img
+          data-src="src/img/icons/social/facebook.svg"
           class="footer__icon" 
-          src="/src/img/icons/social/facebook.svg" alt="" />
+          alt="" />
           <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
+          data-src="src/img/icons/social/facebook.svg"
           class="footer__icon" 
-          src="/src/img/icons/social/facebook.svg" alt="" />
+          src="src/img/icons/social/facebook.svg" alt="" />
           <span>(31) 33333-3333</span>
         </li>
       </ul>
@@ -151,8 +153,7 @@ class Footer extends HTMLElement {
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-
-            src="/src/img/icons/social/linkedin.svg"
+            data-src="src/img/icons/social/linkedin.svg"
               alt=""
               srcset=""
             />
@@ -160,8 +161,7 @@ class Footer extends HTMLElement {
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-
-            src="/src/img/icons/social/instagram.svg"
+            data-src="src/img/icons/social/instagram.svg"
               alt=""
               srcset=""
             />
@@ -169,8 +169,7 @@ class Footer extends HTMLElement {
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-
-            src="/src/img/icons/social/facebook.svg"
+            data-src="src/img/icons/social/facebook.svg"
               alt=""
               srcset=""
             />
@@ -189,18 +188,33 @@ class Footer extends HTMLElement {
 `;
 
   #templateElement = document.createElement("template");
+  #shadowRoot;
 
   constructor() {
     super();
   }
 
+  fixImagePaths() {
+    if (this.#shadowRoot) {
+      const images = this.#shadowRoot.querySelectorAll("img");
+
+      images &&
+        images.forEach((image) => {
+          const imagePath = window.location.origin + "/" + image.dataset.src;
+
+          image.src = imagePath;
+        });
+    }
+  }
+
   connectedCallback() {
+    this.#shadowRoot = this.attachShadow({ mode: "closed" });
     this.#templateElement.innerHTML = this.#templateCode;
 
-    const shadowRoot = this.attachShadow({ mode: "closed" });
+    this.#shadowRoot.innerHTML += `<style media="screen">${css}</style>`;
+    this.#shadowRoot.appendChild(this.#templateElement.content);
 
-    shadowRoot.innerHTML += `<style media="screen">${css}</style>`;
-    shadowRoot.appendChild(this.#templateElement.content);
+    this.fixImagePaths();
   }
 }
 
