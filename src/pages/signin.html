@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/signin.css" />
+
+    <script src="/src/components/header/index.js" type="module" defer></script>
+    <script src="/src/components/footer/index.js" type="module" defer></script>
+
+    <title>Elas por Elas - Assistência Domiciliar</title>
+  </head>
+
+  <body>
+    <custom-header></custom-header>
+    <div id="form-signin">
+      <div class="form-signin-img">
+        <img
+          src="\src\img\imagens-site\TeladeCadastro\imagem-tela-de-cadastro.png"
+        />
+      </div>
+
+      <div class="form-container">
+        <form>
+          <fieldset id="form-tipo-usuario">
+            <label
+              ><input
+                type="radio"
+                id="cliente"
+                name="tipo-de-usuario"
+                value="cliente"
+                checked
+              />Cliente</label
+            >
+            <label
+              ><input
+                type="radio"
+                id="profissional"
+                name="tipo-de-usuario"
+                value="profissional"
+                checked
+              />Profissional</label
+            >
+          </fieldset>
+
+          <fieldset id="dados">
+            <legend id="dados-pessoais">Dados Pessoais</legend>
+
+            <div class="form-section">
+              <div>
+                <label for="fname">Nome</label>
+                <input type="text" id="fname" name="fname" />
+              </div>
+              <div>
+                <label for="celular">Celular</label>
+                <input
+                  type="phone"
+                  placeholder="(00) 00000-0000"
+                  id="celular"
+                  name="celular"
+                />
+              </div>
+            </div>
+
+            <div class="form-section-email">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="form-section">
+              <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" />
+              </div>
+              <div>
+                <label for="c-senha">Confirmar Senha</label>
+                <input type="password" id="c-senha" name="c-senha" />
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="topico">Dados profissionais</legend>
+            <p class="titulo-categorias">
+              Em quais categorias você gostaria de atuar? Pode marcar mais de
+              uma
+            </p>
+            <div class="form-categories">
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Pintura</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Elétrica</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Hidraúlica</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Construção/Reforma</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Montagem de móveis</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Decoração</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Jardinagem</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Vidraçaria</label>
+              </div>
+              <div>
+                <input type="checkbox" id="" name="" />
+                <label for="">Marcenaria</label>
+              </div>
+            </div>
+          </fieldset>
+          <div>
+            <label for="">Conte um pouco sobre você</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" value="Submit">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+      <div class="form-another">Ou faça cadastro com</div>
+      <div class="ext-signin-img">
+        <ul>
+          <li>
+            <img src="\src\img\icons\Tela-de-Cadastro\icon-google.svg" />
+          </li>
+          <li>
+            <img src="\src\img\icons\Tela-de-Cadastro\icon-facebook.svg" />
+          </li>
+          <li>
+            <img src="\src\img\icons\Tela-de-Cadastro\icon-apple.svg" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <custom-footer></custom-footer>
+  </body>
+</html>
