@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/main.css" />
     <link rel="stylesheet" href="./src/css/login.css" />
-     <title>Login</title>
-</head>
 
-<body>
-    <header class="header-bg cor-branco">
-        <div class="header container">
-            <a href="./" class="logo">Elas por Elas</a>
-            <nav>
-                <ul class="header-menu">
-                    <li><a href="./">Sobre</a></li>
-                    <li><a href="./">Login</a></li>
-                    <li><a class="botao-cadastro" href="./">Cadastre-se</a></li>
-                </ul>
-            </nav>
-        </div>
+    <script src="./src/components/header/index.js" type="module" defer></script>
+    <script src="./src/components/footer/index.js" type="module" defer></script>
 
-    </header>
-    <div class="container container-um">
+    <title>Login</title>
+  </head>
 
+  <body>
+    <custom-header></custom-header>
+    <main>
+      <div class="container container-um">
         <div class="container-dois">
-          <img src="./src/img/imagens-site/TeladeLogin/Imagem-login.png" alt="">
+          <img
+            src="./src/img/imagens-site/TeladeLogin/Imagem-login.png"
+            alt=""
+          />
         </div>
 
         <div class="container-tres">
-            <div class="titulo-login">
-             <h1>Login</h1>
-            </div>
-                
-            <div class="box">
-                    <span>Email</span> 
-                    <input type="text" />
-                    <span>Senha</span>
-                    <input type="password" />
-                
-                
-                <div class="checkbox">
-                    
-                   <span><a href=""><strong> Esqueceu a senha?</a></span></strong>
-                </div>
+          <div class="titulo-login">
+            <h1>Login</h1>
+          </div>
 
-                <button class="botao-login">Entrar</button>
-                
-                <div class="cadastro"><strong><a href="">Não tem uma conta? Cadastre-se aqui</a></strong> 
-                </div>
-                
-                
-            <div class="outras-opcoes-login">Ou faça login com <span>
+          <div class="box">
+            <span>Email</span>
+            <input type="text" />
+            <span>Senha</span>
+            <input type="password" />
 
-                </span>
-            </div>
-            <div class="main-container">
-                <ul class="menu-inferior">
+            <div class="checkbox"></div>
 
-                    <li><img src="./src/img/icons/Tela-de-Login/icon-google.svg" alt="Google"></li>
-                    <li><img src="./src/img/icons/Tela-de-Login/icon-facebook.svg" alt="Faceook"></li>
-                    <li><img src="./src/img/icons/Tela-de-Login/icon-apple.svg" alt="Apple"></li>
-                </ul>
-            </div>
+            <span
+              ><a href=""><strong>Esqueceu a senha?</strong></a></span
+            >
+          </div>
+
+          <button class="botao-login">Entrar</button>
+
+          <div class="cadastro">
+            <strong><a href="">Não tem uma conta? Cadastre-se aqui</a></strong>
+          </div>
+
+          <div class="outras-opcoes-login">
+            Ou faça login com <span> </span>
+          </div>
+          <div class="main-container">
+            <ul class="menu-inferior">
+              <li>
+                <img
+                  src="./src/img/icons/Tela-de-Login/icon-google.svg"
+                  alt="Google"
+                />
+              </li>
+              <li>
+                <img
+                  src="./src/img/icons/Tela-de-Login/icon-facebook.svg"
+                  alt="Faceook"
+                />
+              </li>
+              <li>
+                <img
+                  src="./src/img/icons/Tela-de-Login/icon-apple.svg"
+                  alt="Apple"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
-
-
-
-    </div>
+      </div>
     </main>
-
-</body>
-
+    <custom-footer></custom-footer>
+  </body>
 </html>
