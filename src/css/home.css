@@ -99,7 +99,7 @@ span.service__icon > img {
   height: 50px;
   max-width: 600px;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: var(--size-font-m);
   padding-left: 60px;
   box-sizing: border-box;
   color: var(--color-p2);
@@ -115,12 +115,11 @@ span.service__icon > img {
 }
 
 .search__input--service {
-  background: url("../img/icons/Pesquisa/icon-search.svg") no-repeat 8px center;
+  background: url("../img/icons/search/search.svg") no-repeat 8px center;
 }
 
 .search__input--location {
-  background: url("../img/icons/Pesquisa/icon-localizacao.svg") no-repeat 8px
-    center;
+  background: url("../img/icons/search/marker.svg") no-repeat 8px center;
 }
 
 /* ============================================= search ====================================================*/
@@ -148,12 +147,13 @@ span.service__icon > img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .about__list--item > img {
   width: 100%;
   max-width: 100px;
+  height: 100px;
 }
 
 .about__item--title {
@@ -167,7 +167,7 @@ span.service__icon > img {
   color: var(--color-p6);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .about__list {
     flex-direction: column;
     align-items: center;
@@ -176,7 +176,17 @@ span.service__icon > img {
 
   .about__list--item {
     padding: 16px;
+    max-width: 400px;
   }
+
+  /* .about__list--item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 200px;
+  } */
 }
 
 /* ============================================= about ====================================================*/
