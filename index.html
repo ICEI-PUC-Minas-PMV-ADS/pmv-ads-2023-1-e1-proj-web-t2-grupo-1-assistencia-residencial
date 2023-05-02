@@ -5,98 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="./src/css/main.css" />
     <link rel="stylesheet" href="./src/css/home.css" />
+
+    <script src="./src/components/header/index.js" type="module" defer></script>
+    <script src="./src/components/footer/index.js" type="module" defer></script>
+
     <title>Elas por Elas - Assistência Domiciliar</title>
   </head>
 
   <body>
-    <header class="header-bg cor-branco">
-      <div class="header container">
-        <a href="./" class="logo">Elas por Elas</a>
-        <nav>
-          <ul class="header-menu">
-            <li><a href="./">Sobre</a></li>
-            <li><a href="./">Login</a></li>
-            <li><a class="botao-cadastro" href="./">Cadastre-se</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <custom-header></custom-header>
+    <main class="main">
+      <section class="services">
+        <ul class="services__list">
+          <li class="services__list--item">
+            <span class="service__icon">
+              <img
+                src="./src/img/icons/Home/services/locksmith.svg"
+                alt="ícone chave"
+              />
+            </span>
+            <span class="service-name"> Chaveiro </span>
+          </li>
 
-    <main class="main-container">
-      <ul class="menu-superior">
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/chaveiro.svg"
-            alt="icone chave"
-          />
-          Chaveiro
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/alvenaria.svg"
-            alt="ícone alvenaria"
-          />
-          Alvenaria
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/gesso.svg"
-            alt="ícone gesso"
-          />
-          Gesso
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/eletrica.svg"
-            alt="ícone elétrica"
-          />
-          Elétrica
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/hidraulica.svg"
-            alt="ícone hidráulica"
-          />
-          Hidráulica
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/jardinagem.svg"
-            alt="ícone jardinagem"
-          />
-          Jardinagem
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/pintura.svg"
-            alt="ícone pintura"
-          />
-          Pintura
-        </li>
-        <li>
-          <img
-            src="./src/img/icons/Home/Menu-Superior/diversos.svg"
-            alt="ícone diversos"
-          />
-          Diversos
-        </li>
-      </ul>
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/masonry.svg"
+                alt="ícone blocos de construção" /></span
+            ><span class="service-name">Alvenaria</span>
+          </li>
 
-      <section class="container-pesquisa">
-        <span>Do que você precisa?</span>
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/plaster.svg"
+                alt="ícones placa de gesso" /></span
+            ><span class="service-name">Gesso</span>
+          </li>
 
-        <div class="box">
-          <input type="text" placeholder="Serviço ou especialidade" />
-          <input type="text" placeholder="Sua cidade" />
-        </div>
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/electric.svg"
+                alt="ícone abajur" /></span
+            ><span class="service-name">Elétrica</span>
+          </li>
 
-        <button class="botao-padrao">Pesquisar</button>
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/hydraulics.svg"
+                alt="ícone gota d'agua" /></span
+            ><span class="service-name">Hidráulica</span>
+          </li>
+
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/gardening.svg"
+                alt="ícone flor" /></span
+            ><span class="service-name">Jardinagem</span>
+          </li>
+
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/painting.svg"
+                alt="ícone aquarela" /></span
+            ><span class="service-name">Pintura</span>
+          </li>
+
+          <li class="services__list--item">
+            <span class="service__icon"
+              ><img
+                src="./src/img/icons/Home/services/miscellaneous.svg"
+                alt="ícone ferramentas" /></span
+            ><span class="service-name">Diversos</span>
+          </li>
+        </ul>
       </section>
 
-      <section class="sobre">
-        <span class="sobre-titulo">Sobre nós</span>
-        <p class="sobre-descricao">
+      <section class="search container">
+        <h6 class="search__title title">Do que você precisa?</h6>
+
+        <div class="search__fields">
+          <input
+            type="text"
+            placeholder="Serviço ou especialidade"
+            name="service"
+            class="search__input search__input--service"
+          />
+          <input
+            type="text"
+            placeholder="Sua cidade"
+            name="location"
+            class="search__input search__input--location"
+          />
+        </div>
+
+        <button class="btn search__btn">Pesquisar</button>
+      </section>
+
+      <section class="about container">
+        <h6 class="about__title title">Sobre nós</h6>
+        <p class="about__description">
           Uma empresa focada em tornar a vida das mulheres mais fácil e
           tranquila, oferecendo soluções práticas e acessíveis para as
           necessidades do dia a dia de maneira rápida e segura. Queremos ser a
@@ -104,116 +118,94 @@
           oferecendo serviços de alta qualidade e comodidade para nossas
           clientes.
         </p>
-        <div class="sobre-motivacoes">
-          <div class="box">
+
+        <ul class="about__list">
+          <li class="about__list--item">
             <img
               src="./src/img/icons/Home/sobre/icon-qualificadas.svg"
-              alt="ícone verificado"
-            />
-            <span class="motivo-titulo">Profissionais Qualificadas</span>
-            <span class="motivo-descricao"
+              alt="imagem verificado"
+            /><span class="about__item--title">Profissionais Qualificadas</span
+            ><span class="about__item--description"
               >Seja atendida pelas melhores da sua região</span
             >
-          </div>
-          <div class="box">
+          </li>
+          <li class="about__list--item">
             <img
               src="./src/img/icons/Home/sobre/icon-seguranca.svg"
-              alt="ícone verificado"
-            />
-            <span class="motivo-titulo">Segurança</span>
-            <span class="motivo-descricao"
-              >Seja atendida pelas melhores da sua região</span
+              alt="imagem escudo"
+            /><span class="about__item--title">Segurança</span
+            ><span class="about__item--description"
+              >100 % digital e seguro, no conforto da sua casa</span
             >
-          </div>
-
-          <div class="box">
+          </li>
+          <li class="about__list--item">
             <img
               src="./src/img/icons/Home/sobre/icon-divulgacao.svg"
-              alt="ícone verificado"
-            />
-            <span class="motivo-titulo">Divulgação</span>
-            <span class="motivo-descricao"
-              >Seja atendida pelas melhores da sua região</span
+              alt="imagem megafone"
+            /><span class="about__item--title">Divulgação</span
+            ><span class="about__item--description"
+              >Quer se promover? Monte seu perfil na Elas por Elas!</span
             >
-          </div>
-        </div>
+          </li>
+        </ul>
 
-        <button class="botao-padrao">Saiba mais</button>
+        <button class="about__btn btn">Saiba mais</button>
       </section>
 
-      <section class="depoimentos">
-        <div class="depoimentos-textos">
-          <span class="depoimentos-textos__titulo">
-            Depoimentos / Feedback
-          </span>
-          <span class="depoimentos-textos__mensagem">
+      <section class="feedback container">
+        <div class="feedback__content">
+          <h6 class="feedback__content--title title">Depoimentos / Feedback</h6>
+          <p class="feedback__content--message">
             Eu estou muito feliz em fazer parte da plataforma que conecta
             profissionais a clientes! Desde que me cadastrei na plataforma,
             tenho tido a oportunidade de conhecer muitos clientes em potencial e
             já consegui fechar diversos trabalhos incríveis através dela.
-          </span>
-          <div class="depoimentos-textos__infos">
-            <span>Lara Silva</span>
-            <span>Cliente desde 2023</span>
+          </p>
+          <div class="feedback__content--owner">
+            <span class="feedback__owner--name">Lara Silva</span>
+            <span class="feedback__owner--registration"
+              >Cliente desde 2023</span
+            >
           </div>
         </div>
-        <div class="depoimentos-foto-profissional">
-          <img src="./src/img/imagens-site/Home/mulher-depoimento.png" alt="" />
+
+        <div class="feedback__image">
+          <img
+            src="./src/img/imagens-site/Home/mulher-depoimento.png"
+            alt="imagem profissional Lara Silva"
+          />
+        </div>
+      </section>
+
+      <section class="invite container">
+        <div class="invite__content">
+          <h6 class="invite__content--title title">
+            É profissional? Vem com a gente conhecer uma nova maneira de
+            trabalhar!
+          </h6>
+          <ul class="invite__content--list">
+            <li class="invite__list--item">
+              Plataforma focada no público feminino
+            </li>
+            <li class="invite__list--item">100% digital</li>
+            <li class="invite__list--item">Apresente seu portifólio</li>
+            <li class="invite__list--item">
+              Receba propostas direto no WhatsApp
+            </li>
+            <li class="invite__list--item">Monte sua cartela de clientes</li>
+          </ul>
+
+          <button class="btn invite__button">Junte-se a nós</button>
+        </div>
+        <div class="invite__image">
+          <img
+            src="src/img/imagens-site/Home/mulher-de-capacete.png"
+            alt="imagem mulher utilizando capacete amarelo"
+          />
         </div>
       </section>
     </main>
 
-    <footer class="footer-bg">
-      <div class="footer container">
-        <div class="footer-logo">
-          <a href="./index.html">Elas por Elas</a>
-        </div>
-        <div class="footer-servicos">
-          <h2>Serviços</h2>
-          <ul>
-            <li><a href="">Chaveiro</a></li>
-            <li><a href="">Alvenaria</a></li>
-            <li><a href="">Gesso</a></li>
-            <li><a href="">Elétrica</a></li>
-            <li><a href="">Hidráulica</a></li>
-            <li><a href="">Jardinagem</a></li>
-            <li><a href="">Pintura</a></li>
-            <li><a href="">Diversos</a></li>
-          </ul>
-        </div>
-        <div class="footer-institucional">
-          <h2>Institucional</h2>
-          <ul>
-            <li><a href="">Quem somos</a></li>
-            <li><a href="">Termos e Condições</a></li>
-            <li><a href="">Trabalhe Conosco</a></li>
-          </ul>
-        </div>
-        <div class="footer-contato">
-          <h2>Contato</h2>
-          <a href="mailto:contato@elasporelas.com.br"
-            >contato@elasporelas.com.br</a
-          >
-          <a href="tel:+5531333333333">(31) 3333-3333</a>
-          <div class="footer-redes">
-            <a href=""
-              ><img src="./src/img/icons/Footer/linkedin.svg" alt=""
-            /></a>
-            <a href=""
-              ><img src="./src/img/icons/Footer/instagram.svg" alt=""
-            /></a>
-            <a href=""
-              ><img src="./src/img/icons/Footer/facebook.svg" alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-endereco">
-        <p>
-          2023, Elas por Elas - Assistência Residencial. Avenida Logo Ali, 2333,
-          4º Andar, Centro, Belo Horizonte/MG - Brasil
-        </p>
-      </div>
-    </footer>
+    <custom-footer></custom-footer>
   </body>
 </html>

@@ -1,3 +1,4 @@
+export const resetCss = `
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,3 +26,4 @@ body {
     text-decoration: none;
     color: inherit;
   }
+`;
