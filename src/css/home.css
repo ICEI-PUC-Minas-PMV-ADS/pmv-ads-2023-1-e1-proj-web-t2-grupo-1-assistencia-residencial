@@ -238,6 +238,7 @@ span.service__icon > img {
 /* ============================================= invite ====================================================*/
 
 .invite {
+  padding: 50px 30px;
   display: flex;
   align-items: flex-end;
   position: relative;
