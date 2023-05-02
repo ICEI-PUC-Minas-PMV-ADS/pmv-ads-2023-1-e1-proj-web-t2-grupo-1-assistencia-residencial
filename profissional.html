@@ -5,71 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/profissional-interno.css" />
+
+    <script src="./src/components/header/index.js" type="module" defer></script>
+    <script src="./src/components/footer/index.js" type="module" defer></script>
+
     <title>Lara Vieira - Profissional</title>
   </head>
 
-
   <body>
-    <header class="header-bg cor-branco">
-      <div class="header container">
-        <a href="./" class="logo">Elas por Elas</a>
-        <nav>
-          <ul class="header-menu">
-            <li><a href="./">Sobre</a></li>
-            <li><a href="./">Login</a></li>
-            <li><a class="botao-cadastro" href="./">Cadastre-se</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
+    <custom-header></custom-header>
     <main>
       <section class="container">
         <div class="botao-voltar">
-            <a href="">< Voltar</a>         
+          <a href=""> Voltar</a>
         </div>
         <div class="dados-container">
-            <div class="perfil-circle">
-                <img src="./src/img/imagens-site/TeladePerfil-Profissional/foto-perfil-lara-vieira.png" alt=""  width="250px" height="350px">
+          <div class="perfil-circle">
+            <img
+              src="./src/img/imagens-site/TeladePerfil-Profissional/foto-perfil-lara-vieira.png"
+              alt=""
+              width="250px"
+              height="350px"
+            />
+          </div>
+          <div class="dados-pessoais">
+            <h1>Lara Vieira</h1>
+            <h2>Chaveira</h2>
+            <span>4.5</span>
+            <ul class="dados-nota">
+              <li>
+                <img
+                  class="estrelas-avaliacao"
+                  src="./src/img/icons/estrela-avaliacao.svg"
+                  alt="estrela"
+                />
+              </li>
+              <li>
+                <img
+                  class="estrelas-avaliacao"
+                  src="./src/img/icons/estrela-avaliacao.svg"
+                  alt="estrela"
+                />
+              </li>
+              <li>
+                <img
+                  class="estrelas-avaliacao"
+                  src="./src/img/icons/estrela-avaliacao.svg"
+                  alt="estrela"
+                />
+              </li>
+              <li>
+                <img
+                  class="estrelas-avaliacao"
+                  src="./src/img/icons/estrela-avaliacao.svg"
+                  alt="estrela"
+                />
+              </li>
+              <li>
+                <img
+                  class="estrelas-avaliacao"
+                  src="./src/img/icons/estrela-avaliacao.svg"
+                  alt="estrela"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="dados-contato">
+            <h2>Contato:</h2>
+            <ul>
+              <li><a href="tel:+5531999999999">(31) 99999-9999</a></li>
+              <li>
+                <a href="mailto:laravieira@elasporelas.com.br"
+                  >laravieira@elasporelas.com.br</a
+                >
+              </li>
+            </ul>
+            <div class="botao-whats">
+              <a href=""
+                ><img
+                  src="./src/img/icons/Portfolio-Profissional/whatsapp.svg"
+                  alt=""
+                />Chamar no WhatsApp</a
+              >
             </div>
-            <div class="dados-pessoais">
-                <h1>Lara Vieira</h1>
-                <h2>Chaveira</h2>
-                <span>4.5</span>
-                <ul class="dados-nota">
-                  <li><img class="estrelas-avaliacao" src="./src/img/icons/estrela-avaliacao.svg" alt="estrela"></li>
-                  <li><img class="estrelas-avaliacao" src="./src/img/icons/estrela-avaliacao.svg" alt="estrela"></li>
-                  <li><img class="estrelas-avaliacao" src="./src/img/icons/estrela-avaliacao.svg" alt="estrela"></li>
-                  <li><img class="estrelas-avaliacao" src="./src/img/icons/estrela-avaliacao.svg" alt="estrela"></li>
-                  <li><img class="estrelas-avaliacao" src="./src/img/icons/estrela-avaliacao.svg" alt="estrela"></li>
-                </ul>
-                
-                
+            <div class="dados-redes">
+              <img
+                src="./src/img/icons/Portfolio-Profissional/linkedin.svg"
+                alt=""
+              />
+              <img
+                src="./src/img/icons/Portfolio-Profissional/instagram.svg"
+                alt=""
+              />
+              <img
+                src="./src/img/icons/Portfolio-Profissional/facebook.svg"
+                alt=""
+              />
             </div>
-            <div class="dados-contato">
-                <h2>Contato:</h2>
-                <ul>
-                    <li><a href="tel:+5531999999999">(31) 99999-9999</a></li>
-                    <li><a href="mailto:laravieira@elasporelas.com.br">laravieira@elasporelas.com.br</a></li>                  
-                </ul>
-                <div class="botao-whats">
-                  <a href=""><img src="./src/img/icons/Portfolio-Profissional/whatsapp.svg" alt="">Chamar no WhatsApp</a>
-                </div>
-                <div class="dados-redes">
-                  <img src="./src/img/icons/Portfolio-Profissional/linkedin.svg" alt="">
-                  <img src="./src/img/icons/Portfolio-Profissional/instagram.svg" alt="">
-                  <img src="./src/img/icons/Portfolio-Profissional/facebook.svg" alt="">
-                </div>
-                
-                </div>
-            </div>
+          </div>
         </div>
       </section>
       <section>
         <h2>Sobre</h2>
-        <p>Olá! Meu nome é Lara Vieira, e sou chaveira. Com 2 anos de experiência no ramo, ofereço um serviço de limpeza personalizado e de alta qualidade para atender às necessidades de cada cliente. </p>
-        <p>Se você está procurando por uma profissional em limpeza residencial confiável, atenciosa e comprometida com a qualidade do serviço, entre em contato comigo. Estou ansiosa para ajudá-la a manter sua casa limpa e confortável.</p>
+        <p>
+          Olá! Meu nome é Lara Vieira, e sou chaveira. Com 2 anos de experiência
+          no ramo, ofereço um serviço de limpeza personalizado e de alta
+          qualidade para atender às necessidades de cada cliente.
+        </p>
+        <p>
+          Se você está procurando por uma profissional em limpeza residencial
+          confiável, atenciosa e comprometida com a qualidade do serviço, entre
+          em contato comigo. Estou ansiosa para ajudá-la a manter sua casa limpa
+          e confortável.
+        </p>
         <ul>
           <li></li>
           <li></li>
@@ -78,47 +128,6 @@
         </ul>
       </section>
     </main>
-
-    <footer class="footer-bg">
-      <div class="footer container">
-        <div class="footer-logo">
-          <a href="./index.html">Elas por Elas</a>
-        </div>
-        <div class="footer-servicos">
-          <h2>Serviços</h2>
-          <ul>
-            <li><a href="">Chaveiro</a></li>
-            <li><a href="">Alvenaria</a></li>
-            <li><a href="">Gesso</a></li>
-            <li><a href="">Elétrica</a></li>
-            <li><a href="">Hidráulica</a></li>
-            <li><a href="">Jardinagem</a></li>
-            <li><a href="">Pintura</a></li>
-            <li><a href="">Diversos</a></li>
-          </ul>
-        </div>
-        <div class="footer-institucional">
-          <h2>Institucional</h2>
-          <ul>
-            <li><a href="">Quem somos</a></li>
-            <li><a href="">Termos e Condições</a></li>
-            <li><a href="">Trabalhe Conosco</a></li>
-          </ul>
-        </div>
-        <div class="footer-contato">
-          <h2>Contato</h2>
-          <a href="mailto:contato@elasporelas.com.br">contato@elasporelas.com.br</a>
-          <a href="tel:+5531333333333">(31) 3333-3333</a>
-          <div class="footer-redes">
-            <a href=""><img src="./src/img/icons/Footer/linkedin.svg" alt=""></a>
-            <a href=""><img src="./src/img/icons/Footer/instagram.svg" alt=""></a>
-            <a href=""><img src="./src/img/icons/Footer/facebook.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-    <div class="footer-endereco">
-      <p>2023, Elas por Elas - Assistência Residencial. Avenida Logo Ali, 2333, 4º Andar, Centro, Belo Horizonte/MG - Brasil</p>
-    </div>
-  </footer>
+    <custom-footer></custom-footer>
   </body>
 </html>
