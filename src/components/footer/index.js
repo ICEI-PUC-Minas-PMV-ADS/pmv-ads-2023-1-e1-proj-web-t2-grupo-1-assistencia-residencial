@@ -71,9 +71,9 @@ class Footer extends HTMLElement {
     grid-column-end: 5;
     text-align: center;
     box-sizing: border-box;
+    color: var(--color-white);
     background-color: var(--color-p6);
     padding: 20px;
-    margin-bottom: 10px;
   }
   
   @media screen and (max-width: 768px) {
@@ -137,7 +137,7 @@ class Footer extends HTMLElement {
           <img
           class="footer__icon" 
           src="./src/img/icons/Footer/facebook.svg" alt="" />
-          <span>CONTACT@ELASPORELAS.COM.BR</span>
+          <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
@@ -178,13 +178,13 @@ class Footer extends HTMLElement {
         </ul>
       </div>
     </div>
-    <div class="footer__address">
-      <span>
-        2023, Elas por Elas - Residential Assistance. Logo Ali Avenue, 2333,
-        4th floor, Centro, Belo Horizonte/MG - Brazil
-      </span>
-    </div>
   </div>
+  <div class="footer__address">
+  <span>
+  2023, Elas por Elas - Assistência Residencial. Avenida Logo Ali, 2333,
+   4º Andar, Centro, Belo Horizonte/MG - Brasil
+  </span>
+</div>
 </footer>
 `;
 
