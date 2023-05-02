@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/not-found.css" />
+
+    <script src="./src/components/footer/index.js" type="module" defer></script>
+    <script src="./src/components/header/index.js" type="module" defer></script>
+
     <title>Serviço Não Encontrado</title>
   </head>
 
-
   <body>
-    <header class="header-bg cor-branco">
-      <div class="header container">
-        <a href="./" class="logo">Elas por Elas</a>
-        <nav>
-          <ul class="header-menu">
-            <li><a href="./">Sobre</a></li>
-            <li><a href="./">Login</a></li>
-            <li><a class="botao-cadastro" href="./">Cadastre-se</a></li>
-          </ul>
-        </nav>
+    <custom-header></custom-header>
+    <div id="conteudo-principal">
+      <div>
+        Ops! Infelizmente ainda não temos esse serviço disponível na sua região
+        :c
       </div>
-    </header>
-
-<body>
-    
-        <div id="conteudo-principal">
-            <div> 
-                Ops! Infelizmente ainda não temos esse serviço disponível na sua região :c
-            </div>
-            <img src="\src\img\imagens-site\Tela-Serviço-não-encontrado\imagem-erro.png">
-        <div>
-    
-    
-</body>
+      <img
+        src="\src\img\imagens-site\Tela-Serviço-não-encontrado\imagem-erro.png"
+      />
+    </div>
+    <custom-footer></custom-footer>
+  </body>
 </html>
