@@ -175,6 +175,11 @@ button {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-p3);
 }
 
 .form-another {
