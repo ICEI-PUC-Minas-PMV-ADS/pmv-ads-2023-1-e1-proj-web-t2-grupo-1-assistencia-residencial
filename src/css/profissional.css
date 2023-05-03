@@ -177,8 +177,8 @@
 }
 
 .portfolio-img img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
 }
 
@@ -232,13 +232,18 @@
 .feedback-comentar {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     padding-bottom: 60px;
     color: var(--color-p10);
     font-size: 16px;
 }
 
+textarea{
+    resize: none;
+}
+
 .button {
+    display: flex;
     margin: 0 auto;
     width: 240px;
     height: 40px;
@@ -250,8 +255,47 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .button:hover{
     background: var(--color-p3);
+    cursor: pointer;
+}
+
+.feedback-nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+.feedback-nota ul{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+.feedback-nota li {
+    background: var(--color-p5);
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid var(--color-p6);
+    border-radius: 5px;
+}
+
+.nota:hover {
+    background: var(--color-p3);
+    cursor: pointer;
+}
+
+.feedback-nota input {
+    display: none;
+    cursor: pointer;
+}
+.feedback-nota label{
+    cursor: pointer;
 }
