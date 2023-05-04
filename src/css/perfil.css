@@ -1,10 +1,9 @@
 @import url("./main.css");
 
-h2{
-    font-family: var(--font-open-sans);
-    font-size: 24px;
+h2 {
+  font-family: var(--font-open-sans);
+  font-size: 24px;
 }
-
 
 .perfil {
   display: flex;
@@ -49,6 +48,7 @@ h2{
   background-color: var(--color-p3);
   overflow: hidden;
 }
+
 .perfil-info {
   display: flex;
   flex-direction: column;
@@ -61,6 +61,7 @@ h2{
   color: var(--color-p7);
   font-weight: bold;
 }
+
 .feedback1 {
   background-color: var(--color-p1);
   display: flex;
@@ -70,6 +71,7 @@ h2{
   border: 1px solid var(--color-p3);
   border-radius: 5px;
 }
+
 .dados-pessoais {
   display: flex;
   flex-direction: column;
@@ -80,11 +82,13 @@ h2{
   font-size: 24px;
   font-weight: bold;
 }
+
 .cliente1 {
   font-size: 16px;
   color: var(--color-p6);
   font-weight: bold;
 }
+
 .perfil-dados {
   display: flex;
   flex-direction: column;
@@ -92,14 +96,23 @@ h2{
   gap: 20px;
   margin-top: 20px;
 }
+
 input {
   box-sizing: border-box;
   border: 1px solid #e68a9a;
   border-radius: 5px;
-  height: 46px;
+  height: 36px;
   width: 100%;
-  color: var(--color-p2);
+  color: var(--color-p10);
   padding: 0 15px;
+  outline-color: var(--color-p4);
+}
+
+label {
+  font-family: var(--font-open-sans);
+  font-size: 16px;
+  color: var(--color-p10);
+  font-weight: bold;
 }
 
 .nome-celular {
@@ -114,15 +127,15 @@ input {
   gap: 40px;
 }
 
-.section-dois{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin-top: 20px;
-    color: var(--color-p10);
-    font-size: 24px;
-    font-weight: bold;
+.section-dois {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: var(--color-p10);
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .dados-profissionais {
@@ -133,7 +146,6 @@ input {
   font-size: 24px;
   font-weight: bold;
 }
-
 
 .box-dados {
   display: flex;
@@ -147,34 +159,32 @@ input {
   height: 150px;
 }
 
-.escolher{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
+.escolher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input[type="file"] {
   background-color: var(--color-p6);
   width: 190px;
   height: 40px;
-  display:none;
+  display: none;
 }
 
-.btn-file{
-    display: flex;
-    background-color: var(--color-p5);
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    color: white;
-    font-family: var(--font-open-sans);
-    font-size: 16px;
-    cursor: pointer;
+.btn-file {
+  background-color: var(--color-p5);
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: var(--font-open-sans);
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 300px;
 }
 
-.btn-file:hover{
-    background-color: var(--color-p3);
+.btn-file:hover {
+  background-color: var(--color-p3);
 }
 
 .sua-galeria {
@@ -192,58 +202,68 @@ input[type="file"] {
 }
 
 .suas-fotos {
-    display: flex;
-   margin-left: 500px;
-    width: 150px;
-    height: 150px;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 110px;
+  gap: 20px;
 }
 
-.cep-rua-num{
+.endereco-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: -80px;
+  margin-top: 30px;
+  color: var(--color-p10);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cep-rua-num {
   display: flex;
   flex-direction: row;
   display: inline-block;
-  
-  padding: 100px;;
+  margin-top: -70px;
+  margin-bottom: -50px;
+  padding: 100px;
 }
 
-.bairro-cidade-estado{
-   
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-}
-    
-.btn-salvar{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left: 700px;
-    width: 240px;
-    height: 40px;
-    border: none;
-    background: var(--color-p5);
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    
+.bairro-cidade-estado {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
 }
 
-.btn-salvar:hover{
-    background: var(--color-p6);
-    border: 3px solid var(--color-p3);
-    cursor: pointer;
+.btn-salvar {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 700px;
+  width: 240px;
+  height: 40px;
+  border: none;
+  background: var(--color-p5);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
 }
 
-.border{
-    border-bottom: 3px solid var(--color-p10);
-    display: flex;
-    margin-bottom: 300px;
-    margin-top: -50px;;
-    margin-left: 450px;
-    justify-content: center;
-    width: 700px;
-    height: 100px;
+.btn-salvar:hover {
+  background: var(--color-p6);
+  border: 3px solid var(--color-p3);
+  cursor: pointer;
+}
+
+.border {
+  border-bottom: 3px solid var(--color-p10);
+  display: flex;
+  margin-bottom: 170px;
+  margin-top: -120px;
+  margin-left: 450px;
+  justify-content: center;
+  width: 700px;
+  height: 100px;
 }
