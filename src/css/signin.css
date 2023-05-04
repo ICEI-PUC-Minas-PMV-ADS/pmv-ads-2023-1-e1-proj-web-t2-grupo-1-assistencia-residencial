@@ -1,6 +1,5 @@
 #form-signin {
   width: 900px;
-  height: 1220px;
   margin: 50px auto;
 
   border: 1px solid #d1586d;
@@ -149,7 +148,6 @@ fieldset {
 .topico {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 100px;
 }
 
 .titulo-categorias {
@@ -175,6 +173,7 @@ button {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
@@ -183,7 +182,7 @@ button:hover {
 }
 
 .form-another {
-  margin-top: -40px;
+  margin-top: 20px;
   text-align: center;
   color: var(--color-p6);
 }
@@ -192,4 +191,26 @@ button:hover {
   display: flex;
   gap: 25px;
   justify-content: center;
+  margin-top: 10px;
+}
+#checkbox-color {
+  border-color: #6a001d;
+}
+
+.conte-mais {
+  margin-top: 20px;
+}
+
+.dados-profissionais {
+  margin-top: 20px;
+  width: 100%;
+}
+
+textarea {
+  box-sizing: content-box;
+  border: 1px solid #e68a9a;
+  border-radius: 5px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
 }
