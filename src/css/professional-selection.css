@@ -47,6 +47,7 @@
   height: 490px;
   position: relative;
   margin-top: calc((-490px + 320px) / 2);
+  border-radius: 8px;
 }
 
 .card__professional--image > img {
