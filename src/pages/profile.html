@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+
+    <script src="../components/header/index.js" type="module" defer></script>
+    <script src="../components/footer/index.js" type="module" defer></script>
+
+    <title>Seu perfil
+    </title>
+      
+  </head>
+
+  <body>
+    
+    <custom-header></custom-header>
+
+<main class="container"> 
+    <section>   
+        <div class="perfil">
+            <h1 class="perfil-title"> Seu perfil</h1>
+        </div>
+        <div class="perfil-inicio"> 
+            <div class="img-container"><img src="../img/imagens-site/Perfil-editavel/Foto_de_perfil_-_Lara_Vieira.png" 
+            alt="foto-perfil">
+            <a href="">Editar foto</a></div>
+            
+            <div class="perfil-info">
+                <h2>Sua nota e seu feedback mais recente</h2>
+                <span>4.5</span>
+                <img src="../img/imagens-site/Perfil-editavel/nota-estrelas.svg" alt="">
+                <div class="feedback1">
+                    <h3 class="cliente1">Cida Andrade</h3>
+                    <p>“A Lara é uma ótima profissional, muito atenciosa e dedicada. Recomendo!”</p>
+
+                    
+
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="perfil-dados">
+    <div class="dados-pessoais"><h2> Dados pessoais </h2></div>
+    
+    <form action="">
+        <div class="nome-celular">
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="Nome">
+            </div>
+            <div>
+                <label for="celular">Celular</label>
+                <input type="phone" placeholder="(00) 00000-0000" id="celular" name="celular">
+            </div>
+        </div>
+        <div class="email">
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+        <div class="senha-confirmar">  
+            <div>
+                <label for="senha">Alterar senha</label>
+                <input type="password" id="senha" name="senha"> 
+            </div>
+            <div>
+                <label for="c-senha">Confirmar senha</label>
+                <input type="password" id="c-senha" name="c-senha"> 
+            </div>
+        </div>
+    </form>
+</section>
+</main>
+    <section class="dados-profissionais">
+<div class="dados-profissionais">
+  <h2>Dados profissionais</h2>
+  </div>
+  <form action="" class="box-dados" >
+      <div>
+          <label for="profissao">Profissão</label>
+          <input type="text" id="profissao" name="profissao">
+      </div>
+      <div class="sobre-voce">
+          <label for="sobre-voce">Conte um pouco mais sobre você</label>
+          <textarea name="sobre voce" id="sobre-voce" cols="87" rows="10"></textarea>
+      </div>
+      <div>
+          <label for="certificados">Certificados/Cursos</label>
+        </div>
+          <input type="text" id="certificados" name="email">
+          <div>
+            <label for="arquivo">Enviar arquivo</label>
+            <input type="file" name="arquivo" id="arquivo">
+          </div>
+          
+  </form>
+  </section>
+  
+  
+        
+  <main>
+  <form action="" class="dados-endereco">
+    <div class="endereco-titulo">
+      <h2>Endereço</h2>
+    </div>
+    <div class="cep-rua-num">
+      <div>
+        <label for="cep">CEP</label>
+        <input type="number" id="cep" name="cep" placeholder="00000-000">
+      </div>
+      <div>
+        <label for="rua">Rua</label>
+        <input type="text" id="rua" name="rua">
+      </div>
+      <div>
+        <label for="numero">Número</label>
+        <input type="text" id="numero" name="numero">
+      </div>
+    </div>
+    <div class="bairro-cidade-estado">
+      <div>
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" name="bairro">
+      </div>
+      <div>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade">
+      </div>
+      <div>
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" name="estado">
+      </div>
+    </div>
+    <button class="btn-salvar" type="">Salvar</button>
+  </form>
+
+  <h2 class="sua-galeria">Sua galeria de fotos</h2>
+  <div class="suas-fotos">
+    <img src="../img/imagens-site/Seletor-de-Profissional/mao-e-chaves.png" alt="mao-e-chaves">
+    <img src="../img/imagens-site/Seletor-de-Profissional/interfone.png" alt="interfone">
+    <img src="../img/imagens-site/Seletor-de-Profissional/Fechadura-comum.png" alt="">
+    <img src="../img/imagens-site/Seletor-de-Profissional/add-foto.png" alt="">
+  </div>
+</main>
+<div class="border"></div>
+
+    <custom-footer></custom-footer>
+  </body> 
+</html>

@@ -1,4 +1,7 @@
 @import url("./main.css");
+@media screen and (min-width:400px) {
+  body
+}
 
 h2 {
   font-family: var(--font-open-sans);
@@ -127,7 +130,8 @@ label {
   gap: 40px;
 }
 
-.section-dois {
+
+.dados-profissionais {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,55 +140,50 @@ label {
   color: var(--color-p10);
   font-size: 24px;
   font-weight: bold;
+  
 }
 
-.dados-profissionais {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
+#sobre-voce{
+  
+  height: 100px;
+  border: 1px solid #e68a9a;
+  border-radius: 5px;
   color: var(--color-p10);
-  font-size: 24px;
-  font-weight: bold;
+  padding: 0 15px;
+  outline-color: var(--color-p4);
+}
+#sobre-voce textarea{
+  display: flex;
+  flex-direction: column;
 }
 
 .box-dados {
   display: flex;
+  width: 45%;
   flex-direction: column;
   padding: 20px;
   gap: 30px;
-  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.sobre-voce input {
-  height: 150px;
-}
-
-.escolher {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input[type="file"] {
-  background-color: var(--color-p6);
-  width: 190px;
-  height: 40px;
+#arquivo {
   display: none;
+  background-color: var(--color-p2);
+  
 }
 
-.btn-file {
-  background-color: var(--color-p5);
-  padding: 10px 15px 10px 15px;
+#arquivo label{ 
+  margin-top: 15px;  
+  gap: 10px;
+  width: 200px;
+  height: 36px;
+  border: 1px solid var(--color-p3);
   border-radius: 5px;
-  color: white;
-  font-family: var(--font-open-sans);
+  background-color: var(--color-p2);
+  color: var(--color-p10);
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
-  margin-right: 300px;
-}
-
-.btn-file:hover {
-  background-color: var(--color-p3);
 }
 
 .sua-galeria {
@@ -211,58 +210,70 @@ input[type="file"] {
 
 .endereco-titulo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: -80px;
-  margin-top: 30px;
+  margin-left: 400px;
+  gap: 20px;
+  margin-top: 20px;
   color: var(--color-p10);
   font-size: 24px;
   font-weight: bold;
 }
 
+.dados-endereco{
+  
+  display: block;
+  margin-top: 20px;
+  margin-left: 300px;
+  
+}
+  
+  .dados-endereco input{
+    width: 300px;
+    display: block;
+    gap: 10px;
+    display: flex;
+justify-content: center
+;  }
+textarea{
+  resize: none;
+}
+
 .cep-rua-num {
-  display: flex;
-  flex-direction: row;
-  display: inline-block;
-  margin-top: -70px;
-  margin-bottom: -50px;
+  display: grid;
+  grid-template-columns: 60px 60px;
   padding: 100px;
+  display: inline-block;
+  
 }
 
 .bairro-cidade-estado {
-  display: flex;
-  flex-direction: row;
-  display: inline-block;
+ display: inline-block;
+  
 }
 
 .btn-salvar {
   margin-top: 20px;
-  margin-bottom: 100px;
-  margin-left: 700px;
+  margin-bottom: 80px;
+  margin-left: 320px;
   width: 240px;
   height: 40px;
   border: none;
-  background: var(--color-p5);
+  background: var(--color-p6);
   border-radius: 5px;
   color: white;
   text-align: center;
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
 }
 
 .btn-salvar:hover {
-  background: var(--color-p6);
-  border: 3px solid var(--color-p3);
+  background: var(--color-p3);
   cursor: pointer;
 }
 
 .border {
   border-bottom: 3px solid var(--color-p10);
   display: flex;
-  margin-bottom: 170px;
-  margin-top: -120px;
-  margin-left: 450px;
+  margin:  0 auto;
+  margin-bottom: 107px;
   justify-content: center;
   width: 700px;
   height: 100px;
