@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/user__signin.css" />
+
+    <script src="/src/components/header/index.js" type="module" defer></script>
+    <script src="/src/components/footer/index.js" type="module" defer></script>
+
+    <title>Elas por Elas - Assistência Domiciliar</title>
+  </head>
+
+  <body>
+    <custom-header></custom-header>
+    <div id="form__signin">
+      <div class="form__signin--img">
+        <img src="\src\img\images\signin\imagem-tela-de-cadastro.png" />
+      </div>
+
+      <div class="form__container">
+        <form>
+          <fieldset id="form__user--type">
+            <label
+              ><input
+                type="radio"
+                id="client"
+                name="user__type"
+                value="client"
+                checked
+              />Cliente</label
+            >
+            <label
+              ><input
+                type="radio"
+                id="professional"
+                name="user__type"
+                value="professional"
+                checked
+              />Profissional</label
+            >
+          </fieldset>
+
+          <fieldset id="data">
+            <legend id="personal__data">Dados Pessoais</legend>
+
+            <div class="form__section">
+              <div>
+                <label for="fname">Nome</label>
+                <input type="text" id="fname" name="fname" />
+              </div>
+              <div>
+                <label for="celular">Celular</label>
+                <input
+                  type="phone"
+                  placeholder="(00) 00000-0000"
+                  id="celular"
+                  name="celular"
+                />
+              </div>
+            </div>
+
+            <div class="form__section--email">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="form__section">
+              <div>
+                <label for="pw">Senha</label>
+                <input type="password" id="pw" name="pw" />
+              </div>
+              <div>
+                <label for="pw__c">Confirmar Senha</label>
+                <input type="password" id="pw__c" name="pw__c" />
+              </div>
+            </div>
+          </fieldset>
+          <div class="form__submit">
+            <button type="submit" value="Submit">Cadastrar</button>
+          </div>
+        </form>
+        <div class="form__another">Ou faça cadastro com</div>
+        <div class="form__another--img">
+          <ul>
+            <li>
+              <img src="\src\img\icons\signin_page\icon-google.svg" />
+            </li>
+            <li>
+              <img src="\src\img\icons\signin_page\icon-facebook.svg" />
+            </li>
+            <li>
+              <img src="\src\img\icons\signin_page\icon-apple.svg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <custom-footer></custom-footer>
+  </body>
+</html>
