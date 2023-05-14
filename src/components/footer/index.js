@@ -135,16 +135,16 @@ class Footer extends HTMLElement {
       <ul class="footer__contact-list">
         <li class="footer__contact-info">
           <img
-          data-src="src/img/icons/social/email.svg"
+          data-src="../img/icons/social/email.svg"
           class="footer__icon" 
-          src="src/img/icons/social/email.svg" />
+          src="/src/img/icons/social/email.svg" />
           <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
-          data-src="src/img/icons/social/telefone.svg"
+          data-src="../img/icons/social/telefone.svg"
           class="footer__icon" 
-          src="src/img/icons/social/telefone.svg" />
+          src="/src/img/icons/social/telefone.svg" />
           <span>(31) 33333-3333</span>
         </li>
       </ul>
@@ -153,22 +153,22 @@ class Footer extends HTMLElement {
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="src/img/icons/social/linkedin.svg"
-            src="src/img/icons/social/facebook.svg"
+            data-src="../img/icons/social/linkedin.svg"
+            src="/src/img/icons/social/linkedin.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="src/img/icons/social/instagram.svg"
-            src="src/img/icons/social/facebook.svg"
+            data-src="../img/icons/social/instagram.svg"
+            src="/src/img/icons/social/instagram.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="src/img/icons/social/facebook.svg"
-            src="src/img/icons/social/facebook.svg"
+            data-src="../img/icons/social/facebook.svg"
+            src="/src/img/icons/social/facebook.svg"
             />
           </li>
         </ul>
@@ -191,25 +191,12 @@ class Footer extends HTMLElement {
     super();
   }
 
-  fixImagePaths() {
-    // if (this.#shadowRoot) {
-    //   const images = this.#shadowRoot.querySelectorAll("img");
-    //   images &&
-    //     images.forEach((image) => {
-    //       const imagePath = window.location.origin + "/" + image.dataset.src;
-    //       image.src = imagePath;
-    //     });
-    // }
-  }
-
   connectedCallback() {
     this.#shadowRoot = this.attachShadow({ mode: "closed" });
     this.#templateElement.innerHTML = this.#templateCode;
 
     this.#shadowRoot.innerHTML += `<style media="screen">${css}</style>`;
     this.#shadowRoot.appendChild(this.#templateElement.content);
-
-    this.fixImagePaths();
   }
 }
 
