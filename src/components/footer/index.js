@@ -135,14 +135,14 @@ class Footer extends HTMLElement {
       <ul class="footer__contact-list">
         <li class="footer__contact-info">
           <img
-          data-src="../img/icons/social/email.svg"
+          data-src="email.svg"
           class="footer__icon" 
           src="/src/img/icons/social/email.svg" />
           <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
-          data-src="../img/icons/social/telefone.svg"
+          data-src="telefone.svg"
           class="footer__icon" 
           src="/src/img/icons/social/telefone.svg" />
           <span>(31) 33333-3333</span>
@@ -153,22 +153,20 @@ class Footer extends HTMLElement {
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="../img/icons/social/linkedin.svg"
+            data-src="linkedin.svg"
             src="/src/img/icons/social/linkedin.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="../img/icons/social/instagram.svg"
-            src="/src/img/icons/social/instagram.svg"
+            data-src="instagram.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
-            data-src="../img/icons/social/facebook.svg"
-            src="/src/img/icons/social/facebook.svg"
+            data-src="facebook.svg"
             />
           </li>
         </ul>
@@ -191,12 +189,37 @@ class Footer extends HTMLElement {
     super();
   }
 
+  fixImagePaths() {
+    if (this.#shadowRoot) {
+      const images = this.#shadowRoot.querySelectorAll("img");
+
+      images &&
+        images.forEach((image) => {
+          console.log(window.location.pathname);
+
+          let imagePath = "";
+
+          if (window.location.pathname.includes("src")) {
+            imagePath = "../img/icons/social/" + image.dataset.src;
+            image.src = imagePath;
+
+            return;
+          }
+
+          imagePath = "./src/img/icons/social/" + image.dataset.src;
+          image.src = imagePath;
+        });
+    }
+  }
+
   connectedCallback() {
     this.#shadowRoot = this.attachShadow({ mode: "closed" });
     this.#templateElement.innerHTML = this.#templateCode;
 
     this.#shadowRoot.innerHTML += `<style media="screen">${css}</style>`;
     this.#shadowRoot.appendChild(this.#templateElement.content);
+
+    this.fixImagePaths();
   }
 }
 
