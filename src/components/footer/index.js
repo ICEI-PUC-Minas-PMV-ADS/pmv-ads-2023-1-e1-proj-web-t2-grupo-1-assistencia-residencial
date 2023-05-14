@@ -135,16 +135,16 @@ class Footer extends HTMLElement {
       <ul class="footer__contact-list">
         <li class="footer__contact-info">
           <img
-          data-src="src/img/icons/social/facebook.svg"
+          data-src="src/img/icons/social/email.svg"
           class="footer__icon" 
-          src="src/img/icons/social/facebook.svg" />
+          src="src/img/icons/social/email.svg" />
           <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
-          data-src="src/img/icons/social/facebook.svg"
+          data-src="src/img/icons/social/telefone.svg"
           class="footer__icon" 
-          src="src/img/icons/social/facebook.svg" />
+          src="src/img/icons/social/telefone.svg" />
           <span>(31) 33333-3333</span>
         </li>
       </ul>
@@ -192,16 +192,14 @@ class Footer extends HTMLElement {
   }
 
   fixImagePaths() {
-    if (this.#shadowRoot) {
-      const images = this.#shadowRoot.querySelectorAll("img");
-
-      images &&
-        images.forEach((image) => {
-          const imagePath = window.location.origin + "/" + image.dataset.src;
-
-          image.src = imagePath;
-        });
-    }
+    // if (this.#shadowRoot) {
+    //   const images = this.#shadowRoot.querySelectorAll("img");
+    //   images &&
+    //     images.forEach((image) => {
+    //       const imagePath = window.location.origin + "/" + image.dataset.src;
+    //       image.src = imagePath;
+    //     });
+    // }
   }
 
   connectedCallback() {
