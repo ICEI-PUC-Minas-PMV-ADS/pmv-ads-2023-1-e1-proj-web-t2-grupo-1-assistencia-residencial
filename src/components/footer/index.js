@@ -137,14 +137,14 @@ class Footer extends HTMLElement {
           <img
           data-src="src/img/icons/social/facebook.svg"
           class="footer__icon" 
-          alt="" />
+          src="src/img/icons/social/facebook.svg" />
           <span>contact@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
           data-src="src/img/icons/social/facebook.svg"
           class="footer__icon" 
-          src="src/img/icons/social/facebook.svg" alt="" />
+          src="src/img/icons/social/facebook.svg" />
           <span>(31) 33333-3333</span>
         </li>
       </ul>
@@ -154,24 +154,21 @@ class Footer extends HTMLElement {
             <img
             class="footer__icon"
             data-src="src/img/icons/social/linkedin.svg"
-              alt=""
-              srcset=""
+            src="src/img/icons/social/facebook.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
             data-src="src/img/icons/social/instagram.svg"
-              alt=""
-              srcset=""
+            src="src/img/icons/social/facebook.svg"
             />
           </li>
           <li class="footer__contact-icon">
             <img
             class="footer__icon"
             data-src="src/img/icons/social/facebook.svg"
-              alt=""
-              srcset=""
+            src="src/img/icons/social/facebook.svg"
             />
           </li>
         </ul>
