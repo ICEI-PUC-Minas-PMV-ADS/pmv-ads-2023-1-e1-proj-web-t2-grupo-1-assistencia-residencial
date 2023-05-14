@@ -50,7 +50,7 @@ Tela onde a usuária já cadastrada vai inserir seus dados e realizar a autentic
 
 <figure align="center">
  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/65717646/1f658f1b-8966-46f4-b421-255eede845bb" alt="Trulli" style="width:100%">
- <p align="center">Tela cadastro profissional</p>
+ <p align="center">Tela de login</p>
 </figure>
 
 
