@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/login.css" />
-
+    
+    <script src="../js/login.js" type="module" defer></script>
     <script src="../components/header/index.js" type="module" defer></script>
     <script src="../components/footer/index.js" type="module" defer></script>
 
@@ -29,10 +30,11 @@
           </div>
 
           <div class="box">
+            <form id="form"> 
             <span>Email</span>
-            <input type="text" />
+            <input type="text" name="email" id="email" required />
             <span>Senha</span>
-            <input type="password" />
+            <input type="password" name="senha" id="password" required />
 
             <div class="checkbox"></div>
 
@@ -41,7 +43,9 @@
             >
           </div>
 
-          <button class="botao-login">Entrar</button>
+          <input type="submit" class="botao-login" value="Entrar"/>
+
+          </form>
 
           <div class="cadastro">
             <strong><a href="">Não tem uma conta? Cadastre-se aqui</a></strong>
