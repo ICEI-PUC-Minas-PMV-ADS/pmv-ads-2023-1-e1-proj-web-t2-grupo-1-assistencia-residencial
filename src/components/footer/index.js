@@ -195,8 +195,6 @@ class Footer extends HTMLElement {
 
       images &&
         images.forEach((image) => {
-          console.log(window.location.pathname);
-
           let imagePath = "";
 
           if (window.location.pathname.includes("src")) {

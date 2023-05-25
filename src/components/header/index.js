@@ -65,13 +65,13 @@ class Header extends HTMLElement {
 </style>
 <header class="header">
 <div class="header__container">
-  <a href="./" class="header__logo">Elas por Elas</a>
+  <a href="/index.html" class="header__logo">Elas por Elas</a>
   <nav>
     <ul class="header__menu">
       <li><a href="./" class="header__menu-item">Sobre</a></li>
-      <li><a href="./" class="header__menu-item">Login</a></li>
+      <li><a href="/src/pages/login.html" class="header__menu-item">Login</a></li>
       <li>
-        <a href="./" class="header__menu-item header__menu-item--signup"
+        <a href="/src/pages/user__signin.html" class="header__menu-item header__menu-item--signup"
           >Cadastre-se</a
         >
       </li>

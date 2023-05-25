@@ -11,6 +11,8 @@
     <script src="/src/components/header/index.js" type="module" defer></script>
     <script src="/src/components/footer/index.js" type="module" defer></script>
 
+    <script src="/src/js/user__signin.js" type="module" defer></script>
+
     <title>Elas por Elas - Assistência Domiciliar</title>
   </head>
 
@@ -22,10 +24,10 @@
       </div>
 
       <div class="form__container">
-        <form>
+        <form id="form">
           <fieldset id="form__user--type">
-            <label
-              ><input
+            <label id="user__type--client">
+              <input
                 type="radio"
                 id="client"
                 name="user__type"
@@ -33,13 +35,12 @@
                 checked
               />Cliente</label
             >
-            <label
+            <label id="user__type--professional"
               ><input
                 type="radio"
                 id="professional"
                 name="user__type"
                 value="professional"
-                checked
               />Profissional</label
             >
           </fieldset>
@@ -49,8 +50,8 @@
 
             <div class="form__section">
               <div>
-                <label for="fname">Nome</label>
-                <input type="text" id="fname" name="fname" />
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required />
               </div>
               <div>
                 <label for="celular">Celular</label>
@@ -59,24 +60,76 @@
                   placeholder="(00) 00000-0000"
                   id="celular"
                   name="celular"
+                  required
                 />
               </div>
             </div>
 
             <div class="form__section--email">
               <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" />
+              <input type="text" id="email" name="email" required />
             </div>
 
             <div class="form__section">
               <div>
                 <label for="pw">Senha</label>
-                <input type="password" id="pw" name="pw" />
+                <input type="password" id="pw" name="pw" required />
               </div>
               <div>
                 <label for="pw__c">Confirmar Senha</label>
-                <input type="password" id="pw__c" name="pw__c" />
+                <input type="password" id="pw__c" name="pw__c" required />
               </div>
+            </div>
+          </fieldset>
+          <fieldset class="professional__data">
+            <legend class="professional__data--title">
+              Dados profissionais
+            </legend>
+            <p class="categories__title">
+              Em quais categorias você gostaria de atuar? Pode marcar mais de
+              uma
+            </p>
+            <div class="form__categories">
+              <div>
+                <input type="checkbox" id="checkbox-color" name="pintura" />
+                <label for="checkbox-color">Pintura</label>
+              </div>
+              <div>
+                <input type="checkbox" name="eletrica" />
+                <label for="">Elétrica</label>
+              </div>
+              <div>
+                <input type="checkbox" name="hidraulica" />
+                <label for="">Hidraúlica</label>
+              </div>
+              <div>
+                <input type="checkbox" name="const-ref" />
+                <label for="">Construção/Reforma</label>
+              </div>
+              <div>
+                <input type="checkbox" name="montagem" />
+                <label for="">Montagem de móveis</label>
+              </div>
+              <div>
+                <input type="checkbox" name="decoracao" />
+                <label for="">Decoração</label>
+              </div>
+              <div>
+                <input type="checkbox" name="jardinagem" />
+                <label for="">Jardinagem</label>
+              </div>
+              <div>
+                <input type="checkbox" name="vidracaria" />
+                <label for="">Vidraçaria</label>
+              </div>
+              <div>
+                <input type="checkbox" name="marcenaria" />
+                <label for="">Marcenaria</label>
+              </div>
+            </div>
+            <div class="about">
+              <label for="sobre">Conte um pouco sobre você</label>
+              <textarea name="sobre" cols="30" rows="10"></textarea>
             </div>
           </fieldset>
           <div class="form__submit">
