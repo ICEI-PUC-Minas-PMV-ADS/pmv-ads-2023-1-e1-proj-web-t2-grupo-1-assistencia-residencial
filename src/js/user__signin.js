@@ -22,8 +22,6 @@ for (let i = 0; i < radio.length; i++) {
   radio[i].addEventListener("change", HideOrShowElement);
 }
 
-//================================================
-
 function checkIfPhoneIsValid(celular) {
   const regex = new RegExp(/^\(?\d{2}\)?\s?9?\d{4}-?\d{4}$/);
   return regex.test(celular);
@@ -38,22 +36,23 @@ function checkIfEmailIsValid(email) {
   return regex.test(email);
 }
 
-function checkIfPasswordIsValid(pw) {
+function checkIfPasswordIsValid(senha) {
   const regex = new RegExp(/^\d{6,12}$/);
-  return regex.test(pw);
+  return regex.test(senha);
 }
 
 function handleSubmit(event) {
   event.preventDefault();
-  const form = event.target;
 
+  const form = event.target;
   const formData = new FormData(form);
   const data = Object.fromEntries(formData.entries());
 
   if (!checkIfPhoneIsValid(data.celular)) {
     const inputCelular = document.getElementById("celular");
+    const feedbackCelularInvalido = "Insira um número válido!";
 
-    inputCelular.setCustomValidity("Insira um número válido!");
+    inputCelular.setCustomValidity(feedbackCelularInvalido);
     inputCelular.reportValidity();
 
     return;
@@ -61,8 +60,9 @@ function handleSubmit(event) {
 
   if (!checkIfEmailIsValid(data.email)) {
     const inputEmail = document.getElementById("email");
+    const feedbackEmailInvalido = "Insira um e-mail válido!";
 
-    inputEmail.setCustomValidity("Insira um e-mail válido!");
+    inputEmail.setCustomValidity(feedbackEmailInvalido);
     inputEmail.reportValidity();
 
     return;
@@ -75,24 +75,22 @@ function handleSubmit(event) {
     return;
   }
 
-  if (!checkIfPasswordIsValid(data.pw)) {
-    const inputSenha = document.getElementById("pw");
+  if (!checkIfPasswordIsValid(data.senha)) {
+    const inputSenha = document.getElementById("senha");
+    const feedbackSenhaIncorreta =
+      "A senha deve conter entre 6 a 12 caracteres numéricos!";
 
-    inputSenha.setCustomValidity(
-      "A senha deve conter entre 6 a 12 caracteres numéricos!"
-    );
+    inputSenha.setCustomValidity(feedbackSenhaIncorreta);
     inputSenha.reportValidity();
 
     return;
   }
 
-  const pw1 = document.getElementById("pw").value;
-  const pw2 = document.getElementById("pw__c").value;
+  const senha = document.getElementById("senha").value;
+  const senha_confirmacao = document.getElementById("senha_confirmacao").value;
 
-  if (pw1 !== pw2) {
-    alert("Senhas não conferem!");
-
-    return;
+  if (senha !== senha_confirmacao) {
+    return alert("Senhas não conferem!");
   } else {
     alert("Usuário criado com sucesso!");
   }
@@ -103,38 +101,5 @@ function handleSubmit(event) {
   console.log(users);
 }
 
-const formulario = document.getElementById("form"); //Pegar o elemento que contém o formulário
-formulario.addEventListener("submit", handleSubmit); //Adicionou um escutador de eventos
-
-//================================================
-
-// function checkIfHaveEight(elemento) {
-//   console.log(elemento);
-// }
-
-// const numbers = [1, 2, 3, 4, 8, 5, 6, 7, 8, 8, 8];
-// let result = false;
-
-// const checkIfHaveEight = (elemento) => {
-//   if (elemento === 8) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// };
-
-// for (let i = 0; i < numbers.length; i++) {
-//   const elemento = numbers[i];
-//   const isEight = checkIfHaveEight(elemento);
-
-//   if (isEight) {
-//     result = true;
-//     break;
-//   }
-// }
-
-// if (result === true) {
-//   console.log("Existe um número 8 no array");
-// }
-
-// numbers.some((elemento) => {console.log(elemento)});
+const formulario = document.getElementById("form");
+formulario.addEventListener("submit", handleSubmit);
