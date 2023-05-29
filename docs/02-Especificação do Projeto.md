@@ -54,11 +54,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-------------------------|----|
-|RF-001|O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages)| ALTA | 
-|RF-002|O site deverá ser responsivo permitindo a adaptação do layout de acordo com o tamanho da tela do dispositivo utilizado. | ALTA |
-|RF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
-|RF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)| MÉDIA |
-|RF-005|O site deve incluir informações sobre a política de privacidade e termos de serviço, garantindo a proteção dos dados dos usuários e fornecendo as informações necessárias para utilização do serviço.| ALTA | 
+|RNF-001|O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages)| ALTA | 
+|RNF-002|O site deverá ser responsivo permitindo a adaptação do layout de acordo com o tamanho da tela do dispositivo utilizado. | ALTA |
+|RNF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
+|RNF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)| MÉDIA |
+|RNF-005|O site deve incluir informações sobre a política de privacidade e termos de serviço, garantindo a proteção dos dados dos usuários e fornecendo as informações necessárias para utilização do serviço.| ALTA | 
 
 
 ## Restrições
