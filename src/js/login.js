@@ -1,13 +1,4 @@
-const user = {
-  email: "lucasf.verri@gmail.com",
-  senha: "123456",
-};
-
-const user2 = {
-  email: "umacoisa@gmail.com",
-  senha: "outracoisa",
-};
-const users = [user, user2];
+import { users } from "./database.js";
 
 function verifyIfUserExixts(email, senha) {
   for (let index = 0; index < users.length; index++) {
