@@ -2,6 +2,37 @@ import { users } from "./database.js";
 
 const radio = document.querySelectorAll("input[type='radio']");
 
+function convertCheckInputsInArray(object) {
+  object.categorias = [];
+
+  for (let chave in object) {
+    if (object[chave] === "on") {
+      object.categorias.push(chave);
+      delete object[chave];
+    }
+  }
+
+  return object;
+}
+
+function removeEmptyKeys(objeto) {
+  for (let key in objeto) {
+    if (
+      objeto[key] === "" ||
+      (Array.isArray(objeto[key]) && objeto[key].length === 0) ||
+      (typeof objeto[key] === "object" && Object.keys(objeto[key]).length === 0)
+    ) {
+      delete objeto[key];
+    } else if (typeof objeto[key] === "object") {
+      removeEmptyKeys(objeto[key]);
+      if (Array.isArray(objeto[key]) && objeto[key].length === 0) {
+        delete objeto[key];
+      }
+    }
+  }
+  return objeto;
+}
+
 function HideOrShowElement(event) {
   const elementTarget = event.target;
   const input = elementTarget.closest("input");
@@ -10,9 +41,9 @@ function HideOrShowElement(event) {
     const inputValue = input.value;
     const elementToChange = document.querySelector(".professional__data");
 
-    if (inputValue === "client") {
+    if (inputValue === "cliente") {
       elementToChange.style.display = "none";
-    } else if (inputValue === "professional") {
+    } else if (inputValue === "profissional") {
       elementToChange.style.display = "block";
     }
   }
@@ -46,7 +77,8 @@ function handleSubmit(event) {
 
   const form = event.target;
   const formData = new FormData(form);
-  const data = Object.fromEntries(formData.entries());
+  let data = removeEmptyKeys(Object.fromEntries(formData.entries()));
+  data = convertCheckInputsInArray(data);
 
   if (!checkIfPhoneIsValid(data.celular)) {
     const inputCelular = document.getElementById("celular");
@@ -98,7 +130,7 @@ function handleSubmit(event) {
   users.push(data);
   form.reset();
 
-  console.log(users);
+  window.location.href = "login.html";
 }
 
 const formulario = document.getElementById("form");

@@ -5,6 +5,7 @@ export const users = [
     telefone: "(31)99999-9999",
     senha: "senha123",
     senha_confirmacao: "senha123",
+    tipo_usuario: "profissional",
     profissao: "Jardineira",
     imagens_portfolio: ["portfolio1.jpg", "portfolio2.jpg"],
     sobre:
@@ -45,6 +46,7 @@ export const users = [
     sobre: "Sou um designer apaixonado por criar experiências incríveis.",
     cep: "12345-678",
     rua: "Rua das Flores",
+    tipo_usuario: "profissional",
     numero: "123",
     bairro: "Centro",
     cidade: "São Paulo",
