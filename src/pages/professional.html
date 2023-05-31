@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="/src/css/professional.css" />
 
+    <script src="../js/professional.js" type="module" defer></script>
+
     <script src="/src/components/header/index.js" type="module" defer></script>
     <script src="/src/components/footer/index.js" type="module" defer></script>
 
@@ -136,6 +138,7 @@
           <h2>Feedbacks mais recentes</h2>
         </div>
         <div class="feedbacks">
+          <div id="recebe-mensagem"></div>
           <div class="fb1">
             <h3>Cida Andrade</h3>
             <p>Ótima profissional, trocou minha fechadura comum por uma eletrônica em poucas horas. Muito simpática e profissional.</p>
@@ -153,31 +156,20 @@
         <div class="feedback-comentar container">
           <h2>Quer deixar seu feedback também?</h2>
           <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
-          <button class="button" type="submit">Enviar</button>
+          <button class="button" id="adicionarComentario" type="button">Enviar</button>
         </div>
         <div class="feedback-nota">
           <h2>Que tal dar uma nota para Lara Vieira?</h2>
-            <ul>
-              <li class="nota">
-                <label for=""><input type="radio">1</label>
-              </li>
-              <li class="nota">
-                <label for=""><input type="radio">2</label>
-              </li>
-              <li class="nota">
-                <label for=""><input type="radio">3</label>
-              </li class="nota">
-              <li class="nota">
-                <label for=""><input type="radio">4</label>
-              </li>
-              <li class="nota">
-                <label for=""><input type="radio">5</label>
-              </li>
-            </ul>
-            <a class="button" href="">Finalizar</a>
+          <ul class="feedback-estrelas">
+            <li class="avaliar" data-estrela="1"><a href="javascript:void(0)"><img src="../img/icons/estrela_vazia.svg" id="s1" alt="estrela"></a></li>
+            <li class="avaliar" data-estrela="2"><a href="javascript:void(0)"><img src="../img/icons/estrela_vazia.svg" id="s2" alt="estrela"></a></li>
+            <li class="avaliar" data-estrela="3"><a href="javascript:void(0)"><img src="../img/icons/estrela_vazia.svg" id="s3" alt="estrela"></a></li>
+            <li class="avaliar" data-estrela="4"><a href="javascript:void(0)"><img src="../img/icons/estrela_vazia.svg" id="s4" alt="estrela"></a></li>
+            <li class="avaliar" data-estrela="5"><a href="javascript:void(0)"></a><img src="../img/icons/estrela_vazia.svg" id="s5" alt="estrela"></a></li>
+           </ul>  
         </div>
         </section>
     </main>
     <custom-footer></custom-footer>
-  </body>
+  </body> 
 </html>

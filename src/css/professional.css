@@ -278,24 +278,25 @@ textarea{
     gap: 20px;
 }
 
-.feedback-nota li {
-    background: var(--color-p5);
-    padding: 5px 10px;
-    color: #fff;
+.feedback-nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+.feedback-nota p {
     font-weight: bold;
-    border: 2px solid var(--color-p6);
-    border-radius: 5px;
 }
 
-.nota:hover {
-    background: var(--color-p3);
-    cursor: pointer;
+.feedback-estrelas{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-.feedback-nota input {
-    display: none;
-    cursor: pointer;
-}
-.feedback-nota label{
-    cursor: pointer;
+.feedback-estrelas li:hover{
+    transform: scale(1.3);
 }
