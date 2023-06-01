@@ -100,7 +100,7 @@ ${defaultHeaderStyles}
 <div class="header__container">
   <a href="/index.html" class="header__logo">Elas por Elas</a>
   <div class="header__greeting">
-      <span>Olá, fulana</span>
+      <span id="header__greetind--username">Olá, fulana</span>
       <button class="header__menu-item--button" >Sair</button>
   </div>
 </div>

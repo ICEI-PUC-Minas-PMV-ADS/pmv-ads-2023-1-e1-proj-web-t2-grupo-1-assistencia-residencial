@@ -1,10 +1,14 @@
-import { users } from "./database.js";
+import { getUsers } from "./utils.js";
 
 function verifyIfUserExixts(email, senha) {
+  const users = getUsers();
+
   for (let index = 0; index < users.length; index++) {
     const userData = users[index];
 
     if (userData.email === email && userData.senha === senha) {
+      localStorage.setItem("@loggedUser", JSON.stringify(userData)); //Salva o usuário no localStorage
+
       document.location.replace("/index.html"); //Redireciona para a página index.html
     }
   }

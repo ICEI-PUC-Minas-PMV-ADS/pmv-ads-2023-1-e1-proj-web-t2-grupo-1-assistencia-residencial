@@ -31,6 +31,10 @@ class Header extends HTMLElement {
       this.#templateElement.content
         .querySelector(".header__menu-item--button")
         .addEventListener("click", this.handleLogOut);
+
+      this.#templateElement.content.getElementById(
+        "header__greetind--username"
+      ).textContent = `Olá, ${loggedUser.nome}!`;
     }
 
     shadowRoot = this.attachShadow({ mode: "closed" });

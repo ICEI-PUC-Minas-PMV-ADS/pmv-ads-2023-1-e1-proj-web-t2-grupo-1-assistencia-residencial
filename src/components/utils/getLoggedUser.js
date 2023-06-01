@@ -1,5 +1,8 @@
 function getLoggedUser() {
-  return localStorage.getItem("@loggedUser");
+  const userData = localStorage.getItem("@loggedUser");
+  const parsedUserData = JSON.parse(userData);
+
+  return parsedUserData;
 }
 
 export default getLoggedUser;

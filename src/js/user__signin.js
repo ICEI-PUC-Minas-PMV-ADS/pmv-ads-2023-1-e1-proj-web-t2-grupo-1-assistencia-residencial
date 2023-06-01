@@ -1,4 +1,4 @@
-import { users } from "./database.js";
+import { addNewUser, getUsers, redirectIfLogged } from "./utils.js";
 
 const radio = document.querySelectorAll("input[type='radio']");
 
@@ -59,6 +59,8 @@ function checkIfPhoneIsValid(celular) {
 }
 
 function checkIfUserExists(email) {
+  const users = getUsers();
+
   return users.some((user) => user.email === email);
 }
 
@@ -127,7 +129,7 @@ function handleSubmit(event) {
     alert("Usuário criado com sucesso!");
   }
 
-  users.push(data);
+  addNewUser(data);
   form.reset();
 
   window.location.href = "login.html";
@@ -135,3 +137,5 @@ function handleSubmit(event) {
 
 const formulario = document.getElementById("form");
 formulario.addEventListener("submit", handleSubmit);
+
+window.onload = redirectIfLogged;
