@@ -43,8 +43,6 @@ const defaultHeaderStyles = `<style>
     gap: 10px;
   }
 
-
-  
   @media screen and (max-width: 576px) {
     .header__container {
       flex-direction: column;
