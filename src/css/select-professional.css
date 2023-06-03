@@ -1,14 +1,7 @@
 @import url("./main.css");
 
 .main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  max-width: 1080px;
-  margin: 0 auto;
-  gap: 175px;
-  padding-top: 40px;
-  padding-bottom: 150px;
+  min-height: calc(100vh - (360px + 78px));
 }
 
 .service__category {
@@ -21,148 +14,92 @@
   font-size: var(--size-font-4xl);
   font-weight: bold;
   color: var(--color-p8);
-  margin-bottom: -40px;
+  margin-bottom: 40px;
 }
 
-.card__professional {
+.professional-card {
   display: flex;
-  justify-content: center;
+  max-width: 608.42px;
+  gap: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.professional-card__image {
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.professional-card__image img {
   width: 100%;
-  max-width: 1080px;
-  height: 320px;
-  background-color: var(--color-p2);
-  border-radius: 5px;
-  border: 1px;
-  border-color: var(--color-p3);
-  font-family: var(--font-open-sans);
 }
 
-.card__professional:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
-.card__professional--image {
-  background-color: var(--color-p1);
-  width: 300px;
-  height: 490px;
-  position: relative;
-  margin-top: calc((-490px + 320px) / 2);
-  border-radius: 8px;
-}
-
-.card__professional--image > img {
-  width: 300px;
-  border-radius: 8px;
-  position: absolute;
-  bottom: 0;
-}
-
-.card__professional--average {
+.professional-card__infos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  position: absolute;
-  right: 0;
-  top: 8px;
 }
 
-.card__professional--average > ul {
+.professional-card__name {
+  font-size: var(--size-font-4xl);
+  font-weight: bold;
+  color: var(--color-p8);
+}
+
+.professional-card__images {
   display: flex;
-}
-
-.professional__infos--images {
-  margin-top: 15px;
-}
-
-.card__professional--average > ul > li,
-.card__professional--average > ul > li > img {
-  width: 10px;
-}
-
-.professional__infos--images > ul {
-  display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.professional__infos--images > ul > li {
-  width: 100%;
-  height: 120px;
-  max-width: 120px;
-  min-width: 80px;
-}
-
-.professional__infos--images > ul > li > img {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  transition: transform 0.8s;
-}
-
-.professional__infos--images > ul > li > img:hover {
-  transform: scale(1.5);
-}
-
-.card__professional--infos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100%;
-  max-width: calc(100% - 400px);
-  height: 100%;
-  padding: 20px;
-  gap: 1px;
-}
-
-.professional__infos--name {
-  color: white;
-  font-size: var(--size-font-4xl);
-}
-
-.professional__infos--services {
-  font-size: var(--size-font-l);
-  font-weight: bold;
-}
-
-.professional__infos--location {
+.professional-card__location {
   color: var(--color-p10);
   font-size: var(--size-font-m);
   font-weight: bold;
 }
 
-.professional__infos--feedback {
+.professional-card__image li {
+  width: 150px;
+}
+
+.professional-card__images li img {
+  width: 100%;
+}
+
+.professional-card__feedback {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 5px;
   margin-top: 10px;
 }
 
-.professional__infos--feedback span {
+.professional-card__feedback-title {
   color: var(--color-p8);
   font-size: var(--size-font-base);
   font-weight: bold;
 }
 
-.feedback__owner {
-  border-radius: 5px;
-  background-color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-
-.feedback__owner--name {
+.professional-card__feedback-owner {
   color: var(--color-p5);
   font-size: var(--size-font-s);
   font-weight: bold;
 }
 
-.feedback__owner--message {
+.professional-card__feedback-message {
   font-size: var(--size-font-s);
   font-weight: bold;
+}
+
+.professional-card__contact {
+  background-color: var(--color-p5);
+  border: none;
+  border-radius: 5px;
+  max-width: 150px;
+  width: 100%;
+  height: 47px;
+  color: #fff;
+  align-self: flex-end;
+  padding: 3px;
+  margin-top: 10px;
 }

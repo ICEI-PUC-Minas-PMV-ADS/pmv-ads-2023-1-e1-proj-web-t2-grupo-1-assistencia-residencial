@@ -108,7 +108,6 @@ function handleSubmit(event) {
     return;
   }
 
-  console.log(data);
   if (!checkIfPasswordIsValid(data.password)) {
     const inputSenha = document.getElementById("senha");
     const feedbackSenhaIncorreta =

@@ -8,6 +8,8 @@ class Footer extends HTMLElement {
     background-color: black;
     background-color: var(--color-p10);
     font-family: var(--font-open-sans);
+    clear: both;
+    position: relative;
   }
   
   .uppercase {
