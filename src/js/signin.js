@@ -1,13 +1,14 @@
-import { addNewUser, getUsers, redirectIfLogged } from "./utils.js";
+import { addUser, getUserByEmail, getUsers } from "../utils/userStorage.js";
+import { redirectIfLogged } from "../utils/redirect.js";
 
 const radio = document.querySelectorAll("input[type='radio']");
 
 function convertCheckInputsInArray(object) {
-  object.categorias = [];
+  object.category = [];
 
   for (let chave in object) {
     if (object[chave] === "on") {
-      object.categorias.push(chave);
+      object.category.push(chave);
       delete object[chave];
     }
   }
@@ -59,9 +60,7 @@ function checkIfPhoneIsValid(celular) {
 }
 
 function checkIfUserExists(email) {
-  const users = getUsers();
-
-  return users.some((user) => user.email === email);
+  return getUserByEmail(email);
 }
 
 function checkIfEmailIsValid(email) {
@@ -82,7 +81,7 @@ function handleSubmit(event) {
   let data = removeEmptyKeys(Object.fromEntries(formData.entries()));
   data = convertCheckInputsInArray(data);
 
-  if (!checkIfPhoneIsValid(data.celular)) {
+  if (!checkIfPhoneIsValid(data.telephone)) {
     const inputCelular = document.getElementById("celular");
     const feedbackCelularInvalido = "Insira um número válido!";
 
@@ -109,7 +108,8 @@ function handleSubmit(event) {
     return;
   }
 
-  if (!checkIfPasswordIsValid(data.senha)) {
+  console.log(data);
+  if (!checkIfPasswordIsValid(data.password)) {
     const inputSenha = document.getElementById("senha");
     const feedbackSenhaIncorreta =
       "A senha deve conter entre 6 a 12 caracteres numéricos!";
@@ -129,7 +129,8 @@ function handleSubmit(event) {
     alert("Usuário criado com sucesso!");
   }
 
-  addNewUser(data);
+  addUser(data);
+  console.log(getUsers());
   form.reset();
 
   window.location.href = "login.html";

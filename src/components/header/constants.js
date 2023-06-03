@@ -83,7 +83,7 @@ const headerTemplateWithoutLoggedUser = `
       <li><a href="./" class="header__menu-item">Sobre</a></li>
       <li><a href="/src/pages/login.html" class="header__menu-item">Login</a></li>
       <li>
-        <a href="/src/pages/user__signin.html" class="header__menu-item header__menu-item--button"
+        <a href="/src/pages/signin.html" class="header__menu-item header__menu-item--button"
           >Cadastre-se</a
         >
       </li>

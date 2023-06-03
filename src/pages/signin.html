@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/src/css/main.css" />
-    <link rel="stylesheet" href="/src/css/user__signin.css" />
+    <link rel="stylesheet" href="/src/css/signin.css" />
 
     <script src="/src/components/header/index.js" type="module" defer></script>
     <script src="/src/components/footer/index.js" type="module" defer></script>
 
-    <script src="/src/js/user__signin.js" type="module" defer></script>
+    <script src="/src/js/signin.js" type="module" defer></script>
 
     <title>Elas por Elas - Assistência Domiciliar</title>
   </head>
@@ -30,7 +30,7 @@
               <input
                 type="radio"
                 id="client"
-                name="tipo_usuario"
+                name="user_type"
                 value="cliente"
               />Cliente</label
             >
@@ -38,7 +38,7 @@
               ><input
                 type="radio"
                 id="professional"
-                name="tipo_usuario"
+                name="user_type"
                 value="profissional"
                 checked
               />Profissional</label
@@ -51,7 +51,7 @@
             <div class="form__section">
               <div>
                 <label for="name">Nome</label>
-                <input type="text" id="name" name="nome" required />
+                <input type="text" id="name" name="name" required />
               </div>
               <div>
                 <label for="celular">Celular</label>
@@ -59,7 +59,7 @@
                   type="phone"
                   placeholder="(00) 00000-0000"
                   id="celular"
-                  name="celular"
+                  name="telephone"
                   required
                 />
               </div>
@@ -72,15 +72,15 @@
 
             <div class="form__section">
               <div>
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" required />
+                <label for="password">Senha</label>
+                <input type="password" id="senha" name="password" required />
               </div>
               <div>
-                <label for="senha_confirmacao">Confirmar Senha</label>
+                <label for="password_confirmation">Confirmar Senha</label>
                 <input
                   type="password"
                   id="senha_confirmacao"
-                  name="senha_confirmacao"
+                  name="password_confirmation"
                   required
                 />
               </div>
@@ -108,28 +108,20 @@
                 <label for="">Hidraúlica</label>
               </div>
               <div>
-                <input type="checkbox" name="const-ref" />
-                <label for="">Construção/Reforma</label>
+                <input type="checkbox" name="alvenaria" />
+                <label for="">Alvenaria</label>
               </div>
               <div>
-                <input type="checkbox" name="montagem" />
-                <label for="">Montagem de móveis</label>
+                <input type="checkbox" name="gesso" />
+                <label for="">Gesso</label>
               </div>
               <div>
-                <input type="checkbox" name="decoracao" />
-                <label for="">Decoração</label>
+                <input type="checkbox" name="chaveira" />
+                <label for="">Chaveiro</label>
               </div>
               <div>
                 <input type="checkbox" name="jardinagem" />
-                <label for="">Jardinagem</label>
-              </div>
-              <div>
-                <input type="checkbox" name="vidracaria" />
-                <label for="">Vidraçaria</label>
-              </div>
-              <div>
-                <input type="checkbox" name="marcenaria" />
-                <label for="">Marcenaria</label>
+                <label for="">Jardineira</label>
               </div>
             </div>
             <div class="about">

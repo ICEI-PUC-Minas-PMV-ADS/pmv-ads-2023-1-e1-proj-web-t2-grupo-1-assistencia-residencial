@@ -1,4 +1,4 @@
-import { getUsers } from "./utils.js";
+import { getUsers } from "../utils/index.js";
 
 function verifyIfUserExixts(email, senha) {
   const users = getUsers();
@@ -6,10 +6,10 @@ function verifyIfUserExixts(email, senha) {
   for (let index = 0; index < users.length; index++) {
     const userData = users[index];
 
-    if (userData.email === email && userData.senha === senha) {
-      localStorage.setItem("@loggedUser", JSON.stringify(userData)); //Salva o usuário no localStorage
+    if (userData.email === email && userData.password === senha) {
+      localStorage.setItem("@loggedUser", JSON.stringify(userData));
 
-      document.location.replace("/index.html"); //Redireciona para a página index.html
+      document.location.replace("/index.html");
     }
   }
 }
@@ -20,13 +20,13 @@ function checkIfEmailIsValid(email) {
 }
 
 function login(event) {
-  event.preventDefault(); // impede de recarregar a tela após enviar o formulário
+  event.preventDefault();
 
-  const email = document.querySelector("#email"); //Pega o elemento Input onde foi digitado o email
-  const valorEmail = email.value; //Salva o email digitado em valorEmail
+  const email = document.querySelector("#email");
+  const valorEmail = email.value;
 
-  const password = document.querySelector("#password"); //Pega o elemento Input onde foi digitado a senha e já salva em valorPassword
-  const valorPassword = password.value; //Salva a senha digitada em valorPassword
+  const password = document.querySelector("#password");
+  const valorPassword = password.value;
 
   if (!checkIfEmailIsValid(valorEmail)) {
     email.setCustomValidity("Insira um e-mail válido!");

@@ -5,7 +5,7 @@ import {
   headerTemplateWithoutLoggedUser,
 } from "./constants.js";
 
-import getLoggedUser from "../utils/getLoggedUser.js";
+import { getLoggedUser } from "../../utils/index.js";
 
 class Header extends HTMLElement {
   #templateElement = document.createElement("template");
@@ -34,7 +34,7 @@ class Header extends HTMLElement {
 
       this.#templateElement.content.getElementById(
         "header__greetind--username"
-      ).textContent = `Olá, ${loggedUser.nome}!`;
+      ).textContent = `Olá, ${loggedUser.name}!`;
     }
 
     shadowRoot = this.attachShadow({ mode: "closed" });
