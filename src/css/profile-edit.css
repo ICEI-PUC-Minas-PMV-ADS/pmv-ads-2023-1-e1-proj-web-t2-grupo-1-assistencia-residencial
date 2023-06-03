@@ -1,7 +1,4 @@
 @import url("./main.css");
-@media screen and (min-width:400px) {
-  body
-}
 
 h2 {
   font-family: var(--font-open-sans);
@@ -79,7 +76,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
   color: var(--color-p10);
   font-size: 24px;
   font-weight: bold;
@@ -94,9 +91,14 @@ h2 {
 .perfil-dados {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
-  margin-top: 20px;
+  max-width: 708.42px;
+  color: var(--color-p10);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 input {
@@ -108,6 +110,20 @@ input {
   color: var(--color-p10);
   padding: 0 15px;
   outline-color: var(--color-p4);
+  margin-top: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #e68a9a;
+  border-radius: 5px;
+  width: 100%;
+  color: var(--color-p10);
+  padding: 0 15px;
+  outline-color: var(--color-p4);
+  resize: none;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 label {
@@ -119,31 +135,51 @@ label {
 
 .nome-celular {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   width: 100%;
+  margin-bottom: 20px;
   justify-content: space-between;
+}
+
+.nome-celular div {
+  width: 100%;
+}
+
+.email {
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .senha-confirmar {
   display: flex;
-  gap: 40px;
+  gap: 20px;
+  width: 100%;
 }
 
+.senha-confirmar div {
+  width: 100%;
+}
 
 .dados-profissionais {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 40px;
-  margin-top: 20px;
+
   color: var(--color-p10);
   font-size: 24px;
   font-weight: bold;
-  
+  max-width: 708px;
+  margin: 0 auto;
 }
 
-#sobre-voce{
-  
+.dados-profissionais h2 {
+  margin: 0 auto;
+}
+
+.dados-profissionais div {
+  margin-bottom: 20px;
+}
+
+#sobre-voce {
   height: 100px;
   border: 1px solid #e68a9a;
   border-radius: 5px;
@@ -151,12 +187,12 @@ label {
   padding: 0 15px;
   outline-color: var(--color-p4);
 }
-#sobre-voce textarea{
+#sobre-voce textarea {
   display: flex;
   flex-direction: column;
 }
 
-button.btn-adicionar{
+button.btn-adicionar {
   margin-top: 5px;
   margin-bottom: 80px;
   margin-left: 180px;
@@ -168,16 +204,15 @@ button.btn-adicionar{
   color: white;
   text-align: center;
   font-size: 16px;
-  
 }
-button.btn-adicionar:hover{
+button.btn-adicionar:hover {
   background: var(--color-p3);
   cursor: pointer;
 }
 
 .box-dados {
   display: flex;
-  width:65%;
+  width: 65%;
   flex-direction: column;
   padding: 20px;
   gap: 30px;
@@ -206,68 +241,52 @@ button.btn-adicionar:hover{
   gap: 20px;
 }
 
-.endereco-titulo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.dados-endereco {
+  max-width: 708.24px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dados-endereco h2 {
   color: var(--color-p10);
   font-size: 24px;
   font-weight: bold;
-  margin-right: 175px;
+  margin-bottom: 20px;
 }
 
- .endereco{
-  display: block;
-  gap: 40px;
-  width: 100%;
-  margin-left: 80px;
-  justify-content: space-between;
- }
-
-
-
-.cep-rua-num {
- 
-  padding: 80px; 
-  width:  50%;
-}
-
-.bairro-cidade-estado {
-  gap: 40px;
-  width: 50% 
-}
-
-#box-endereco{
+.dados-endereco section {
   display: grid;
-  grid-template-columns: 6fr 6fr;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .btn-salvar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px auto 70px;
   width: 240px;
   height: 40px;
   border: none;
   background: var(--color-p6);
   border-radius: 5px;
-  color: white;
-  text-align: center;
   font-size: 16px;
+  color: white;
+  margin: 0 auto;
 }
 
 .btn-salvar:hover {
   background: var(--color-p3);
   cursor: pointer;
 }
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
 .border {
   border-bottom: 3px solid var(--color-p10);
   display: flex;
-  margin:  0 auto;
+  margin: 0 auto;
   margin-bottom: 80px;
   margin-top: -80px;
   justify-content: center;

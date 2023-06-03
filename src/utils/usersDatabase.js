@@ -1,3 +1,5 @@
+export const defaultProfileImagePath = "/src/img/default-profile.jpg";
+
 export const users = [
   {
     name: "Lara Vieira",
@@ -14,7 +16,7 @@ export const users = [
     cep: "12345-678",
     street: "Rua das Flores",
     number: "123",
-    Neighborhood: "Lourdes",
+    neighborhood: "Lourdes",
     city: "Belo Horizonte",
     state: "Minas Gerais",
     feedbacks: [
@@ -41,7 +43,7 @@ export const users = [
     cep: "54321-876",
     street: "Avenida dos Construtores",
     number: "456",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "São Paulo",
     state: "São Paulo",
     feedbacks: [
@@ -68,7 +70,7 @@ export const users = [
     cep: "67890-123",
     street: "Rua das Cores",
     number: "789",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "Rio de Janeiro",
     state: "Rio de Janeiro",
     feedbacks: [
@@ -95,7 +97,7 @@ export const users = [
     cep: "23456-789",
     street: "Avenida das Chaves",
     number: "987",
-    Neighborhood: "Barra",
+    neighborhood: "Barra",
     city: "Salvador",
     state: "Bahia",
     feedbacks: [
@@ -122,7 +124,7 @@ export const users = [
     cep: "34567-890",
     street: "Rua dos Eletricistas",
     number: "654",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "Porto Alegre",
     state: "Rio Grande do Sul",
     feedbacks: [
@@ -149,7 +151,7 @@ export const users = [
     cep: "45678-901",
     street: "Avenida das Águas",
     number: "321",
-    Neighborhood: "Jardins",
+    neighborhood: "Jardins",
     city: "Curitiba",
     state: "Paraná",
     feedbacks: [
@@ -176,7 +178,7 @@ export const users = [
     cep: "12345-678",
     street: "Rua das Flores",
     number: "123",
-    Neighborhood: "Lourdes",
+    neighborhood: "Lourdes",
     city: "Belo Horizonte",
     state: "Minas Gerais",
     feedbacks: [
@@ -203,7 +205,7 @@ export const users = [
     cep: "54321-876",
     street: "Avenida dos Pintores",
     number: "456",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "São Paulo",
     state: "São Paulo",
     feedbacks: [
@@ -230,7 +232,7 @@ export const users = [
     cep: "23456-789",
     street: "Avenida das Chaves",
     number: "987",
-    Neighborhood: "Barra",
+    neighborhood: "Barra",
     city: "Salvador",
     state: "Bahia",
     feedbacks: [
@@ -257,7 +259,7 @@ export const users = [
     cep: "34567-890",
     street: "Rua dos Eletricistas",
     number: "654",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "Porto Alegre",
     state: "Rio Grande do Sul",
     feedbacks: [
@@ -284,7 +286,7 @@ export const users = [
     cep: "45678-901",
     street: "Avenida das Águas",
     number: "321",
-    Neighborhood: "Jardins",
+    neighborhood: "Jardins",
     city: "Curitiba",
     state: "Paraná",
     feedbacks: [
@@ -311,7 +313,7 @@ export const users = [
     cep: "56789-012",
     street: "Rua do Gesso",
     number: "123",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "Fortaleza",
     state: "Ceará",
     feedbacks: [
@@ -338,7 +340,7 @@ export const users = [
     cep: "12345-678",
     street: "Rua das Flores",
     number: "123",
-    Neighborhood: "Lourdes",
+    neighborhood: "Lourdes",
     city: "Belo Horizonte",
     state: "Minas Gerais",
     feedbacks: [
@@ -365,7 +367,7 @@ export const users = [
     cep: "54321-876",
     street: "Avenida dos Pintores",
     number: "456",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "São Paulo",
     state: "São Paulo",
     feedbacks: [
@@ -392,7 +394,7 @@ export const users = [
     cep: "23456-789",
     street: "Avenida das Chaves",
     number: "987",
-    Neighborhood: "Barra",
+    neighborhood: "Barra",
     city: "Salvador",
     state: "Bahia",
     feedbacks: [
@@ -420,7 +422,7 @@ export const users = [
     cep: "56789-012",
     street: "Rua do Gesso",
     number: "123",
-    Neighborhood: "Centro",
+    neighborhood: "Centro",
     city: "Fortaleza",
     state: "Ceará",
     feedbacks: [

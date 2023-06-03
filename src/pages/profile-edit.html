@@ -10,6 +10,7 @@
 
     <script src="../components/header/index.js" type="module" defer></script>
     <script src="../components/footer/index.js" type="module" defer></script>
+    <script src="../js/profile-edit.js" type="module" defer></script>
 
     <title>Seu perfil</title>
   </head>
@@ -25,10 +26,10 @@
         <div class="perfil-inicio">
           <div class="img-container">
             <img
+              id="profile-image"
               src="../img/images/profile_editable/Foto_de_perfil_-_Lara_Vieira.png"
               alt="foto-perfil"
             />
-            <a href="">Editar foto</a>
           </div>
 
           <div class="perfil-info">
@@ -48,14 +49,14 @@
           </div>
         </div>
       </section>
-      <section class="perfil-dados">
-        <div class="dados-pessoais"><h2>Dados pessoais</h2></div>
+      <form id="profile-edit-form">
+        <section class="perfil-dados">
+          <h2>Dados pessoais</h2>
 
-        <form action="">
           <div class="nome-celular">
             <div>
               <label for="name">Nome</label>
-              <input type="text" id="name" name="Nome" />
+              <input type="text" id="name" name="name" />
             </div>
             <div>
               <label for="celular">Celular</label>
@@ -63,7 +64,7 @@
                 type="phone"
                 placeholder="(00) 00000-0000"
                 id="celular"
-                name="celular"
+                name="telephone"
               />
             </div>
           </div>
@@ -76,93 +77,65 @@
           <div class="senha-confirmar">
             <div>
               <label for="senha">Alterar senha</label>
-              <input type="password" id="senha" name="senha" />
+              <input type="password" id="senha" name="password" />
             </div>
             <div>
               <label for="c-senha">Confirmar senha</label>
-              <input type="password" id="c-senha" name="c-senha" />
+              <input
+                type="password"
+                id="c-senha"
+                name="password_confirmation"
+              />
             </div>
           </div>
-        </form>
-      </section>
+        </section>
 
-      <section class="section-dois">
-        <div class="dados-profissionais">
+        <section class="dados-profissionais">
           <h2>Dados profissionais</h2>
-        </div>
-        <form class="box-dados" action="">
           <div>
             <label for="profissao">Profissão</label>
-            <input type="text" id="profissao" name="profissao" />
-          </div>
-          <div class="sobre-voce">
-            <label for="sobre-voce">Conte um pouco mais sobre você</label>
-            <input type="text" id="sobre-voce" name="sobre-voce" />
+            <input type="text" id="profissao" name="category" />
           </div>
           <div>
-            <label for="certificados">Certificados/Cursos</label>
-            <input type="text" id="certificados" name="email" />
+            <label for="about">Conte um pouco mais sobre você</label>
+            <textarea name="about" id="" cols="85" rows="10"></textarea>
           </div>
-        </form>
-      </section>
-      <div id="btn-file">
-        <button class="btn-adicionar" type="submit">Escolher arquivo</button>
-      </div>
+        </section>
 
-      <form class="endereco" action="">
-        <div class="endereco-titulo">
+        <section class="dados-endereco">
           <h2>Endereço</h2>
-        </div>
-        <div id="box-endereco">
-          <div class="cep-rua-num">
+          <section>
             <div>
               <label for="cep">CEP</label>
               <input type="text" id="cep" name="cep" placeholder="00000-000" />
             </div>
             <div>
               <label for="rua">Rua</label>
-              <input type="text" id="rua" name="rua" />
+              <input type="text" id="rua" name="street" />
             </div>
             <div>
               <label for="numero">Número</label>
-              <input type="number" id="numero" name="numero" />
-            </div>
-          </div>
-          <div class="bairro-cidade-estado">
-            <div>
-              <label for="bairro">Bairro</label>
-              <input type="text" id="bairro" name="bairro" />
+              <input type="number" id="numero" name="number" />
             </div>
             <div>
-              <label for="cidade">Cidade</label>
-              <input type="text" id="cidade" name="cidade" />
+              <label for="neighborhood">Bairro</label>
+              <input type="text" id="bairro" name="neighborhood" />
             </div>
             <div>
-              <label for="estado">Estado</label>
-              <input type="text" id="estado" name="estado" />
+              <label for="city">Cidade</label>
+              <input type="text" id="cidade" name="city" />
             </div>
-          </div>
-        </div>
+            <div>
+              <label for="state">Estado</label>
+              <input type="text" id="estado" name="state" />
+            </div>
+          </section>
+        </section>
+        <section class="submit">
+          <button class="btn-salvar" type="submit">Salvar</button>
+        </section>
       </form>
     </main>
-
-    <h2 class="sua-galeria">Sua galeria de fotos</h2>
-    <div class="suas-fotos">
-      <img
-        src="../img/images/profile_editable/mao_e_chaves.png"
-        alt="mao-e-chaves"
-      />
-      <img src="../img/images/profile_editable/interfone.png" alt="interfone" />
-      <img src="../img/images/profile_editable/Fechadura-comum.png" alt="" />
-      <img
-        src="../img/imagens-site/Seletor-de-Profissional/add-foto.png"
-        alt=""
-      />
-    </div>
-
-    <button class="btn-salvar" type="submit">Salvar</button>
-
-    <div class="border"></div>
 
     <custom-footer></custom-footer>
   </body>
