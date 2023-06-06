@@ -86,7 +86,7 @@ span.service__icon > img {
 
 .search {
   border-top: 1px solid var(--color-p4);
-  border-bottom: 1px solid var(--color-p4);
+  /* border-bottom: 1px solid var(--color-p4); */
 }
 
 .search__title {
