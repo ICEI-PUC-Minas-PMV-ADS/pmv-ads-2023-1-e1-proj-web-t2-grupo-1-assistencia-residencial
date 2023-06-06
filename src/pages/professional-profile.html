@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="/src/css/professional-profile.css" />
 
-    <script src="../js/professional.js" type="module" defer></script>
+    <script src="../js/professional-profile.js" type="module" defer></script>
 
     <script src="/src/components/header/index.js" type="module" defer></script>
     <script src="/src/components/footer/index.js" type="module" defer></script>
@@ -26,11 +26,11 @@
         <div class="dados-bg">
           <div class="dados-container container">
             <div class="perfil-circle">
-            <img src="../img/images/professional_profile/foto_perfil_lara.png" alt="">
+            <img id="professional_photo" src="../img/images/professional_profile/foto_perfil_lara.png" alt="">
             </div>
             <div class="dados-pessoais">
-              <h1>Lara Vieira</h1>
-              <h2>Jardineira</h2>
+              <h1 id="professional_name">Lara Vieira</h1>
+              <h2 id="professional_category">Jardineira</h2>
               <span>4.5</span>
               <ul class="dados-nota">
                 <li>
@@ -73,9 +73,9 @@
             <div class="dados-contato">
               <h2>Contato:</h2>
               <ul>
-                <li><a href="tel:+5531999999999">(31) 99999-9999</a></li>
+                <li><a href="tel:+5531999999999" id="professional_phone">(31) 99999-9999</a></li>
                 <li>
-                  <a href="mailto:laravieira@elasporelas.com.br"
+                  <a href="mailto:laravieira@elasporelas.com.br" id="professional_email"
                     >laravieira@elasporelas.com.br</a
                   >
                 </li>
@@ -110,26 +110,14 @@
       <section class="container">
         <div class="sobre-profissional">
         <h2>Sobre</h2>
-        <p>Olá! Meu nome é Lara Vieira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente. </p>
-        <p>Se você está procurando por uma profissional confiável, atenciosa e comprometida com a qualidade, entre em contato comigo. Atualmente ofereço os seguintes serviços:</p>
-        <ul>
-          <li>Manutenção</li>
-          <li>Plantio</li>
-          <li>Poda</li>
-          <li>Fertilização</li>
-          <li>Controle de pragas</li>
-          <li>Sistema de Irrigação</li>
-        </ul>
+        <p id="professional_about">Olá! Meu nome é Lara Vieira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente. </p>
       </div>
       </section>
       <section class="portfolio-bg">
         <div class="portfolio-container">
           <h2 class="portfolio-title">Portfólio</h2>
-          <div class="portfolio-img">
-            <img src="../img/images/professional_profile/irrigacao.png" alt="">
-            <img src="../img/images/professional_profile/jardim_paisagismo.jpg" alt="">
-            <img src="../img/images/professional_profile/tesoura.jpg" alt="">
-            <img src="../img/images/professional_profile/vasos-de-planta.jpg" alt="">
+          <div class="portfolio-img" id="professional_portfolio">
+          
           </div>
         </div>
       </section>

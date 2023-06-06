@@ -9,6 +9,8 @@
 
     <script src="/src/components/header/index.js" type="module" defer></script>
     <script src="/src/components/footer/index.js" type="module" defer></script>
+    <script src="../js/select-professional.js" type="module" defer></script>
+
     <title>Seletor de Profissional</title>
   </head>
   <body>
@@ -20,7 +22,7 @@
         <img src="\src\img\icons\service_type\gardening.svg" alt="" />
       </div>
 
-      <section class="professional-card">
+      <!-- <section class="professional-card">
         <div class="professional-card__image">
           <img src="../img/chaveiro/daniela_torres.png" alt="" />
         </div>
@@ -53,8 +55,19 @@
 
           <button class="professional-card__contact">Entrar em Contato</button>
         </div>
-      </section>
+      </section> -->
     </main>
     <custom-footer></custom-footer>
+
+    <script>
+      function redirect(email) {
+        const linkToRedirect = "/src/pages/professional-profile.html?";
+        const params = new URLSearchParams();
+
+        params.append("email", email);
+
+        window.location.href = linkToRedirect + params;
+      }
+    </script>
   </body>
 </html>
