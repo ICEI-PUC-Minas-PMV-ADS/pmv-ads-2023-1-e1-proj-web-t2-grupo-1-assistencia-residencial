@@ -1,22 +1,26 @@
-import { getUserByEmail } from "../utils/userStorage.js";
+import {
+  getLoggedUser,
+  getUserByEmail,
+  updateUser,
+} from "../utils/userStorage.js";
 import { defaultProfileImagePath } from "../utils/usersDatabase.js";
 
 //Comentarios
 
-const botao = document.getElementById("adicionarComentario");
-const divMensagem = document.getElementById("recebe-mensagem");
-botao.addEventListener("click", function () {
-  const usuario = users[0].nome;
-  const comentario = document.getElementById("comentario");
-  if (comentario.value == "") {
-    alert("Por favor, digite um comentário.");
-  } else {
-    let mensagem = `<div class="fb2"><h3>${usuario}</h3> <p>${comentario.value}</p></div>`;
-    divMensagem.innerHTML = mensagem;
+// const botao = document.getElementById("adicionarComentario");
+// const divMensagem = document.getElementById("recebe-mensagem");
+// botao.addEventListener("click", function () {
+//   const usuario = users[0].nome;
+//   const comentario = document.getElementById("comentario");
+//   if (comentario.value == "") {
+//     alert("Por favor, digite um comentário.");
+//   } else {
+//     let mensagem = `<div class="fb2"><h3>${usuario}</h3> <p>${comentario.value}</p></div>`;
+//     divMensagem.innerHTML = mensagem;
 
-    comentario.value = "";
-  }
-});
+//     comentario.value = "";
+//   }
+// });
 
 //Avaliação
 const elementosEstrela = document.querySelectorAll(".avaliar");
@@ -99,7 +103,57 @@ const setProfessionalInfos = (user) => {
   }
 };
 
+const setProfessionalFeedbacks = (user) => {
+  let feedbacksElement = document.querySelector(".feedbacks");
+  feedbacksElement.innerHTML = "";
+
+  if (user.feedbacks && user.feedbacks.length) {
+    user.feedbacks.forEach((feedback) => {
+      feedbacksElement.innerHTML += `
+      <div class="fb1">
+        <h3>${feedback.username}</h3>
+        <p>${feedback.message}</p>
+      </div>
+      `;
+    });
+  } else {
+    feedbacksElement.innerHTML += `
+    <div class="fb1">
+      <h3>Ainda não há feedbacks para este profissional</h3>
+    </div>
+    `;
+  }
+};
+
+const addProfessionalFeedback = (user) => {
+  const feedbacksElement = document.getElementById("comentario");
+  const loggedUser = getLoggedUser();
+
+  if (!feedbacksElement.value) {
+    return alert("O comentário não pode ser vazio");
+  }
+
+  if (!loggedUser) {
+    return;
+  }
+
+  const feedback = {
+    username: loggedUser.name,
+    message: feedbacksElement.value,
+  };
+
+  if (user.feedbacks && user.feedbacks.length) {
+    user.feedbacks.push(feedback);
+  } else {
+    user.feedbacks = [feedback];
+  }
+
+  updateUser(user);
+  window.location.reload();
+};
+
 window.onload = () => {
+  const addFeedbackButton = document.getElementById("adicionarComentario");
   const urlParams = new URLSearchParams(window.location.search);
   const email = urlParams.get("email");
   const user = getUserByEmail(email);
@@ -109,4 +163,7 @@ window.onload = () => {
   }
 
   setProfessionalInfos(user);
+  setProfessionalFeedbacks(user);
+
+  addFeedbackButton.onclick = () => addProfessionalFeedback(user);
 };

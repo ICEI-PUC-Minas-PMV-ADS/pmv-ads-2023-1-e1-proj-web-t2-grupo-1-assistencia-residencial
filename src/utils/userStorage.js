@@ -26,15 +26,16 @@ const getUserByEmail = (email) => {
 };
 
 const updateUser = (newUserData) => {
-  const users = getUsers();
-  const user = getUserByEmail(user.email);
+  let users = getUsers();
+  let user = getUserByEmail(newUserData.email);
 
   user = {
     ...user,
     ...newUserData,
   };
 
-  users = JSON.stringify(users);
+  const userIndex = users.findIndex(({ email }) => email === user.email);
+  users[userIndex] = user;
 
   setUsers(users);
 };
