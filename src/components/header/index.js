@@ -35,6 +35,12 @@ class Header extends HTMLElement {
       this.#templateElement.content.getElementById(
         "header__greetind--username"
       ).textContent = `Olá, ${loggedUser.name}!`;
+
+      this.#templateElement.content
+        .getElementById("header__greetind--username")
+        .addEventListener("click", () => {
+          window.location.href = `/src/pages/profile-edit.html`;
+        });
     }
 
     shadowRoot = this.attachShadow({ mode: "closed" });
