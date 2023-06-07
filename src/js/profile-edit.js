@@ -13,9 +13,8 @@ const handleFormSubmit = (event) => {
   if (user && user.email) {
     updateUser(formData);
     setLoggedUser(formData);
-    alert("Dados atualizados com sucesso!");
 
-    window.location.reload();
+    alert("Dados atualizados com sucesso!") && window.location.reload();
   } else {
     alert("Erro ao atualizar dados!");
   }
