@@ -64,12 +64,22 @@ const createProfessionalCards = (user, category) => {
   cardsWrapper.innerHTML += cardTemplate;
 };
 
+const formatCategory = (category) => {
+  return category.charAt(0).toUpperCase() + category.slice(1);
+};
+
 window.onload = () => {
+  const titleElement = document.querySelector(".service__category--title");
+  const imageElement = document.querySelector(".service__category--image");
+
   const urlParams = new URLSearchParams(window.location.search);
   const category = urlParams.get("category");
   const users = getUsers();
 
   if (category) {
+    titleElement.innerHTML = `${formatCategory(category)} na sua região`;
+    imageElement.src = `/src/img/icons/service_type/${category}.svg`;
+
     const filteredUsers = users.filter(
       (user) => (user.user_type = "profissional" && user.category === category)
     );

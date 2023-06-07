@@ -2,36 +2,36 @@ export const serviceCategories = [
   {
     key: "alvenaria",
     label: "Alvenaria",
-    img: "masonry.svg",
+    img: "alvenaria.svg",
   },
   {
     key: "pintura",
     label: "Pintura",
-    img: "painting.svg",
+    img: "pintura.svg",
   },
   {
     key: "eletrica",
     label: "Elétrica",
-    img: "electric.svg",
+    img: "eletrica.svg",
   },
   {
     key: "hidraulica",
     label: "Hidráulica",
-    img: "hydraulics.svg",
+    img: "hidraulica.svg",
   },
   {
     key: "gesso",
     label: "Gesso",
-    img: "plaster.svg",
+    img: "gesso.svg",
   },
   {
     key: "chaveira",
     label: "Chaveira",
-    img: "locksmith.svg",
+    img: "chaveira.svg",
   },
   {
     key: "jardinagem",
     label: "Jardineira",
-    img: "gardening.svg",
+    img: "jardinagem.svg",
   },
 ];
