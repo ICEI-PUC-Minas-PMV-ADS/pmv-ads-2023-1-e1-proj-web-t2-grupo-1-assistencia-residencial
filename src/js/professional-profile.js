@@ -1,3 +1,4 @@
+import { redirectIfNotLogged } from "../utils/redirect.js";
 import {
   getLoggedUser,
   getUserByEmail,
@@ -153,6 +154,8 @@ const addProfessionalFeedback = (user) => {
 };
 
 window.onload = () => {
+  redirectIfNotLogged();
+
   const addFeedbackButton = document.getElementById("adicionarComentario");
   const urlParams = new URLSearchParams(window.location.search);
   const email = urlParams.get("email");
