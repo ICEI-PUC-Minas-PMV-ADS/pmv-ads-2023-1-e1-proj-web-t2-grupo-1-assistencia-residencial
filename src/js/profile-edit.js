@@ -1,13 +1,24 @@
-import { getLoggedUser } from "../utils/userStorage.js";
+import { setLoggedUser } from "../utils/userStorage.js";
+import { getLoggedUser, updateUser } from "../utils/userStorage.js";
 import { defaultProfileImagePath } from "../utils/usersDatabase.js";
 
 const handleFormSubmit = (event) => {
   event.preventDefault();
 
+  const form = event.target;
   const user = getLoggedUser();
 
-  const formData = Object.fromEntries(new FormData(event.target).entries());
-  console.log(formData);
+  const formData = Object.fromEntries(new FormData(form).entries());
+
+  if (user && user.email) {
+    updateUser(formData);
+    setLoggedUser(formData);
+    alert("Dados atualizados com sucesso!");
+
+    window.location.reload();
+  } else {
+    alert("Erro ao atualizar dados!");
+  }
 };
 
 (() => {
