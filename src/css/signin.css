@@ -146,8 +146,12 @@ fieldset {
 }
 
 .professional__data--title {
+  font-style: normal;
+  font-weight: 700;
   font-size: 24px;
-  font-weight: bold;
+  line-height: 29px;
+  color: #6a001d;
+  padding: 0;
 }
 
 .categories__title {
@@ -192,4 +196,13 @@ button:hover {
   gap: 25px;
   justify-content: center;
   margin-top: 10px;
+}
+.about {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 39px;
+  color: #6a001d;
+  padding: 0;
 }

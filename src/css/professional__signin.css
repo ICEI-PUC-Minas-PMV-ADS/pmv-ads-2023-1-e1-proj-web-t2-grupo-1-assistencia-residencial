@@ -130,9 +130,10 @@ input::placeholder {
   gap: 5px;
 }
 
-input[type="checkbox"] {
+input [type="checkbox"] {
   width: 20px;
   height: 20px;
+  background-color: #6a001d;
 }
 
 textarea {
@@ -199,6 +200,12 @@ button:hover {
 
 .about {
   margin-top: 20px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 39px;
+  color: #6a001d;
+  padding: 0;
 }
 
 .professional__data {
@@ -206,11 +213,17 @@ button:hover {
   width: 100%;
 }
 
+.professional__data--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #6a001d;
+  padding: 0;
+}
+
 textarea {
   box-sizing: content-box;
   border: 1px solid #e68a9a;
   border-radius: 5px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -o-appearance: none;
 }
