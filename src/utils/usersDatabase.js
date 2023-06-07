@@ -48,7 +48,7 @@ export const users = [
     state: "Minas Gerais",
     feedbacks: [
       {
-        username: "Cida Andrade",
+        username: "Helena Couto",
         message:
           "Ótima profissional, trocou minha fechadura comum por uma eletrônica em poucas horas. Muito simpática e profissional.",
       },
@@ -75,7 +75,7 @@ export const users = [
     state: "São Paulo",
     feedbacks: [
       {
-        username: "Pedro Souza",
+        username: "Anitta Silva",
         message:
           "A Carla Pires fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
@@ -117,7 +117,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "chaveira",
-    profile_image: "/src/img/chaveira/daniela_torres.png",
+    profile_image: "/src/img/gesso/leticia_lima.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Isabela Costa e sou chaveira profissional. Posso ajudar com qualquer problema relacionado a chaves e fechaduras. Tenho experiência em instalação, reparo e troca de fechaduras. Entre em contato comigo para serviços de chaveiro confiáveis e eficientes.",
@@ -129,7 +129,7 @@ export const users = [
     state: "Bahia",
     feedbacks: [
       {
-        username: "Lucas Oliveira",
+        username: "Beatriz Sena",
         message:
           "A Isabela resolveu meu problema com a fechadura rapidamente. Excelente serviço!",
       },
@@ -156,7 +156,7 @@ export const users = [
     state: "Rio Grande do Sul",
     feedbacks: [
       {
-        username: "Gabriel Ferreira",
+        username: "Ivete Sangalo",
         message:
           "A Lorena Freitas fez a instalação elétrica do meu apartamento e ficou perfeita. Recomendo!",
       },
@@ -210,7 +210,7 @@ export const users = [
     state: "Minas Gerais",
     feedbacks: [
       {
-        username: "Cida Andrade",
+        username: "Claudia Leite",
         message:
           "A Roberta Costa fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
@@ -237,7 +237,7 @@ export const users = [
     state: "São Paulo",
     feedbacks: [
       {
-        username: "Pedro Souza",
+        username: "Daniela Mercury",
         message:
           "A Paloma Castro pintou meu apartamento e ficou incrível! Ela é muito profissional e cuidadosa. Recomendo!",
       },
@@ -264,7 +264,7 @@ export const users = [
     state: "Bahia",
     feedbacks: [
       {
-        username: "Lucas Oliveira",
+        username: "Olivia Rodrigo",
         message:
           "A Daniela Torres resolveu meu problema com a fechadura rapidamente. Excelente serviço!",
       },
@@ -291,7 +291,7 @@ export const users = [
     state: "Rio Grande do Sul",
     feedbacks: [
       {
-        username: "Gabriel Ferreira",
+        username: "Romana Alves",
         message:
           "A Denise Pereira fez a instalação elétrica do meu apartamento e ficou perfeita. Recomendo!",
       },
@@ -372,7 +372,7 @@ export const users = [
     state: "Minas Gerais",
     feedbacks: [
       {
-        username: "Cida Andrade",
+        username: "Paula Nobre",
         message:
           "A Gabriela fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
@@ -399,7 +399,7 @@ export const users = [
     state: "São Paulo",
     feedbacks: [
       {
-        username: "Pedro Souza",
+        username: "Lorrayne Lopes",
         message:
           "A Helena pintou meu apartamento e ficou incrível! Ela é muito profissional e cuidadosa. Recomendo!",
       },
@@ -426,7 +426,7 @@ export const users = [
     state: "Bahia",
     feedbacks: [
       {
-        username: "Lucas Oliveira",
+        username: "Maria G. Gonçalves",
         message:
           "A Kelly Ribeiro meu problema com a fechadura rapidamente. Excelente serviço!",
       },
