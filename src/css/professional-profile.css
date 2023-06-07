@@ -11,35 +11,31 @@
 }
 .dados-bg{
     background-color: var(--color-p3);
+    padding: 20px;
 }
 .dados-container {
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    padding: 40px;
     gap: 60px;
 }
-    /*
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    background: var(--color-p3);
-    border-radius: 5px;
-    padding: 60px;
-*/
+.dados-container h1 {
+    text-align: center;
+}
 .perfil-circle {
     display: flex;
     justify-content: center;
     width: 100%;
+    width: 300px;   
+    height: 300px;
 }
 
 .perfil-circle img{
     width: 300px;
     height: 300px;
     object-fit: cover;
-  border: 2px solid var(--color-p3);
-  border-radius: 50%;
+    border: 2px solid var(--color-p5);
+    border-radius: 50%;
 }
 
 .dados-pessoais {
@@ -298,4 +294,64 @@ textarea{
 
 .feedback-estrelas li:hover{
     transform: scale(1.3);
+}
+
+@media (max-width: 900px) {
+    .dados-pessoais h1 {
+        font-size: 24px;
+    }
+    .dados-pessoais h2{
+        font-size: 18px;
+    }
+    .dados-pessoais span{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .dados-contato h2,
+    .dados-contato ul{
+        font-size: 18px;
+    }
+    .botao-whats a {
+        font-size: 14px;
+    }
+    .botao-whats img {
+        width: 20px;
+    }
+    .perfil-circle img {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .dados-bg {
+        padding: 0px;
+    }
+    .dados-container {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;  
+        justify-items: center;
+        align-items: center;
+    }
+    .dados-contato h2{
+        align-self: baseline;
+    }
+    .dados-contato a{
+        align-items: center;
+    }
+    .dados-contato {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .dados-redes  {
+        align-items: center;
+        justify-content: center;
+    }
 }
