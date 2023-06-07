@@ -29,8 +29,9 @@ const handleFormSubmit = (event) => {
 
   if (!user) return;
 
-  if (user.type && user.type === "cliente") {
+  if (user.user_type && user.user_type === "cliente") {
     document.querySelector(".dados-profissionais").style.display = "none";
+    document.querySelector(".perfil-info").style.display = "none";
   }
 
   for (let key in user) {
