@@ -29,18 +29,16 @@
     padding: 60px;
 */
 .perfil-circle {
+    display: flex;
     background-color: var(--color-p2);
-    border-radius: 50%;
-    height: 300px;
-    object-fit: cover;
-    width: 300px;  
-    overflow: hidden; 
+    height: 200px;
+    justify-content: center;
+    width: 200px;  
     border: 2px solid #fff;
 }
 
 .perfil-circle img{
     max-width: 100%;
-    padding-left: 20px;
 }
 
 .dados-pessoais {

@@ -9,7 +9,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "jardinagem",
-    profile_image: "/src/img/alvenaria/carla_pires.png",
+    profile_image: "/src/img/jardinagem/lara_vieira.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Lara Vieira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente.  Se você está procurando por uma profissional confiável, atenciosa e comprometida com a qualidade, entre em contato comigo.",
@@ -17,6 +17,33 @@ export const users = [
     street: "Rua das Flores",
     number: "123",
     neighborhood: "Lourdes",
+    city: "Belo Horizonte",
+    state: "Minas Gerais",
+    feedbacks: [
+      {
+        username: "Cida Andrade",
+        message:
+          "Ótima profissional, trocou minha fechadura comum por uma eletrônica em poucas horas. Muito simpática e profissional.",
+      },
+    ],
+    grade: 4.5,
+  },
+  {
+    name: "Cintia Oliveira",
+    email: "cintiaoliveira@elasporelas.com",
+    telephone: "7199999-8888",
+    password: "senha123",
+    password_confirmation: "senha123",
+    user_type: "profissional",
+    category: "jardinagem",
+    profile_image: "/src/img/jardinagem/cintia_oliveira.png",
+    images: ["portfolio1.jpg", "portfolio2.jpg"],
+    about:
+      "Olá! Meu nome é Cintia Oliveira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente.  Se você está procurando por uma profissional confiável, atenciosa e comprometida com a qualidade, entre em contato comigo.",
+    cep: "12345-678",
+    street: "Rua das Flores",
+    number: "123",
+    neighborhood: "Barro Preto",
     city: "Belo Horizonte",
     state: "Minas Gerais",
     feedbacks: [
@@ -360,7 +387,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "pintura",
-    profile_image: "/src/img/chaveiro/kelly_ribeiro.jpg",
+    profile_image: "/src/img/chaveira/kelly_ribeiro.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Oi! Meu nome é Helena Fernandes e sou especializada em serviços de pintura. Com minha habilidade e atenção aos detalhes, garanto um acabamento impecável em todos os projetos. Entre em contato comigo para transformar sua casa com uma nova pintura.",

@@ -19,17 +19,16 @@
 
 .professional-card {
   display: flex;
-  max-width: 608.42px;
+  max-width: 900px;
   gap: 30px;
   margin: 0 auto;
-  box-sizing: border-box;
   margin-bottom: 40px;
 }
 
 .professional-card__image {
-  max-width: 250px;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .professional-card__image img {
