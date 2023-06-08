@@ -109,6 +109,11 @@
   margin-top: 10px;
 }
 
+.professional-card__contact:hover {
+  background-color: var(--color-p6);
+  cursor: pointer;
+}
+
 @media (max-width: 900px){
   .main {
     max-width: max-content;

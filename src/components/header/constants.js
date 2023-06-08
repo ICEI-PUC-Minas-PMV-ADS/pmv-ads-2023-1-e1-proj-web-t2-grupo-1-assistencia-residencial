@@ -20,12 +20,16 @@ const defaultHeaderStyles = `<style>
   .header__logo {
     font-weight: bold;
   }
-  
+  .header__logo:hover{
+    scale: 1.1;
+  }
   .header__menu {
     display: flex;
     gap: 40px;
   }
-  
+  .header__menu-item:hover {
+    text-decoration: underline;
+  }
   .header__menu-item--button {
     padding: 12px 18px;
     border-radius: 5px;
@@ -35,12 +39,20 @@ const defaultHeaderStyles = `<style>
     color: var(--color-p5);
     background: var(--color-white);
   }
+  .header__menu-item--button:hover{
+    background-color: #f7f7f7;
+    fontcolor: var(--color-p10);
+  }
 
   .header__greeting {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+  }
+  .header__greeting:hover{
+    text-decoration: underline;
   }
 
   @media screen and (max-width: 576px) {
@@ -80,7 +92,7 @@ const headerTemplateWithoutLoggedUser = `
   <a href="/index.html" class="header__logo">Elas por Elas</a>
   <nav>
     <ul class="header__menu">
-      <li><a href="./" class="header__menu-item">Sobre</a></li>
+      <li><a href="/src/pages/about.html" class="header__menu-item">Sobre</a></li>
       <li><a href="/src/pages/login.html" class="header__menu-item">Login</a></li>
       <li>
         <a href="/src/pages/signin.html" class="header__menu-item header__menu-item--button"

@@ -12,6 +12,9 @@
   font-family: var(--font-open-sans);
   background-color: var(--color-p5);
 }
+.btn:hover {
+  background-color: var(--color-p3);
+}
 
 .title {
   margin: 0;
@@ -63,7 +66,9 @@
   cursor: pointer;
   color: var(--color-p6);
 }
-
+.services__list--item:hover {
+  scale: 1.2;
+}
 span.service__icon {
   width: 40px;
   height: 40px;
