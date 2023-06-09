@@ -425,7 +425,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "alvenaria",
-    profile_image: "/src/img/chaveira/kelly_ribeiro.png",
+    profile_image: "/src/img/alvenaria/gabriela_ribeiro.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Gabriela Ribeiro e sou especialista em serviços de alvenaria. Tenho ampla experiência na construção e reparação de estruturas. Estou comprometida em oferecer um trabalho de qualidade e duradouro. Entre em contato comigo para suas necessidades de alvenaria.",
@@ -457,7 +457,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "pintura",
-    profile_image: "/src/img/chaveira/kelly_ribeiro.png",
+    profile_image: "/src/img/pintura/helena_fernandes.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Oi! Meu nome é Helena Fernandes e sou especializada em serviços de pintura. Com minha habilidade e atenção aos detalhes, garanto um acabamento impecável em todos os projetos. Entre em contato comigo para transformar sua casa com uma nova pintura.",
