@@ -1,12 +1,12 @@
-import { serviceCategories } from "../utils/index.js";
+import { redirectTo, serviceCategories } from "../utils/index.js";
 
 function redirectToSelectProfessional(category) {
-  const linkToRedirect = "/src/pages/select-professional.html?";
+  const linkToRedirect = "src/pages/select-professional.html?";
   const params = new URLSearchParams();
 
   params.append("category", category.key);
 
-  window.location.href = linkToRedirect + params;
+  redirectTo(linkToRedirect + params);
 }
 
 const ul = document.querySelector(".services__list");

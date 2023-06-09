@@ -1,4 +1,4 @@
-import { getUsers } from "../utils/index.js";
+import { getUsers, redirectTo } from "../utils/index.js";
 
 const getProfessionalMostRecentFeedback = (user) => {
   const mostRecentFeedback = user.feedbacks[user.feedbacks.length - 1];
@@ -85,7 +85,7 @@ window.onload = () => {
     );
 
     if (!filteredUsers.length) {
-      return (window.location.href = "/src/pages/404.html");
+      return redirectTo("/src/pages/404.html");
     }
 
     filteredUsers.forEach((user) => createProfessionalCards(user, category));

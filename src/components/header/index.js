@@ -5,7 +5,7 @@ import {
   headerTemplateWithoutLoggedUser,
 } from "./constants.js";
 
-import { getLoggedUser } from "../../utils/index.js";
+import { getLoggedUser, redirectTo } from "../../utils/index.js";
 
 class Header extends HTMLElement {
   #templateElement = document.createElement("template");
@@ -16,7 +16,8 @@ class Header extends HTMLElement {
 
   handleLogOut() {
     localStorage.removeItem("@loggedUser");
-    window.location.reload();
+
+    redirectTo();
   }
 
   connectedCallback() {
@@ -39,7 +40,7 @@ class Header extends HTMLElement {
       this.#templateElement.content
         .getElementById("header__greetind--username")
         .addEventListener("click", () => {
-          window.location.href = `/src/pages/profile-edit.html`;
+          redirectTo(`src/pages/profile-edit.html`);
         });
     }
 

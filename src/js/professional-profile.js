@@ -1,4 +1,4 @@
-import { redirectIfNotLogged } from "../utils/redirect.js";
+import { redirectIfNotLogged, redirectTo } from "../utils/redirect.js";
 import {
   getLoggedUser,
   getUserByEmail,
@@ -222,7 +222,7 @@ window.onload = () => {
   const user = getUserByEmail(email);
 
   if (!email || !user) {
-    return window.location.replace("/src/pages/404.html");
+    return redirectTo("src/pages/404.html");
   }
 
   setProfessionalInfos(user);

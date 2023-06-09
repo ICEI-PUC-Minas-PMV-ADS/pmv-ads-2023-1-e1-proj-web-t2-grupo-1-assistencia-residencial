@@ -1,5 +1,5 @@
 import { addUser, getUserByEmail, getUsers } from "../utils/userStorage.js";
-import { redirectIfLogged } from "../utils/redirect.js";
+import { redirectIfLogged, redirectTo } from "../utils/redirect.js";
 
 const radio = document.querySelectorAll("input[type='radio']");
 
@@ -132,7 +132,7 @@ function handleSubmit(event) {
   console.log(getUsers());
   form.reset();
 
-  window.location.href = "login.html";
+  return redirectTo("src/pages/login.html");
 }
 
 const formulario = document.getElementById("form");

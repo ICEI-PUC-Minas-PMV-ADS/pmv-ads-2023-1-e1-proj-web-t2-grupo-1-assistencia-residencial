@@ -1,3 +1,4 @@
+import { redirectTo } from "../utils/redirect.js";
 import { getUserByEmail, setLoggedUser } from "../utils/userStorage.js";
 
 function verifyIfUserExixts(email, senha) {
@@ -7,7 +8,7 @@ function verifyIfUserExixts(email, senha) {
     setLoggedUser(searchedUser);
     $.notify("Login realizado com sucesso!", "success");
 
-    window.location.href = "/";
+    redirectTo();
   } else {
     $.notify("Email ou senha incorretos!", "error");
   }
