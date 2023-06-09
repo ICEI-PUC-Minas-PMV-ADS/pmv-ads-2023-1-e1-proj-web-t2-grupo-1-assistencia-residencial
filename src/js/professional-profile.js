@@ -6,14 +6,8 @@ import {
 } from "../utils/userStorage.js";
 import { defaultProfileImagePath } from "../utils/usersDatabase.js";
 
-function addGradeToProfessional(grade) {
-  const urlParams = new URLSearchParams(window.location.search);
-  const email = urlParams.get("email");
-
-  const professionalData = getUserByEmail(email);
-
-  console.log(professionalData);
-}
+const urlParams = new URLSearchParams(window.location.search);
+const email = urlParams.get("email");
 
 //Avaliação
 const elementosEstrela = document.querySelectorAll(".avaliar");
@@ -148,8 +142,79 @@ const addProfessionalFeedback = (user) => {
   window.location.reload();
 };
 
+function setProfessionalAverage() {
+  const averageElement = document.querySelector(".professional-average");
+  const professionalData = getUserByEmail(email);
+
+  if (professionalData.grades && Array.isArray(professionalData.grades)) {
+    const total = professionalData.grades.reduce(
+      (accumulator, grade) => accumulator + grade.value,
+      0
+    );
+
+    const average = (total / professionalData.grades.length).toFixed(1);
+    averageElement.textContent = average;
+
+    var options = {
+      readOnly: true,
+      score: Math.floor(average),
+      starType: "i",
+      starOn: "fa fa-star",
+      starHalf: "fa fa-star-half-o",
+      starOff: "fa fa-star-o",
+      starColor: "#fff00",
+      half: true,
+    };
+
+    $("#star-rating").raty(options);
+  }
+}
+
+function addGradeToProfessional(grade) {
+  const professionalData = getUserByEmail(email);
+  const loggedUser = getLoggedUser();
+
+  if (!professionalData || !loggedUser) {
+    $.notify("Erro ao adicionar nota", "error");
+
+    return;
+  }
+
+  const userGradeValue = {
+    username: loggedUser.name,
+    value: grade,
+  };
+
+  if (professionalData.grades && Array.isArray(professionalData.grades)) {
+    const userRateIndex = professionalData.grades.findIndex(
+      (grade) => grade.username === loggedUser.name
+    );
+
+    if (userRateIndex !== -1) {
+      professionalData.grades[userRateIndex] = userGradeValue;
+    } else {
+      professionalData.grades.push(userGradeValue);
+    }
+  } else {
+    professionalData.grades = [userGradeValue];
+  }
+
+  updateUser(professionalData);
+
+  $.notify(
+    "Você adicionou a nota " +
+      grade +
+      " à profissional " +
+      professionalData.name,
+    "success"
+  );
+
+  setProfessionalAverage();
+}
+
 window.onload = () => {
   redirectIfNotLogged();
+  setProfessionalAverage();
 
   const addFeedbackButton = document.getElementById("adicionarComentario");
   const urlParams = new URLSearchParams(window.location.search);
@@ -165,3 +230,5 @@ window.onload = () => {
 
   addFeedbackButton.onclick = () => addProfessionalFeedback(user);
 };
+
+$(document).ready(function () {});

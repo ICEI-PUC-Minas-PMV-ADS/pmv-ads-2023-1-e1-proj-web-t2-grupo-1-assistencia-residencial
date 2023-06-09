@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="/src/css/professional-profile.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/styles/metro/notify-metro.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/raty/2.8.0/jquery.raty.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raty/2.8.0/jquery.raty.min.js"></script>
+
     <script src="../js/professional-profile.js" type="module" defer></script>
 
     <script src="/src/components/header/index.js" type="module" defer></script>
@@ -35,44 +53,8 @@
             <div class="dados-pessoais">
               <h1 id="professional_name">Lara Vieira</h1>
               <h2 id="professional_category">Jardineira</h2>
-              <span>4.5</span>
-              <ul class="dados-nota">
-                <li>
-                  <img
-                    class="estrelas-avaliacao"
-                    src="../img/icons/estrela_avaliacao.svg"
-                    alt="estrela"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="estrelas-avaliacao"
-                    src="../img/icons/estrela_avaliacao.svg"
-                    alt="estrela"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="estrelas-avaliacao"
-                    src="../img/icons/estrela_avaliacao.svg"
-                    alt="estrela"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="estrelas-avaliacao"
-                    src="../img/icons/estrela_avaliacao.svg"
-                    alt="estrela"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="estrelas-avaliacao"
-                    src="../img/icons/estrela_avaliacao.svg"
-                    alt="estrela"
-                  />
-                </li>
-              </ul>
+              <span class="professional-average">4.5</span>
+              <div id="star-rating"></div>
             </div>
             <div class="dados-contato">
               <h2>Contato:</h2>
