@@ -26,7 +26,12 @@ export const users = [
           "Ótima profissional, trocou minha fechadura comum por uma eletrônica em poucas horas. Muito simpática e profissional.",
       },
     ],
-    grade: 4.5,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Cintia Oliveira",
@@ -53,7 +58,12 @@ export const users = [
           "Ótima profissional, trocou minha fechadura comum por uma eletrônica em poucas horas. Muito simpática e profissional.",
       },
     ],
-    grade: 4.5,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Carla Pires",
@@ -80,7 +90,12 @@ export const users = [
           "A Carla Pires fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
     ],
-    grade: 4.8,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Celia Souza",
@@ -107,7 +122,12 @@ export const users = [
           "A Celia Souza pintou meu apartamento e ficou incrível! Ela é muito profissional e cuidadosa. Recomendo!",
       },
     ],
-    grade: 4.9,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Isabela Costa",
@@ -134,7 +154,12 @@ export const users = [
           "A Isabela resolveu meu problema com a fechadura rapidamente. Excelente serviço!",
       },
     ],
-    grade: 4.7,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Lorena Freitas",
@@ -161,7 +186,12 @@ export const users = [
           "A Lorena Freitas fez a instalação elétrica do meu apartamento e ficou perfeita. Recomendo!",
       },
     ],
-    grade: 4.6,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Fran Almeida",
@@ -188,7 +218,12 @@ export const users = [
           "A Fran Almeida consertou uma infiltração no meu banheiro. Ótimo trabalho!",
       },
     ],
-    grade: 4.9,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Roberta Costa",
@@ -215,7 +250,12 @@ export const users = [
           "A Roberta Costa fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
     ],
-    grade: 4.5,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Paloma Castro",
@@ -242,7 +282,12 @@ export const users = [
           "A Paloma Castro pintou meu apartamento e ficou incrível! Ela é muito profissional e cuidadosa. Recomendo!",
       },
     ],
-    grade: 4.8,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Daniela Torres",
@@ -269,7 +314,12 @@ export const users = [
           "A Daniela Torres resolveu meu problema com a fechadura rapidamente. Excelente serviço!",
       },
     ],
-    grade: 4.7,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Denise Pereira",
@@ -296,7 +346,12 @@ export const users = [
           "A Denise Pereira fez a instalação elétrica do meu apartamento e ficou perfeita. Recomendo!",
       },
     ],
-    grade: 4.6,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Tamires Oliveira",
@@ -323,7 +378,12 @@ export const users = [
           "A Tamires Oliveira consertou uma infiltração no meu banheiro. Ótimo trabalho!",
       },
     ],
-    grade: 4.9,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Letícia Lima",
@@ -350,7 +410,12 @@ export const users = [
           "A Letícia Lima fez um lindo trabalho de gesso na minha sala. Recomendo!",
       },
     ],
-    grade: 4.7,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Gabriela Ribeiro",
@@ -377,7 +442,12 @@ export const users = [
           "A Gabriela fez um excelente trabalho na reforma da minha parede. Ficou perfeita! Recomendo seus serviços.",
       },
     ],
-    grade: 4.5,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Helena Fernandes",
@@ -404,7 +474,12 @@ export const users = [
           "A Helena pintou meu apartamento e ficou incrível! Ela é muito profissional e cuidadosa. Recomendo!",
       },
     ],
-    grade: 4.8,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Kelly Ribeiro",
@@ -431,7 +506,12 @@ export const users = [
           "A Kelly Ribeiro meu problema com a fechadura rapidamente. Excelente serviço!",
       },
     ],
-    grade: 4.7,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
   {
     name: "Regina Campos",
@@ -458,6 +538,11 @@ export const users = [
           "A Regina Campos fez um excelente trabalho de gesso na minha sala. Ficou incrível! Recomendo!",
       },
     ],
-    grade: 4.7,
+    grades: [
+      {
+        username: "Claudia Leite",
+        value: 4.5,
+      },
+    ],
   },
 ];

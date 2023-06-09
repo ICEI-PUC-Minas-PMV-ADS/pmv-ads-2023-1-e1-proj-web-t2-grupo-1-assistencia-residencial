@@ -7,9 +7,16 @@
 
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/login.css" />
-    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/styles/metro/notify-metro.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+
     <script src="../js/login.js" type="module" defer></script>
-    
     <script src="../components/header/index.js" type="module" defer></script>
     <script src="../components/footer/index.js" type="module" defer></script>
 
@@ -21,8 +28,7 @@
     <main>
       <div class="container container-um">
         <div class="container-dois">
-          <img src="..//img/images/login/Imagem-login.png" alt="imagem-login">
-          
+          <img src="..//img/images/login/Imagem-login.png" alt="imagem-login" />
         </div>
 
         <div class="container-tres">
@@ -30,22 +36,18 @@
             <h1>Login</h1>
           </div>
 
-          <div class="box">
-            <form id="form"> 
-            <span>Email</span>
-            <input type="text" name="email" id="email" required />
-            <span>Senha</span>
-            <input type="password" name="senha" id="password" required />
-
-            <div class="checkbox"></div>
-
-            <span
-              ><a href=""><strong>Esqueceu a senha?</strong></a></span
-            >
-          </div>
-
-          <input type="submit" class="botao-login" value="Entrar"/>
-
+          <form id="form">
+            <div class="box">
+              <span>Email</span>
+              <input type="text" name="email" id="email" required />
+              <span>Senha</span>
+              <input type="password" name="senha" id="password" required />
+              <div class="checkbox"></div>
+              <span
+                ><a href=""><strong>Esqueceu a senha?</strong></a></span
+              >
+            </div>
+            <input type="submit" class="botao-login" value="Entrar" />
           </form>
 
           <div class="cadastro">
@@ -58,22 +60,27 @@
           <div class="main-container">
             <ul class="menu-inferior">
               <li>
-                <img src="../img/icons/login_page/icon-google.svg" alt="Google">
-                
+                <img
+                  src="../img/icons/login_page/icon-google.svg"
+                  alt="Google"
+                />
               </li>
               <li>
-                <img src="../img/icons/login_page/icon-facebook.svg" alt="Facebook">
-                
+                <img
+                  src="../img/icons/login_page/icon-facebook.svg"
+                  alt="Facebook"
+                />
               </li>
               <li>
-                <img src="../img/icons/login_page/icon-apple.svg" alt="Apple">
-                
+                <img src="../img/icons/login_page/icon-apple.svg" alt="Apple" />
               </li>
             </ul>
           </div>
         </div>
       </div>
     </main>
-    <custom-footer><link rel="stylesheet" href="../components/footer/index.js "></custom-footer>
+    <custom-footer
+      ><link rel="stylesheet" href="../components/footer/index.js "
+    /></custom-footer>
   </body>
 </html>
