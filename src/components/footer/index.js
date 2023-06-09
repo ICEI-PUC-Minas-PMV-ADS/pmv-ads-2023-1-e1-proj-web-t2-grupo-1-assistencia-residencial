@@ -153,23 +153,29 @@ class Footer extends HTMLElement {
       <div class="footer__contact-social">
         <ul>
           <li class="footer__contact-icon">
+          <a href="https://br.linkedin.com/">
             <img
             class="footer__icon"
             data-src="linkedin.svg"
             src="/src/img/icons/social/linkedin.svg"
             />
+          </a>
           </li>
           <li class="footer__contact-icon">
+          <a href="https://www.instagram.com/">
             <img
             class="footer__icon"
             data-src="instagram.svg"
             />
+          </a>
           </li>
           <li class="footer__contact-icon">
+          <a href="https://www.facebook.com/">
             <img
             class="footer__icon"
             data-src="facebook.svg"
             />
+            </a>
           </li>
         </ul>
       </div>
