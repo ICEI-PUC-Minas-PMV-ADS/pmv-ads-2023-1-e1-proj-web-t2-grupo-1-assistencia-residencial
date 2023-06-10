@@ -1,6 +1,6 @@
-@import url("./variables.css");
-@import url("./reset.css");
-@import url("./login.css");
+@import url("src/css/variables.css");
+@import url("src/css/reset.css");
+@import url("src/css/login.css");
 
 .container {
   box-sizing: border-box;
@@ -94,7 +94,6 @@ span {
 }
 
 .botao-login {
-
   width: 70%;
   height: 50px;
   align-items: center;
@@ -111,7 +110,6 @@ span {
   margin-bottom: 15px;
   margin-left: 60px;
 }
-
 
 .botao-login:hover {
   background-color: var(--color-p3);
@@ -172,14 +170,14 @@ span {
   color: var(--color-p6);
 }
 
-@media(max-width: 800px){
-  .container-um {flex-direction: column;}
-
+@media (max-width: 800px) {
+  .container-um {
+    flex-direction: column;
+  }
 }
-  
+
 .container-dois {
   width: 60%;
   margin-top: 30px;
   margin-bottom: 10px;
 }
-

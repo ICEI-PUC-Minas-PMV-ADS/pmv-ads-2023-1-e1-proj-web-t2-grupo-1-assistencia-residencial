@@ -80,6 +80,7 @@ const defaultHeaderStyles = `<style>
     .header__greeting {
         flex-direction: column;
         gap: 10px;
+        cursor: pointer;
       }
   }  
 </style>
