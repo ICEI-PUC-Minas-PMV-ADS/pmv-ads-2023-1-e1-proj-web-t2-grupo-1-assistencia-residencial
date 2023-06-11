@@ -86,3 +86,4 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ca12b2ae-3aeb-4258-b6ff-41b17a5c3c8b">
 <p>Figura 47 – É exibido a nota e do feedback mais recente.</p>
+
