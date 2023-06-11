@@ -59,6 +59,17 @@ Essa tela permite ao usuário acessar os dados da profissional de um serviço es
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/9a8c9e7b-56cd-4963-b512-459721d08ad5">
 <p>Figura 17 - Tela Seletor de Profissional</p>
 
+### Requisitos Atendidos:
+RF-03,
+RF-07 e 
+RF-08
+### Artefatos da Funcionalidade:
+professional-profile.html
+professional-profile.js
+professional-profile.css
+usersDatabase.js
+
+
 
 
 
