@@ -28,6 +28,18 @@ Essa tela permite o cadastro de prestadoras de serviços. Os dados são armazena
  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/cadff88f-92b9-44b0-b9fb-b7db479caf19">
 <p>Figura 15 - Tela de Cadastro da Profissional</p> 
 
+### Requisito Atendido:
+RF-01
+### Artefatos da Funcionalidade:
+signin.html
+signin.js
+signin.css
+### Estrutura de Dados:
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/6f4224a1-6233-4f98-9c85-217d6b1b27ce">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/001d3c38-e4b2-44fa-9bd5-29a67cb48332)">
+
+
+
 
    
 
