@@ -134,6 +134,34 @@ profile-edit.js
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ad52c838-3ec1-4a78-bb3f-213f775ea34a">
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ed5a4c9f-9769-486a-bbf3-8a436e405441">
 
+## Perfil Editável do Cliente
+A tela editável de perfil do cliente permite ao usuário cliente alterar seus dados cadastrais.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ffee2cc1-74cf-4b1b-b574-549e9a345165">
+<p>Figura 22 - Perfil Editável do Cliente</p>
+
+### Requisito Atendido:
+RF-02
+### Artefatos da Funcionalidade:
+profile-edit.html e
+profile-edit.js
+### Estrutura de Dados:
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/c940dc6a-6e78-42bd-b7ef-ca45d3bd0e0f">
+
+# 8. Plano de Testes de Software
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0f8129d2-58e1-40ad-a771-235a65057db2">
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/75e60e56-d314-4848-a5aa-6ce66d597044">
+<img src ="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/17be8eb6-bef1-4624-a699-ec3361e12459">
+
+
+
+
+
+
+
+
+
 
 
 
