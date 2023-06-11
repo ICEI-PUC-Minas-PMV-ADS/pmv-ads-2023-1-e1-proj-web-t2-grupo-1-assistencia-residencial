@@ -171,6 +171,14 @@ profile-edit.js
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/9d6b0578-3cf5-41cb-8b13-5685b9b851e1">
 
+# 9. Registros de Testes de Software
+Os resultados obtidos nos testes de software realizados são descritos abaixo.
+
+## CT-01 - Login na Plataforma
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/d963a2f1-1441-4822-8782-a41a891991dd">
+<p>Figura 23- Inserção de credenciais válidas de usuário cliente</p>
+
+
 
 
 
