@@ -19,6 +19,14 @@ O site deve permitir que o cliente acesse uma lista de profissionais no serviço
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/b4258731-9a63-4138-9398-9267a032021c)
 
+#7. Funcionalidades do Sistema (Telas)
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL), requisitos atendidos, artefatos da funcionalidade, estrutura de dados e outras orientações de acesso são descritas na sequência. 
+Cadastro de Prestador de Serviço (RF-01)
+Essa tela permite o cadastro de prestadoras de serviços. Os dados são armazenados no LocalStorage com estrutura de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 15.
 
+<figura alinhar = centro >
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/e43a3cee-f4d0-4de1-9efd-4e0935e780ff)
+< p align = "center" > Figura 15 - Tela de Cadastro da Profissional </ p>
+  </figura>
 
 
