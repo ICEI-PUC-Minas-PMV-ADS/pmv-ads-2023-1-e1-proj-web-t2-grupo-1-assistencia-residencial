@@ -25,8 +25,9 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 ##  Cadastro de Prestador de Serviço (RF-01)
 Essa tela permite o cadastro de prestadoras de serviços. Os dados são armazenados no LocalStorage com estrutura de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 15.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ffb3c08b-679c-4024-ae24-60f56cb4cb3c)
-< p align = "center" > Figura 15 - Tela de Cadastro da Profissional </ p>
-
+<figure align = center>
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/4e6ba076-7107-45f5-b272-894cc2a518d1)
+<p align ="center">Figura 15 - Tela de Cadastro da Profissional</p>
+</figure>  
 
 
