@@ -239,10 +239,27 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <p>Figura 41 - Redirecionamento via instagram para contato direto com a prestadora de serviços</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0a098f77-80aa-418c-a1ea-06a58eed3a2b">
-<p>Figura 43 - Redirecionamento via facebook para contato direto com a prestadora de serviços</p>
+<p>Figura 42 - Redirecionamento via facebook para contato direto com a prestadora de serviços</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/d98929ec-6963-41e3-ac21-621373b97780">
-<p>Figura 44 - Redirecionamento via linkedin para contato direto com a prestadora de serviços</p>
+<p>Figura 43 - Redirecionamento via linkedin para contato direto com a prestadora de serviços</p>
+
+## CT-05 - Inserção de feedbacks 
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ffef17f0-ba03-4b53-8ce8-98854a928595">
+<p>Figura 44 - É exibido a área de texto para deixar feedback.</p>
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/fbbc43f3-4484-4eb8-b0f2-9c6341de9646">
+<p>Figura 45 – Após ser enviado o feedback é exibido logo em seguida no perfil da profissional.</p>
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/b77d18ba-da10-41c7-a948-9a962ccae4cd">
+<p>Figura 46 – Caso a área de texto não contenha nenhum caractere não é possível enviar o feedback.</p>
+
+## CT-06 - Visualização de feedbacks 
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ca12b2ae-3aeb-4258-b6ff-41b17a5c3c8b">
+<p>Figura 47 – É exibido a nota e do feedback mais recente.</p>
+
 
 
 
