@@ -53,6 +53,13 @@ signin.css
 ### Estrutura de Dados:
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0b5132e9-3ea7-4d5d-8cf0-25dfb3968415">
 
+## Perfil do Profissional (RF-03, RF-07, RF-08)
+Essa tela permite ao usuário acessar os dados da profissional de um serviço específico. As informações são carregadas de uma espécie de banco de dados criado em um arquivo JSON.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/9a8c9e7b-56cd-4963-b512-459721d08ad5">
+<p>Figura 17 - Tela Seletor de Profissional</p>
+
+
 
 
 
