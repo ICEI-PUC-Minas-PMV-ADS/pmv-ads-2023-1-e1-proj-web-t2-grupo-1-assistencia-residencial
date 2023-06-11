@@ -149,10 +149,14 @@ profile-edit.js
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/c940dc6a-6e78-42bd-b7ef-ca45d3bd0e0f">
 
 # 8. Plano de Testes de Software
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0f8129d2-58e1-40ad-a771-235a65057db2">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/a422e79d-5011-4e0f-b5c2-541f79ae92e8">
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/75e60e56-d314-4848-a5aa-6ce66d597044">
-<img src ="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/17be8eb6-bef1-4624-a699-ec3361e12459">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/bad4d890-fbd4-4191-9984-3dd3808aa5d4">
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/db731a43-d79a-4f5b-9f84-3e08aba58b67">
+
+
+
 
 
 
