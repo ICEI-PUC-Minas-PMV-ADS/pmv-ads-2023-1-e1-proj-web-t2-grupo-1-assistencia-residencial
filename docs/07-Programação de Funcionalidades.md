@@ -159,9 +159,8 @@ profile-edit.js
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/1682dadf-575f-4b36-8952-d14e50b0c75d">
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/f347f4d5-b390-4939-81fa-512aafbbf0ba">
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/3bd82ee3-ada4-4576-a963-2074ef8e21f7">
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/75442401-f3dd-4f19-b0eb-94834ede7ac3">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/fddfd90f-83d7-4f6e-b9e3-eb11106802fa">
+
 
 
 
