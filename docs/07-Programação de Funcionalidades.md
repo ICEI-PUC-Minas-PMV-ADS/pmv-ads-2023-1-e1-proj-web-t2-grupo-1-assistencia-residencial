@@ -41,7 +41,7 @@ signin.css
 ## Cadastro de Cliente (RF-02)
 Essa tela permite o cadastro de clientes. Os dados são armazenados no LocalStorage com estrutura de dados baseada em JSON. Um exemplo da tela é apresentado na Figura 16.
 
-<img src="(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/6e3b7c7e-9b44-4149-9574-c1836de2bcf1)">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/6e3b7c7e-9b44-4149-9574-c1836de2bcf1">
 <p>Figura 16 - Tela de Cadastro da Cliente</p>
 
 
