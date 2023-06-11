@@ -31,8 +31,8 @@ Essa tela permite o cadastro de prestadoras de serviços. Os dados são armazena
 ### Requisito Atendido:
 RF-01
 ### Artefatos da Funcionalidade:
-signin.html
-signin.js
+signin.html,
+signin.js e 
 signin.css
 ### Estrutura de Dados:
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/6f4224a1-6233-4f98-9c85-217d6b1b27ce">
@@ -47,8 +47,8 @@ Essa tela permite o cadastro de clientes. Os dados são armazenados no LocalStor
 ### Requisito Atendido:
 RF-02
 ### Artefatos da Funcionalidade:
-signin.html
-signin.js
+signin.html,
+signin.js e 
 signin.css
 ### Estrutura de Dados:
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0b5132e9-3ea7-4d5d-8cf0-25dfb3968415">
@@ -64,10 +64,34 @@ RF-03,
 RF-07 e 
 RF-08
 ### Artefatos da Funcionalidade:
-professional-profile.html
-professional-profile.js
-professional-profile.css
+professional-profile.html,
+professional-profile.js,
+professional-profile.css e
 usersDatabase.js
+### Estrutura de Dados:
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/a34013b0-d170-4f81-ac4e-04f5cb807bb6">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/c2d50e88-8f01-47cd-b280-6fa7708db7a4">
+
+## Login do Usuário
+Essa tela permite ao usuário cliente ou profissional realizar login na plataforma através dos dados previamente cadastrados.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/f21f9448-6d42-4d8e-9320-f7bd4b4dd465">
+<p>Figura 18 - Tela de Login</p>
+
+### Requisito Atendido:
+RF-06
+### Artefatos da Funcionalidade:
+login.html,
+login.js e
+login.css
+### Estrutura de Dados:
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/812091b1-22cc-4061-a8a2-6b519f225cc1">
+
+
+
+
+
+
 
 
 
