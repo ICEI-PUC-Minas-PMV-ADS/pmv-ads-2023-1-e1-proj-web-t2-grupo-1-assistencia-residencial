@@ -13,6 +13,8 @@ function convertCheckInputsInArray(object) {
     }
   }
 
+  object.category = object.category[0] || "";
+
   return object;
 }
 
@@ -108,6 +110,8 @@ function handleSubmit(event) {
     return;
   }
 
+  console.log(checkIfPasswordIsValid(data.password));
+
   if (!checkIfPasswordIsValid(data.password)) {
     const inputSenha = document.getElementById("senha");
     const feedbackSenhaIncorreta =
@@ -129,7 +133,6 @@ function handleSubmit(event) {
   }
 
   addUser(data);
-  console.log(getUsers());
   form.reset();
 
   return redirectTo("src/pages/login.html");

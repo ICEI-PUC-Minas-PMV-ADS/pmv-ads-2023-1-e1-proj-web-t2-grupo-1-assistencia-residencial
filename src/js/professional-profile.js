@@ -78,10 +78,13 @@ const setProfessionalInfos = (user) => {
   const aboutElement = document.getElementById("professional_about");
   const categoryElement = document.getElementById("professional_category");
   const portfolioElement = document.getElementById("professional_portfolio");
+  const feedbacksTitleElement = document.getElementById("feedbacks-title");
 
+  feedbacksTitleElement.innerText = `Que tal deixar uma nota para ${user.name}?`;
   nameElement.innerText = user.name;
   emailElement.innerText = user.email;
-  aboutElement.innerText = user.about;
+  aboutElement.innerText =
+    user.about || "Este profissional ainda não tem uma descrição";
   photoElement.src = user.profile_image || defaultProfileImagePath;
   categoryElement.innerText = user.category && formatCategory(user.category);
   phoneElement.innerText = formatPhoneNumber(user.telephone || "71999998888");

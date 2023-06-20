@@ -1,7 +1,10 @@
 import { getUsers, redirectTo } from "../utils/index.js";
 
 const getProfessionalMostRecentFeedback = (user) => {
-  const mostRecentFeedback = user.feedbacks[user.feedbacks.length - 1];
+  const mostRecentFeedback =
+    user.feedbacks &&
+    Array.isArray(user.feedbacks) &&
+    user.feedbacks[user.feedbacks.length - 1];
 
   if (!mostRecentFeedback) {
     return;
@@ -46,9 +49,9 @@ const createProfessionalCards = (user, category) => {
     </div>
     <div class="professional-card__infos">
       <h3 class="professional-card__name">${user.name}</h3>
-      <p class="professional-card__location">${user.neighborhood || ""} - ${
-    user.city || ""
-  }</p>`;
+      <p class="professional-card__location">${
+        user.neighborhood || "Não informado"
+      } - ${user.city || ""}</p>`;
 
   const images = getProfessionalGaleryImages(category);
   const feedback = getProfessionalMostRecentFeedback(user);
