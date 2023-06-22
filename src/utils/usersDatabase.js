@@ -9,7 +9,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "jardinagem",
-    profile_image: "/src/img/jardinagem/lara_vieira.png",
+    profile_image: "./src/img/jardinagem/lara_vieira.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Lara Vieira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente.  Se você está procurando por uma profissional confiável, atenciosa e comprometida com a qualidade, entre em contato comigo.",
@@ -41,7 +41,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "jardinagem",
-    profile_image: "/src/img/jardinagem/cintia_oliveira.png",
+    profile_image: "./src/img/jardinagem/cintia_oliveira.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Cintia Oliveira, e sou jardineira com mais de 2 anos de experiência no ramo, ofereço um serviço personalizado e de alta qualidade para atender às necessidades de cada cliente.  Se você está procurando por uma profissional confiável, atenciosa e comprometida com a qualidade, entre em contato comigo.",
@@ -73,7 +73,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "alvenaria",
-    profile_image: "/src/img/alvenaria/carla_pires.png",
+    profile_image: "./src/img/alvenaria/carla_pires.png",
     images: ["", ""],
     about:
       "Olá! Me chamo Carla Pires e sou especialista em serviços de alvenaria. Tenho ampla experiência na construção e reparação de estruturas. Estou comprometida em oferecer um trabalho de qualidade e duradouro. Entre em contato comigo para suas necessidades de alvenaria.",
@@ -105,7 +105,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "pintura",
-    profile_image: "/src/img/pintura/celia_souza.png",
+    profile_image: "./src/img/pintura/celia_souza.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Oi! Meu nome é Celia Souza e sou especializada em serviços de pintura. Com minha habilidade e atenção aos detalhes, garanto um acabamento impecável em todos os projetos. Entre em contato comigo para transformar sua casa com uma nova pintura.",
@@ -137,7 +137,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "chaveira",
-    profile_image: "/src/img/gesso/leticia_lima.png",
+    profile_image: "./src/img/gesso/leticia_lima.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Isabela Costa e sou chaveira profissional. Posso ajudar com qualquer problema relacionado a chaves e fechaduras. Tenho experiência em instalação, reparo e troca de fechaduras. Entre em contato comigo para serviços de chaveiro confiáveis e eficientes.",
@@ -169,7 +169,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "eletrica",
-    profile_image: "/src/img/eletrica/lorena_freitas.png",
+    profile_image: "./src/img/eletrica/lorena_freitas.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Sou a Lorena Freitas e trabalho com serviços elétricos. Tenho experiência em instalações elétricas, reparos e manutenção. Garanto um serviço seguro e de qualidade. Entre em contato comigo para resolver qualquer problema elétrico em sua residência.",
@@ -201,7 +201,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "hidraulica",
-    profile_image: "/src/img/hidraulica/fran_almeida.png",
+    profile_image: "./src/img/hidraulica/fran_almeida.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Fran Almeida e sou especializada em serviços hidráulicos. Tenho experiência em reparos de encanamentos, instalação de chuveiros, torneiras e outros. Entre em contato comigo para solucionar problemas hidráulicos em sua casa.",
@@ -233,7 +233,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "alvenaria",
-    profile_image: "/src/img/alvenaria/roberta_costa.png",
+    profile_image: "./src/img/alvenaria/roberta_costa.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Roberta Costa e sou especialista em serviços de alvenaria. Tenho ampla experiência na construção e reparação de estruturas. Estou comprometida em oferecer um trabalho de qualidade e duradouro. Entre em contato comigo para suas necessidades de alvenaria.",
@@ -265,7 +265,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "pintura",
-    profile_image: "/src/img/pintura/paloma_castro.png",
+    profile_image: "./src/img/pintura/paloma_castro.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Oi! Meu nome é Paloma Castro e sou especializada em serviços de pintura. Com minha habilidade e atenção aos detalhes, garanto um acabamento impecável em todos os projetos. Entre em contato comigo para transformar sua casa com uma nova pintura.",
@@ -297,7 +297,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "chaveira",
-    profile_image: "/src/img/chaveira/daniela_torres.png",
+    profile_image: "./src/img/chaveira/daniela_torres.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Daniela Torres e sou chaveira profissional. Posso ajudar com qualquer problema relacionado a chaves e fechaduras. Tenho experiência em instalação, reparo e troca de fechaduras. Entre em contato comigo para serviços de chaveiro confiáveis e eficientes.",
@@ -329,7 +329,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "eletrica",
-    profile_image: "/src/img/eletrica/denise_pereira.png",
+    profile_image: "./src/img/eletrica/denise_pereira.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Sou a Denise Pereira e trabalho com serviços elétricos. Tenho experiência em instalações elétricas, reparos e manutenção. Garanto um serviço seguro e de qualidade. Entre em contato comigo para resolver qualquer problema elétrico em sua residência.",
@@ -361,7 +361,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "hidraulica",
-    profile_image: "/src/img/hidraulica/tamires_oliveira.png",
+    profile_image: "./src/img/hidraulica/tamires_oliveira.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Tamires Oliveira e sou especializada em serviços hidráulicos. Tenho experiência em reparos de encanamentos, instalação de chuveiros, torneiras e outros. Entre em contato comigo para solucionar problemas hidráulicos em sua casa.",
@@ -393,7 +393,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "gesso",
-    profile_image: "/src/img/gesso/leticia_lima.png",
+    profile_image: "./src/img/gesso/leticia_lima.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Sou a Letícia Lima e trabalho com serviços de gesso. Faço forros, sancas, molduras e muito mais. Tenho habilidade e experiência para deixar sua casa linda. Entre em contato comigo para serviços de gesso de alta qualidade.",
@@ -425,7 +425,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "alvenaria",
-    profile_image: "/src/img/alvenaria/gabriela_ribeiro.png",
+    profile_image: "./src/img/alvenaria/gabriela_ribeiro.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Gabriela Ribeiro e sou especialista em serviços de alvenaria. Tenho ampla experiência na construção e reparação de estruturas. Estou comprometida em oferecer um trabalho de qualidade e duradouro. Entre em contato comigo para suas necessidades de alvenaria.",
@@ -457,7 +457,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "pintura",
-    profile_image: "/src/img/pintura/helena_fernandes.png",
+    profile_image: "./src/img/pintura/helena_fernandes.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Oi! Meu nome é Helena Fernandes e sou especializada em serviços de pintura. Com minha habilidade e atenção aos detalhes, garanto um acabamento impecável em todos os projetos. Entre em contato comigo para transformar sua casa com uma nova pintura.",
@@ -489,7 +489,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "chaveira",
-    profile_image: "/src/img/chaveira/kelly_ribeiro.png",
+    profile_image: "./src/img/chaveira/kelly_ribeiro.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Meu nome é Kelly Ribeiro e sou chaveira profissional. Posso ajudar com qualquer problema relacionado a chaves e fechaduras. Tenho experiência em instalação, reparo e troca de fechaduras. Entre em contato comigo para serviços de chaveiro confiáveis e eficientes.",
@@ -521,7 +521,7 @@ export const users = [
     password_confirmation: "senha123",
     user_type: "profissional",
     category: "gesso",
-    profile_image: "/src/img/gesso/regina_campos.png",
+    profile_image: "./src/img/gesso/regina_campos.png",
     images: ["portfolio1.jpg", "portfolio2.jpg"],
     about:
       "Olá! Me chamo Regina Campos e sou especializada em serviços de gesso. Realizo projetos personalizados, incluindo forros, sancas, molduras e revestimentos. Tenho experiência e dedicação em oferecer acabamentos de alta qualidade. Entre em contato comigo para transformar seu ambiente com gesso.",
