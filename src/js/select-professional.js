@@ -29,7 +29,7 @@ const getProfessionalGaleryImages = (category) => {
 
   for (let i = 1; i <= 3; i++) {
     imagesUl += `<li>
-    <img src="/src/img/${category}/${category + i}.png" alt="" />
+    <img src="./src/img/${category}/${category + i}.png" alt="" />
   </li>`;
   }
 
@@ -40,7 +40,7 @@ const getProfessionalGaleryImages = (category) => {
 
 const createProfessionalCards = (user, category) => {
   const cardsWrapper = document.querySelector(".main");
-  const defaultProfileImage = "/src/img/default-profile.jpg";
+  const defaultProfileImage = "./src/img/default-profile.jpg";
 
   let cardTemplate = `
   <section class="professional-card">
@@ -81,14 +81,14 @@ window.onload = () => {
 
   if (category) {
     titleElement.innerHTML = `${formatCategory(category)} na sua região`;
-    imageElement.src = `/src/img/icons/service_type/${category}.svg`;
+    imageElement.src = `./src/img/icons/service_type/${category}.svg`;
 
     const filteredUsers = users.filter(
       (user) => (user.user_type = "profissional" && user.category === category)
     );
 
     if (!filteredUsers.length) {
-      return redirectTo("/src/pages/404.html");
+      return redirectTo("./src/pages/404.html");
     }
 
     filteredUsers.forEach((user) => createProfessionalCards(user, category));
