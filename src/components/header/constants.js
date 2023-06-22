@@ -93,10 +93,10 @@ const headerTemplateWithoutLoggedUser = `
   <a href="./index.html" class="header__logo">Elas por Elas</a>
   <nav>
     <ul class="header__menu">
-      <li><a href="./src/pages/about.html" class="header__menu-item">Sobre</a></li>
-      <li><a href="./src/pages/login.html" class="header__menu-item">Login</a></li>
+      <li><a href="/src/pages/about.html" class="header__menu-item">Sobre</a></li>
+      <li><a href="/src/pages/login.html" class="header__menu-item">Login</a></li>
       <li>
-        <a href="./src/pages/signin.html" class="header__menu-item header__menu-item--button"
+        <a href="/src/pages/signin.html" class="header__menu-item header__menu-item--button"
           >Cadastre-se</a
         >
       </li>
