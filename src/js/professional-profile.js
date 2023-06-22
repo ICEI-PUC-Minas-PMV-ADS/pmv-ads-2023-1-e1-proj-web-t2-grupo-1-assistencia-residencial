@@ -90,7 +90,7 @@ const setProfessionalInfos = (user) => {
   phoneElement.innerText = formatPhoneNumber(user.telephone || "71999998888");
 
   for (let i = 1; i <= 3; i++) {
-    portfolioElement.innerHTML += `<img src="./src/img/${user.category}/${
+    portfolioElement.innerHTML += `<img src="/src/img/${user.category}/${
       user.category + i
     }.png" >`;
   }
