@@ -1,7 +1,7 @@
 import { redirectTo, serviceCategories } from "../utils/index.js";
 
 function redirectToSelectProfessional(category) {
-  const linkToRedirect = "src/pages/select-professional.html?";
+  const linkToRedirect = "./select-professional.html?";
   const params = new URLSearchParams();
 
   params.append("category", category.key);
