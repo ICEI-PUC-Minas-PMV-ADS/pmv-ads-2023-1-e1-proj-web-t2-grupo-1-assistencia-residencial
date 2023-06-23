@@ -19,7 +19,7 @@ serviceCategories.forEach((category) => {
   li.classList.add("services__list--item");
   spanIcon.classList.add("service__icon");
   spanName.classList.add("service-name");
-  img.src = `./src/img/icons/service_type/${category.img}`;
+  img.src = `../img/icons/service_type/${category.img}`;
 
   spanName.textContent = category.label;
 
