@@ -1,5 +1,328 @@
 /* ============================================= general ====================================================*/
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --shadow-bottom-level-3: 0 20px 50px 0 rgba(10, 33, 94, 0.12);
+  --shadow-bottom-level-2: 0 15px 20px 0 rgba(10, 33, 94, 0.07);
+  --shadow-bottom-level-1: 0 4px 6px 0 rgba(10, 33, 94, 0.08);
+  --shadow-top-level-3: 0 -20px 50px 0 rgba(10, 33, 94, 0.12);
+  --shadow-top-level-2: 0 -15px 20px 0 rgba(10, 33, 94, 0.07);
+  --shadow-top-level-1: 0 -4px 6px 0 rgba(10, 33, 94, 0.08);
+  --font-line-height-strict: 120%;
+  --font-line-height-narrow: 125%;
+  --font-line-height-compact: 130%;
+  --font-line-height-normal: 150%;
+  --font-line-height-wide: 175%;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 800;
+  --opacity-heavy: 0.8;
+  --opacity-medium: 0.6;
+  --opacity-light: 0.35;
+  --color-highlight-900: #210f3d;
+  --color-highlight-800: #371963;
+  --color-highlight-700: #56289e;
+  --color-highlight-600: #6b34bf;
+  --color-highlight-500: #9050f2;
+  --color-highlight-400: #ae7dfa;
+  --color-highlight-300: #c8a3ff;
+  --color-highlight-200: #dac5fa;
+  --color-highlight-100: #f3ebff;
+  --color-warning-900: #9c2f00;
+  --color-warning-800: #c44800;
+  --color-warning-700: #d65600;
+  --color-warning-600: #e97000;
+  --color-warning-500: #ff8a00;
+  --color-warning-400: #ffa63d;
+  --color-warning-300: #ffbd6f;
+  --color-warning-200: #ffd6a6;
+  --color-warning-100: #fdf1dc;
+  --color-negative-900: #750202;
+  --color-negative-800: #9e0e0e;
+  --color-negative-700: #be2020;
+  --color-negative-600: #d72727;
+  --color-negative-500: #ee4545;
+  --color-negative-400: #f96666;
+  --color-negative-300: #fb9292;
+  --color-negative-200: #ffc2c2;
+  --color-negative-100: #fee;
+  --color-positive-900: #00572b;
+  --color-positive-800: #006e35;
+  --color-positive-700: #00803e;
+  --color-positive-600: #009646;
+  --color-positive-500: #00a854;
+  --color-positive-400: #4acb80;
+  --color-positive-300: #7ddea5;
+  --color-positive-200: #aef3cb;
+  --color-positive-100: #ebfdf3;
+  --color-neutral-dark-600: #12151c;
+  --color-neutral-dark-500: #272e3b;
+  --color-neutral-dark-400: #374052;
+  --color-neutral-dark-300: #425063;
+  --color-neutral-dark-200: #556476;
+  --color-neutral-dark-100: #81929f;
+  --color-neutral-light-600: #b3bdc4;
+  --color-neutral-light-500: #c1cad0;
+  --color-neutral-light-400: #e1e6e9;
+  --color-neutral-light-300: #f0f2f5;
+  --color-neutral-light-200: #f6f8fa;
+  --color-neutral-light-100: #fff;
+  --color-action-900: #0a215e;
+  --color-action-800: #063089;
+  --color-action-700: #0845ad;
+  --color-action-600: #005bdb;
+  --color-action-500: #0e73e8;
+  --color-action-400: #37a6ff;
+  --color-action-300: #99d6ff;
+  --color-action-200: #ccedff;
+  --color-action-100: #eaf8ff;
+  --color-brand-900: #cf8404;
+  --color-brand-800: #eda909;
+  --color-brand-700: #f7be20;
+  --color-brand-600: #ffd426;
+  --color-brand-500: #fde63e;
+  --color-brand-400: #ffef71;
+  --color-brand-300: #fff69e;
+  --color-brand-200: #fffbd0;
+  --color-brand-100: #fffeee;
+  --color-p1: #f8d7e5;
+  --color-p2: #f4b5c4;
+  --color-p3: #e68a9a;
+  --color-p4: #e16f83;
+  --color-p5: #d1586d;
+  --color-p6: #bb2a49;
+  --color-p7: #9d1c3f;
+  --color-p8: #8b1031;
+  --color-p9: #7c0827;
+  --color-p10: #6a001d;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --size-spacing-stack-fluid-1500: 7rem;
+  --size-spacing-stack-fluid-1400: 6rem;
+  --size-spacing-stack-fluid-1300: 5rem;
+  --size-spacing-stack-fluid-1200: 4.5rem;
+  --size-spacing-stack-fluid-1100: 4rem;
+  --size-spacing-stack-fluid-1000: 3.5rem;
+  --size-spacing-stack-fluid-900: 3rem;
+  --size-spacing-stack-fluid-800: 2.286rem;
+  --size-spacing-stack-fluid-700: 2rem;
+  --size-spacing-stack-fluid-600: 1.714rem;
+  --size-spacing-stack-fluid-500: 1.5rem;
+  --size-spacing-stack-fluid-400: 1.286rem;
+  --size-spacing-stack-fluid-300: 1.143rem;
+  --size-spacing-stack-fluid-200: 1rem;
+  --size-spacing-stack-fluid-100: 0.57rem;
+  --size-spacing-inline-1400: 80px;
+  --size-spacing-inline-1300: 72px;
+  --size-spacing-inline-1200: 64px;
+  --size-spacing-inline-1100: 56px;
+  --size-spacing-inline-1000: 48px;
+  --size-spacing-inline-900: 40px;
+  --size-spacing-inline-800: 36px;
+  --size-spacing-inline-700: 32px;
+  --size-spacing-inline-600: 28px;
+  --size-spacing-inline-500: 24px;
+  --size-spacing-inline-400: 21px;
+  --size-spacing-inline-300: 16px;
+  --size-spacing-inline-200: 12px;
+  --size-spacing-inline-100: 8px;
+  --size-spacing-stack-1500: 88px;
+  --size-spacing-stack-1400: 80px;
+  --size-spacing-stack-1300: 72px;
+  --size-spacing-stack-1200: 64px;
+  --size-spacing-stack-1100: 56px;
+  --size-spacing-stack-1000: 48px;
+  --size-spacing-stack-900: 40px;
+  --size-spacing-stack-800: 36px;
+  --size-spacing-stack-700: 32px;
+  --size-spacing-stack-600: 28px;
+  --size-spacing-stack-500: 24px;
+  --size-spacing-stack-400: 20px;
+  --size-spacing-stack-300: 16px;
+  --size-spacing-stack-200: 12px;
+  --size-spacing-stack-100: 8px;
+  --size-font-xs: 0.75rem;
+  --size-font-s: 0.875rem;
+  --size-font-base: 1rem;
+  --size-font-m: 1.143rem;
+  --size-font-l: 1.286rem;
+  --size-font-xl: 1.5rem;
+  --size-font-2xl: 1.714rem;
+  --size-font-3xl: 2rem;
+  --size-font-4xl: 2.286rem;
+  --size-font-5xl: 2.5rem;
+  --size-font-6xl: 3rem;
+  --size-font-7xl: 3.5rem;
+  --size-font-huge: 4rem;
+  --size-border-width-heavy: 4px;
+  --size-border-width-thick: 2px;
+  --size-border-width-thin: 1px;
+  --size-border-width-none: 0px;
+  --size-border-radius-pill: 32px;
+  --size-border-radius-l: 10px;
+  --size-border-radius-m: 8px;
+  --size-border-radius-s: 4px;
+  --size-border-radius-none: 0px;
+  --color-alias-text-link: var(--color-action-500);
+  --color-alias-text-placeholder: var(--color-neutral-dark-100);
+  --color-alias-text-body: var(--color-neutral-dark-300);
+  --color-alias-text-subheading: var(--color-neutral-dark-400);
+  --color-alias-text-heading: var(--color-neutral-dark-500);
+  --color-alias-interactive-icon: var(--color-neutral-dark-200);
+  --color-alias-ilustrative-icon: var(--color-neutral-dark-100);
+  --color-alias-border-02: var(--color-neutral-light-500);
+  --color-alias-border-01: var(--color-neutral-light-300);
+  --color-alias-background-02: var(--color-neutral-light-100);
+  --color-alias-background-01: var(--color-neutral-light-300);
+  --color-alias-shadows: var(--color-action-900);
+  --action-100: #001f2f;
+  --action-200: #003f5f;
+  --action-300: #195ca9;
+  --action-400: #007ebe;
+  --action-500: #009ded;
+  --action-600: #33b1f1;
+  --action-700: #66c4f4;
+  --action-800: #7ad6ff;
+  --action-900: #e5f7ff;
+  --brand-100: #ffd300;
+  --brand-200: #fd0;
+  --brand-300: #ffe300;
+  --brand-400: #ffe900;
+  --brand-500: #ffea52;
+  --brand-600: #ffee75;
+  --brand-700: #fff399;
+  --brand-800: #fff7ba;
+  --brand-900: #fffce6;
+  --positive-100: #072012;
+  --positive-200: #0f4024;
+  --positive-300: #006513;
+  --positive-400: #1e8147;
+  --positive-500: #25a159;
+  --positive-600: #51b47a;
+  --positive-700: #7cc79b;
+  --positive-800: #a0e9be;
+  --positive-900: #eafaf1;
+  --shade-100: #000;
+  --shade-200: #212121;
+  --shade-300: #575757;
+  --shade-400: #666;
+  --shade-500: #b2b2b2;
+  --shade-600: #dbdbdb;
+  --shade-700: #f2f2f2;
+  --shade-800: #f8f8f8;
+  --shade-900: #fff;
+  --negative-300: #913d3d;
+  --negative-900: #fdecec;
+  --error-100: #faa1a1f6;
+  --error-200: #913d3d;
+  --linear-gradient-brand-100-500: linear-gradient(
+    var(--brand-100),
+    var(--brand-500)
+  );
+
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+
+  --maximun-internal-width: 1080px;
+
+  --size-font-xs: 0.75rem;
+  --size-font-s: 0.875rem;
+  --size-font-base: 1rem;
+  --size-font-m: 1.143rem;
+  --size-font-l: 1.286rem;
+  --size-font-xl: 1.5rem;
+  --size-font-2xl: 1.714rem;
+  --size-font-3xl: 2rem;
+  --size-font-4xl: 2.286rem;
+  --size-font-5xl: 2.5rem;
+  --size-font-6xl: 3rem;
+  --size-font-7xl: 3.5rem;
+  --size-font-huge: 4rem;
+}
+
+.cor-p1 {
+  color: var(--color-p1);
+}
+
+.cor-p2 {
+  color: var(--color-p2);
+}
+
+.cor-p3 {
+  color: var(--color-p3);
+}
+
+.cor-p4 {
+  color: var(--color-p4);
+}
+
+.cor-p5 {
+  color: var(--color-p5);
+}
+
+.cor-p6 {
+  color: var(--color-p6);
+}
+
+.cor-p7 {
+  color: var(--color-p7);
+}
+
+.cor-p8 {
+  color: var(--color-p8);
+}
+
+.cor-p9 {
+  color: var(--color-p9);
+}
+
+.cor-p10 {
+  color: var(--color-p10);
+}
+
+.cor-preto {
+  color: var(--color-black);
+}
+
+.cor-branco {
+  color: #ffffff;
+}
+
+:root {
+  font-size: 87.5%;
+}
+
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+dd,
+a,
+blockquote {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .btn {
   width: 100%;
   font-size: var(--size-font-l);
