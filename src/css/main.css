@@ -1,5 +1,5 @@
-@import url("/src/css/reset.css");
-@import url("/src/css/variables.css");
+@import url("../css/reset.css");
+@import url("../css/variables.css");
 
 .container {
   box-sizing: border-box;
