@@ -29,3 +29,4 @@ function redirectIfLogged() {
 }
 
 export { redirectIfLogged, redirectIfNotLogged, redirectTo };
+// teste
