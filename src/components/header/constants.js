@@ -90,7 +90,7 @@ const headerTemplateWithoutLoggedUser = `
   ${defaultHeaderStyles}
 <header class="header">
 <div class="header__container">
-  <a href="/index.html" class="header__logo">Elas por Elas</a>
+  <a href="../pages/index.html" class="header__logo">Elas por Elas</a>
   <nav>
     <ul class="header__menu">
       <li><a href="../pages/about.html" class="header__menu-item">Sobre</a></li>
@@ -109,7 +109,7 @@ const headerTemplateWithLoggedUser = `
 ${defaultHeaderStyles}
 <header class="header">
 <div class="header__container">
-  <a href="/index.html" class="header__logo">Elas por Elas</a>
+  <a href="../pages/index.html" class="header__logo">Elas por Elas</a>
   <div class="header__greeting">
       <span id="header__greetind--username">Olá, fulana</span>
       <button class="header__menu-item--button" >Sair</button>
