@@ -83,7 +83,11 @@ class Footer extends HTMLElement {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
     }
-  
+    .footer__container{
+      grid-template-columns: 1fr; 
+      grid-template-rows: repeat(4, auto);
+      justify-items: center;
+    }
     .footer__logo {
       grid-row-start: 1;
       grid-row-end: auto;
@@ -97,11 +101,18 @@ class Footer extends HTMLElement {
     .footer__about {
       grid-row-start: 3;
       grid-row-end: auto;
+      align-items: center;
+      text-align: center;
     }
   
     .footer__contact {
       grid-row-start: 4;
       grid-row-end: auto;
+      align-items: center;
+      text-align: center;
+    }
+    .footer__contact-info {
+      justify-items: center;
     }
   }
   </style>
@@ -112,35 +123,34 @@ class Footer extends HTMLElement {
     <div class="footer__services">
       <span class="footer__services-title">Serviços</span>
       <ul>
-        <li class="footer__service">Chaveiro</li>
-        <li class="footer__service">Alenaria</li>
-        <li class="footer__service">Gesso</li>
+        <li class="footer__service">Alvenaria</li>
+        <li class="footer__service">Pintura</li>
         <li class="footer__service">Elétrica</li>
         <li class="footer__service">Hidráulica</li>
-        <li class="footer__service">Jardinagem</li>
-        <li class="footer__service">Pintura</li>
-        <li class="footer__service">Diversos</li>
+        <li class="footer__service">Gesso</li>
+        <li class="footer__service">Chaveira</li>
+        <li class="footer__service">Jardineira</li>
       </ul>
     </div>
 
     <div class="footer__about">
-      <span class="footer__about-title">About Us</span>
+      <span class="footer__about-title">Quem somos</span>
       <ul>
-        <li class="footer__about-item">Who we are</li>
-        <li class="footer__about-item">Terms and conditions</li>
-        <li class="footer__about-item">Work with us</li>
+        <li class="footer__about-item">Sobre nós</li>
+        <li class="footer__about-item">Termos e Condições</li>
+        <li class="footer__about-item">Trabalhe Conosco</li>
       </ul>
     </div>
 
     <div class="footer__contact">
-      <span class="footer__contact-title">Contact Us</span>
+      <span class="footer__contact-title">Fale com a gente</span>
       <ul class="footer__contact-list">
         <li class="footer__contact-info">
           <img
           data-src="email.svg"
           class="footer__icon" 
           src="../img/icons/social/email.svg" />
-          <span>contact@elasporelas.com.br</span>
+          <span>contato@elasporelas.com.br</span>
         </li>
         <li class="footer__contact-info">
           <img
