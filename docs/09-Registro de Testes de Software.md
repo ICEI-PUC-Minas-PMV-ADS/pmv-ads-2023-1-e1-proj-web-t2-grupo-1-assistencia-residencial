@@ -20,7 +20,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/3c6a5dcf-3469-4702-8e48-f2fe8215a8a3">
 <p>Figura 27 - Inserção de credenciais inválidas de usuário</p>
 
-## CT-02 - Seletor de profissional
+## CT-04 - Seletor de profissional
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/14d7a82a-ab54-4eb7-8254-774b71b1c655">
 <p>Figura 28 - Seleção da categoria de serviço</p>
