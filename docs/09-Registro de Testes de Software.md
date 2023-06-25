@@ -34,22 +34,22 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 ## CT-05 - Cadastro de usuário prestador de serviço
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/6b6bf621-935f-45e2-abde-f740f809f296">
-<p>Figura 34 - Confirmação do cadastro de prestadores de serviço.</p>
+<p>Figura 31 - Confirmação do cadastro de prestadores de serviço.</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/97008d91-61fa-442a-9719-656260980e61">
-<p>Figura 35 - Em caso de sucesso no cadastro, o usuário é redirecionado para a página de Login.</p>
+<p>Figura 32 - Em caso de sucesso no cadastro, o usuário é redirecionado para a página de Login.</p>
 
 
 ## CT-06 - Cadastro de usuário cliente
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/15dc00d6-8448-422c-bdb8-a325e92b3796">
-<p>Figura 31 - Inserção de credenciais válidas para cadastro da cliente</p>
+<p>Figura 33 - Inserção de credenciais válidas para cadastro da cliente</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/4afd439e-c7a3-494b-97bd-031045164881">
-<p>Figura 32 - Confirmação do cadastro de cliente.</p>
+<p>Figura 34 - Confirmação do cadastro de cliente.</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/bf88fa8b-074d-453b-8b5a-eb369e5d5bba">
-<p>Figura 33 - Inserção de credenciais inválidas de usuário.</p>
+<p>Figura 35 - Inserção de credenciais inválidas de usuário.</p>
 
 
 
