@@ -8,15 +8,14 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/24f8b555-c2d3-4740-ae4c-766436d5b222">
 <p>Figura 24 - Usuário cliente logado com sucesso.</p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/3c6a5dcf-3469-4702-8e48-f2fe8215a8a3">
-<p>Figura 27 - Inserção de credenciais inválidas de usuário</p>
-
 ## CT-02 - Login de Usuário Prestador de Serviço
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/88835f9a-448b-4dfb-9239-71181214fc09">
 <p>Figura 25 - Inserção de credenciais válidas de usuário prestador</p>
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/0402fa0f-db61-4b68-ba87-a04118b39b43">
 <p>Figura 26 - Usuário prestador logado com sucesso.</p>
+
+## CT-03 - Credenciais Inválidas no Login
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/3c6a5dcf-3469-4702-8e48-f2fe8215a8a3">
 <p>Figura 27 - Inserção de credenciais inválidas de usuário prestador</p>
