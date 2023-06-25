@@ -61,6 +61,23 @@
 | Passos               | 1.  Acesso à tela de profissional selecionado:<br> <ul><li>Com o usuário logado, acesse um serviço na home page.</li><li>Escolha um profissional da lista.</li><li>Clique no perfil da prestadora de serviços para acessar a tela de profissional selecionado.</li><li>Verifique se a tela está carregada corretamente e exibe as informações relevantes.</ul></li>2.  Visualização das informações:<ul><li>Verifique se o nome da prestadora de serviços é exibido corretamente na tela.</li><li>Verifique se a localização da prestadora de serviços é exibida corretamente na tela.</li><li>Verifique se a nota da prestadora de serviços é exibida corretamente na tela.</li><li>Verifique se o feedback mais recente recebido pela prestadora de serviços é exibido corretamente na tela.</li><li>Verifique se as fotos da prestadora de serviços são exibidas corretamente na tela.</ul></li>3.  Entrar em contato com a prestadora de serviços:<ul><li>Verifique se há um botão ou link disponível para entrar em contato com a prestadora de serviços na tela.</li><li>Clique no botão ou link para entrar em contato com a prestadora de serviços.</li><li>Verifique se o sistema abre um meio de comunicação adequado, como um formulário de contato ou informações de contato diretas.|
 | Critérios de Êxito | <ul><li>O cliente deve ser capaz de visualizar corretamente o nome, a localização e a nota da prestadora de serviços na tela do profissional selecionado.</li><li>O cliente deve ser capaz de visualizar corretamente o feedback mais recente recebido pela prestadora de serviços.</li><li>As fotos da prestadora de serviços devem ser exibidas corretamente na tela.</li><li>O cliente deve ser capaz de entrar em contato com a prestadora de serviços através de um meio de comunicação adequado. |
 
+<br>
+
+| Caso de Teste        | CT-08 - Inserção de feedbacks |
+|:---:|:---|
+| Requisitos Associados| RF03 O site deve permitir a inserção de feedbacks dos usuários para as prestadoras de serviço  |
+| Objetivo do Teste    | Verificar se o site permite a inserção de feedbacks dos usuários para as prestadoras de serviço. |
+| Passos               | 1.  Acesso à página do profissional:<br> <ul><li>Abra o navegador da web e digite o URL da plataforma</li><li>Após fazer login como usuário, acesse o perfil do profissional desejado.</ul></li>2.  Teste de inserção de feedback:<ul><li>Abaixo das informações do profissional, como nome, meios de contato e portfólio, você encontrará os feedbacks mais recentes. </li><li>Em seguida, há uma caixa de texto onde você pode adicionar o seu próximo feedback</li><li>Além disso, você pode atribuir uma nota ao profissional, selecionando um número de estrelas de 1 a 5, de acordo com a sua satisfação com o serviço|
+| Critérios de Êxito | O sistema deve permitir a inserção de feedbacks e atribuir ao perfil do profissional a nota dada pelo usuário, caso essa seja informada. |
+
+<br>
+
+| Caso de Teste        | CT-09 - Visualização de feedbacks  |
+|:---:|:---|
+| Requisitos Associados| RF04 O site deve realizar o acesso das prestadoras de serviço ao seu feedback mais recente   |
+| Objetivo do Teste    | Verificar se o site permite às prestadoras de serviço terem acesso aos feedbacks mais recentes deixados pelos usuários. |
+| Passos               | 1.  Acesso à página do profissional:<br> <ul><li>Abra o navegador da web e digite o URL da plataforma.</li><li>Após fazer login como prestadora de serviço, acesse seu perfil.</ul></li>2.  Teste de visualização de feedbacks:<ul><li>Abaixo das informações do profissional, como nome, meios de contato e portfólio, você encontrará os feedbacks mais recentes. </li><li>Após o acesso a página do seu perfil é exibido sua nota e o feedback mais recente.|
+| Critérios de Êxito | O sistema deve permitir a visualização da sua nota e do feedback mais recente.  |
 
 
 
