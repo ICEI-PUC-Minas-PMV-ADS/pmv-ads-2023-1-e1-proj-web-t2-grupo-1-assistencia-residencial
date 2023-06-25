@@ -8,6 +8,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/24f8b555-c2d3-4740-ae4c-766436d5b222">
 <p>Figura 24 - Usuário cliente logado com sucesso.</p>
 
+## CT-02 - Login de Usuário Prestador de Serviço
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/88835f9a-448b-4dfb-9239-71181214fc09">
 <p>Figura 25 - Inserção de credenciais válidas de usuário prestador</p>
 
