@@ -53,7 +53,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 
 
-## CT-04 Profissional Selecionado
+## CT-07 Profissional Selecionado
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/e539affe-c494-46db-a864-6001afaaed07">
 <p>Figura 36 - Acesso ao serviço selecionado com usuário logado.</p>
@@ -79,7 +79,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/d98929ec-6963-41e3-ac21-621373b97780">
 <p>Figura 43 - Redirecionamento via linkedin para contato direto com a prestadora de serviços</p>
 
-## CT-05 - Inserção de feedbacks 
+## CT-08 - Inserção de feedbacks 
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ffef17f0-ba03-4b53-8ce8-98854a928595">
 <p>Figura 44 - É exibido a área de texto para deixar feedback.</p>
@@ -90,7 +90,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/b77d18ba-da10-41c7-a948-9a962ccae4cd">
 <p>Figura 46 – Caso a área de texto não contenha nenhum caractere não é possível enviar o feedback.</p>
 
-## CT-06 - Visualização de feedbacks 
+## CT-09 - Visualização de feedbacks 
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/ca12b2ae-3aeb-4258-b6ff-41b17a5c3c8b">
 <p>Figura 47 – É exibido a nota e do feedback mais recente.</p>
