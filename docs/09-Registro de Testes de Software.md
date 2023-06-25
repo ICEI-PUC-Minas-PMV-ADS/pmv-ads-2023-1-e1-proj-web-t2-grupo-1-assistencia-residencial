@@ -40,6 +40,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 <p>Figura 35 - Em caso de sucesso no cadastro, o usuário é redirecionado para a página de Login.</p>
 
 
+## CT-06 - Cadastro de usuário cliente
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial/assets/109107020/15dc00d6-8448-422c-bdb8-a325e92b3796">
 <p>Figura 31 - Inserção de credenciais válidas para cadastro da cliente</p>
