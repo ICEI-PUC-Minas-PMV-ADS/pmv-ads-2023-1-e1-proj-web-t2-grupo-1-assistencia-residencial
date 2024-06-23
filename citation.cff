@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: ELAS POR ELAS
+authors:
+  - family-names: Cristine Lopes Pereira
+    given-names: Lorrayne
+  - family-names: Faria Verri
+    given-names: Lucas
+  - family-names: Gabriella Anastácia Gonçalves
+    given-names: Maria 
+  - family-names: Almeida da Rocha
+    given-names: Matheus
+  - family-names: Savio Maciel
+    given-names: Sandro
+  - family-names: Costa Oliveira Silva
+    given-names: Vitor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce 
+
+keywords:
+  - Assistência
+  - Residencial
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-1-assistencia-residencial
+version: 1.0.0
+date-released: 2024-06-20
